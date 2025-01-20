@@ -1,0 +1,90 @@
+mixed-port: 7893
+tcp-concurrent: true
+allow-lan: true
+ipv6: false
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+find-process-mode: strict
+  
+geodata-mode: true
+geox-url:
+  geoip: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat"
+  geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+  asn: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb"
+
+profile: { store-selected: true, store-fake-ip: false }
+sniffer: { enable: true, sniff: { HTTP: { ports: [80], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack: [any:53]
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: :1053
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ['*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
+  nameserver: [223.5.5.5, 119.29.29.29]
+
+######### 锚点 start #######
+# proxy策略相关
+pg: &pg { type: select, proxies: [ 香港节点,台湾节点,日本节点,美国节点,韩国节点,新加坡节点,Emby节点,手动选择,自动选择,DIRECT] }
+#订阅更新相关
+pu: &pu { type: http, interval: 86400, health-check: { enable: true, url: https://www.apple.com/library/test/success.html, interval: 300 ,timeout: 5000} }
+#延迟测试相关
+url-test: &url-test { type: url-test, url: https://www.apple.com/library/test/success.html, interval: 60,tolerance: 0, include-all: true }
+#节点选择
+select : &select { type: select,   use: [ Subscribe ] }
+bd: &bd { type: http, format: text,  behavior: domain,    interval: 86400 }
+bc: &bc { type: http, format: text,  behavior: classical, interval: 86400 }
+
+
+proxy-providers:
+  Subscribe:
+    url: []
+    <<: *pu
+proxies: []
+proxy-groups:
+
+  #策略组
+  - { name: 手动选择,   <<: *select ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png}
+  - { name: Global,    <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
+  - { name: Ai,        <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bot.png}
+  - { name: Telegram,  <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png}
+  - { name: YouTube,   <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
+  - { name: Github,    <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png}
+  - { name: Microsoft, <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png}
+  - { name: Emby,      <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
+
+
+  #节点筛选
+  - { name: 自动选择, hidden: true, <<: *url-test ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png}
+  - { name: Emby节点, hidden: false,<<: *select,   filter: "(?i)hy|Emby|0\\.\\d+" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
+  - { name: 香港节点, hidden: false,<<: *url-test, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png}
+  - { name: 台湾节点, hidden: false,<<: *url-test, filter: "(?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png}
+  - { name: 日本节点, hidden: false,<<: *url-test, filter: "(?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
+  - { name: 美国节点, hidden: false,<<: *url-test, filter: "(?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png}
+  - { name: 韩国节点, hidden: false,<<: *url-test, filter: "(?i)🇰🇷|韩国|韓|首尔|(\b(KR|Korea)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png}
+  - { name: 新加坡节点, hidden: false,<<: *url-test, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
+
+rule-providers:
+  ai:   { <<: *bc , url: https://raw.githubusercontent.com/sephiroth233/Tool/master/Clash/Rules/AI.list,   path: ./ruleset/ai.yaml }
+  emby: { <<: *bc , url: https://raw.githubusercontent.com/sephiroth233/Tool/master/Clash/Rules/Emby.list, path: ./ruleset/emby.yaml }
+
+rules:
+  - RULE-SET,emby,Emby
+  - RULE-SET,ai,Ai
+  - GEOSITE,telegram,Telegram
+  - GEOSITE,github,Github
+  - GEOSITE,youtube,YouTube
+  - GEOSITE,microsoft,Microsoft
+  - GEOSITE,cn,DIRECT
+  - GEOIP,CN,DIRECT
+  - GEOIP,Lan,DIRECT
+  - MATCH,Global
+
