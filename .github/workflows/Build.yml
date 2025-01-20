@@ -37,7 +37,7 @@ jobs:
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list"
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
                 "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
-                "https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Reject.list"
+                "https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Reject.list"
             )
             > Tool-repo/Ruleset/Reject.list
             for url in "${urls[@]}"; do
@@ -141,20 +141,20 @@ jobs:
                 "Ads_AWAvenue.list https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list"
                 "AdGuardChinese.list https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
                 # 自定义规则
-                "Crypto.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Crypto.list"
-                "Direct.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Direct.list"
-                "Emby.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Emby.list"
-                "Lan.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Lan.list"
-                "Porn.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Porn.list"
-                "Prevent_DNS_Leaks.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Prevent_DNS_Leaks.list"
-                "Proxy.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Proxy.list"
-                "Talkatone.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Talkatone.list"
-                "Telegram_NoIP.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Telegram_NoIP.list"
-                "Telegram.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Telegram.list"
-                "TronLink.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/TronLink.list"
-                "Trust.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Trust.list"
-                "Ads_DiDiChuXing.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/Ads_DiDiChuXing.list"
-                "FILTER_REGION.list https://raw.githubusercontent.com/sephiroth233/Tool/X/Surge/Custom/FILTER_REGION.list"
+                "Crypto.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Crypto.list"
+                "Direct.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Direct.list"
+                "Emby.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Emby.list"
+                "Lan.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Lan.list"
+                "Porn.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Porn.list"
+                "Prevent_DNS_Leaks.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Prevent_DNS_Leaks.list"
+                "Proxy.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Proxy.list"
+                "Talkatone.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Talkatone.list"
+                "Telegram_NoIP.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Telegram_NoIP.list"
+                "Telegram.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Telegram.list"
+                "TronLink.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/TronLink.list"
+                "Trust.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Trust.list"
+                "Ads_DiDiChuXing.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/Ads_DiDiChuXing.list"
+                "FILTER_REGION.list https://raw.githubusercontent.com/sephiroth233/Tool/master/Surge/Custom/FILTER_REGION.list"
             )
             for file in "${files[@]}"; do
                 set -- $file
