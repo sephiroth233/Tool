@@ -1,18 +1,11 @@
-# 文件名: safari-search.plugin
-# 描述: safari搜索增强
-
-
-[General]
-name = safari搜索增强
-version = 1.0
-description = safari搜索增强
-author = lang
-defaultSearchEngineURL = https://search.sephiroth.club/search?q=
+#!name=超级搜索
+#!desc=适用于Safari的超级搜索
+#!author=lang
 
 
 [URL Rewrite]
-# 无指令: 使用默认重定向 URL
-^https:\/\/duckduckgo\.com\/\?q=([^&]+).+  {{defaultSearchEngineURL}}$1  307
+# 无指令：searxng
+^https:\/\/duckduckgo\.com\/\?q=([^&]+).+  https://search.sephiroth.club/search?q=$1 307
 # sx: searxng
 ^https:\/\/duckduckgo\.com\/\?q=sx\+([^&]+).+  https://search.sephiroth.club/search?q=$1 307
 # ec: Ecosia
