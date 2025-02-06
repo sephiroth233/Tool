@@ -1,0 +1,27 @@
+# 文件名: safari-search.plugin
+# 描述: safari搜索增强
+
+
+[General]
+name = safari搜索增强
+version = 1.0
+description = safari搜索增强
+author = lang
+defaultSearchEngineURL = https://search.sephiroth.club/search?q=
+
+[Rule]
+# 无指令: 使用默认重定向 URL
+^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ 307 {{defaultSearchEngineURL}}$1
+# sx: searxng
+^https:\/\/duckduckgo\.com\/\?q=sx\+([^&]+).+ 307 https://search.sephiroth.club/search?q=$1
+# ec: Ecosia
+^https:\/\/duckduckgo.com\/\?q=ec\+([^&]+).+  307 https://www.ecosia.org/search?q=$1
+# bi: 必应
+^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+  307 https://cn.bing.com/search?q=$1
+# bd: 百度
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+  307 https://www.baidu.com/s?wd=$1
+# ddg: DuckDuckGo 
+^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+  307 https://duckduckgo.com/?ia=about&q=$1
+# gg: google
+^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+   307 https://www.google.com/search?q=$1
+
