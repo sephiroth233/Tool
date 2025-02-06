@@ -4,10 +4,8 @@
 
 
 [URL Rewrite]
-
 # 无指令：searxng
 ^https:\/\/duckduckgo\.com\/\?q=([^&]+).+  307 https://search.sephiroth.club/search?q=$1 
-
 # sx: searxng
 ^https:\/\/duckduckgo\.com\/\?q=sx\+([^&]+).+ 307 https://search.sephiroth.club/search?q=$1 
 # ec: Ecosia
