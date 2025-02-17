@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3155
+# 规则统计: 3156
 
 domain_set:
   - 0x0.st
@@ -1093,6 +1093,7 @@ domain_set:
   - images.tokopedia.net
   - images.typeform.com
   - images.unsplash.com
+  - images.videolan.org
   - images.web3.storage
   - images.weserv.nl
   - images.wikia.com
@@ -3158,6 +3159,7 @@ domain_keyword_set:
   - vod-adaptive.akamaized.net
   - web-assets.zendesk
 DOMAIN-WILDCARD,*.fsvod?.com
+DOMAIN-WILDCARD,*.img.*.sendibm?.com
 DOMAIN-WILDCARD,*.kuaikan-cdn?.com
 DOMAIN-WILDCARD,appcenter-filemanagement-*.cloudapp.net
 DOMAIN-WILDCARD,assets*.freshdesk.com
