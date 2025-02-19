@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3213
+# 规则统计: 3215
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1870,6 +1870,7 @@ DOMAIN,static.foxnews.com
 DOMAIN,static.freeimages.com
 DOMAIN,static.getbutton.io
 DOMAIN,static.gettyimages.com
+DOMAIN,static.gitbook.com
 DOMAIN,static.global.visioncritical.com
 DOMAIN,static.gnome.org
 DOMAIN,static.gopro.com
@@ -1930,6 +1931,7 @@ DOMAIN,static.oomol.com
 DOMAIN,static.opensea.io
 DOMAIN,static.oracle.com
 DOMAIN,static.osdn.net
+DOMAIN,static.parallels.com
 DOMAIN,static.peatio.com
 DOMAIN,static.pingcap.com
 DOMAIN,static.playstation.com

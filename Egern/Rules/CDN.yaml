@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3173
+# 规则统计: 3175
 
 domain_set:
   - 0x0.st
@@ -1871,6 +1871,7 @@ domain_set:
   - static.freeimages.com
   - static.getbutton.io
   - static.gettyimages.com
+  - static.gitbook.com
   - static.global.visioncritical.com
   - static.gnome.org
   - static.gopro.com
@@ -1931,6 +1932,7 @@ domain_set:
   - static.opensea.io
   - static.oracle.com
   - static.osdn.net
+  - static.parallels.com
   - static.peatio.com
   - static.pingcap.com
   - static.playstation.com
