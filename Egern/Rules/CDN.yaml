@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3176
+# 规则统计: 3177
 
 domain_set:
   - 0x0.st
@@ -74,13 +74,16 @@ domain_set:
   - asset.booth.pm
   - asset.chase.com
   - asset.mansionglobal.com
+  - assets-app.circleci.com
   - assets-cdn.123rf.com
   - assets-cdn.abcnews.com
   - assets-cdn.abcotvs.net
   - assets-cdn.jable.tv
   - assets-cdn.watchdisneyfe.com
   - assets-cms.kraken.com
+  - assets-docs.circleci.com
   - assets-fe.change.org
+  - assets-growth-common.circleci.com
   - assets-next.matters.news
   - assets-next.mattersprotocol.io
   - assets-production.packagecloud.io
@@ -2301,7 +2304,6 @@ domain_suffix_set:
   - bitgetimg.com
   - blackbaudcdn.net
   - bleepstatic.com
-  - blob.core.windows.net
   - blobcdn.com
   - blogblog.com
   - bmp.ovh
@@ -2494,7 +2496,6 @@ domain_suffix_set:
   - fbsbx.com
   - featureassets.org
   - ffzy888.com
-  - file.core.windows.net
   - filecunhua.top
   - files.bbci.co.uk
   - files.gitbook.io
