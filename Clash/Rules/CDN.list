@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3217
+# 规则统计: 3219
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -431,6 +431,7 @@ DOMAIN,cdn.embed.ly
 DOMAIN,cdn.embedly.com
 DOMAIN,cdn.engagement.ai
 DOMAIN,cdn.equalweb.com
+DOMAIN,cdn.equinix.com
 DOMAIN,cdn.eu.contentful.com
 DOMAIN,cdn.european-alternatives.eu
 DOMAIN,cdn.evbstatic.com
@@ -521,6 +522,7 @@ DOMAIN,cdn.networklessons.com
 DOMAIN,cdn.neverbounce.com
 DOMAIN,cdn.nolt.io
 DOMAIN,cdn.now.gg
+DOMAIN,cdn.nperf.com
 DOMAIN,cdn.onesignal.com
 DOMAIN,cdn.onetime.dog
 DOMAIN,cdn.onlyhentaistuff.com
@@ -1609,7 +1611,6 @@ DOMAIN,resource.fs.com
 DOMAIN,resource.video.nimg.jp
 DOMAIN,resources-cache.prod.sketch.com
 DOMAIN,resources-live.sketch.cloud
-DOMAIN,resources.esportsinsider.com
 DOMAIN,resources.help.salesforce.com
 DOMAIN,rest.happierleads.com
 DOMAIN,rsi.grafana.com
@@ -2212,6 +2213,7 @@ DOMAIN,wl-apps.yourwebsite.life
 DOMAIN,wp.salesforce.com
 DOMAIN,wpmedia.tealium.com
 DOMAIN,ws-assets.zoominfo.com
+DOMAIN,ws-cdn.nperf.com
 DOMAIN,ws2-cache.aptoide.com
 DOMAIN,ww2-secure.justanswer.com
 DOMAIN,ww2.justanswer.com
@@ -2438,6 +2440,7 @@ DOMAIN-SUFFIX,disconnect.me
 DOMAIN-SUFFIX,discourse-cdn.com
 DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,divio-media.net
+DOMAIN-SUFFIX,dlunar.net
 DOMAIN-SUFFIX,dmcdn.net
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dogehls.xyz
@@ -2680,7 +2683,6 @@ DOMAIN-SUFFIX,ipfs.soul-network.com
 DOMAIN-SUFFIX,ipfs.telos.miami
 DOMAIN-SUFFIX,ipfs.tribecap.co
 DOMAIN-SUFFIX,ipfs.trusti.id
-DOMAIN-SUFFIX,ipfs.tubby.cloud
 DOMAIN-SUFFIX,ipfs.uploads.nu
 DOMAIN-SUFFIX,ipfs.xoqq.ch
 DOMAIN-SUFFIX,ipfs.yt

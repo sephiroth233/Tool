@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3219
+# 规则统计: 3221
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -431,6 +431,7 @@ HOST,cdn.embed.ly,CDN
 HOST,cdn.embedly.com,CDN
 HOST,cdn.engagement.ai,CDN
 HOST,cdn.equalweb.com,CDN
+HOST,cdn.equinix.com,CDN
 HOST,cdn.eu.contentful.com,CDN
 HOST,cdn.european-alternatives.eu,CDN
 HOST,cdn.evbstatic.com,CDN
@@ -521,6 +522,7 @@ HOST,cdn.networklessons.com,CDN
 HOST,cdn.neverbounce.com,CDN
 HOST,cdn.nolt.io,CDN
 HOST,cdn.now.gg,CDN
+HOST,cdn.nperf.com,CDN
 HOST,cdn.onesignal.com,CDN
 HOST,cdn.onetime.dog,CDN
 HOST,cdn.onlyhentaistuff.com,CDN
@@ -1609,7 +1611,6 @@ HOST,resource.fs.com,CDN
 HOST,resource.video.nimg.jp,CDN
 HOST,resources-cache.prod.sketch.com,CDN
 HOST,resources-live.sketch.cloud,CDN
-HOST,resources.esportsinsider.com,CDN
 HOST,resources.help.salesforce.com,CDN
 HOST,rest.happierleads.com,CDN
 HOST,rsi.grafana.com,CDN
@@ -2212,6 +2213,7 @@ HOST,wl-apps.yourwebsite.life,CDN
 HOST,wp.salesforce.com,CDN
 HOST,wpmedia.tealium.com,CDN
 HOST,ws-assets.zoominfo.com,CDN
+HOST,ws-cdn.nperf.com,CDN
 HOST,ws2-cache.aptoide.com,CDN
 HOST,ww2-secure.justanswer.com,CDN
 HOST,ww2.justanswer.com,CDN
@@ -2438,6 +2440,7 @@ HOST-SUFFIX,disconnect.me,CDN
 HOST-SUFFIX,discourse-cdn.com,CDN
 HOST-SUFFIX,disquscdn.com,CDN
 HOST-SUFFIX,divio-media.net,CDN
+HOST-SUFFIX,dlunar.net,CDN
 HOST-SUFFIX,dmcdn.net,CDN
 HOST-SUFFIX,docker.io,CDN
 HOST-SUFFIX,dogehls.xyz,CDN
@@ -2680,7 +2683,6 @@ HOST-SUFFIX,ipfs.soul-network.com,CDN
 HOST-SUFFIX,ipfs.telos.miami,CDN
 HOST-SUFFIX,ipfs.tribecap.co,CDN
 HOST-SUFFIX,ipfs.trusti.id,CDN
-HOST-SUFFIX,ipfs.tubby.cloud,CDN
 HOST-SUFFIX,ipfs.uploads.nu,CDN
 HOST-SUFFIX,ipfs.xoqq.ch,CDN
 HOST-SUFFIX,ipfs.yt,CDN

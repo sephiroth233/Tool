@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3177
+# 规则统计: 3179
 
 domain_set:
   - 0x0.st
@@ -432,6 +432,7 @@ domain_set:
   - cdn.embedly.com
   - cdn.engagement.ai
   - cdn.equalweb.com
+  - cdn.equinix.com
   - cdn.eu.contentful.com
   - cdn.european-alternatives.eu
   - cdn.evbstatic.com
@@ -522,6 +523,7 @@ domain_set:
   - cdn.neverbounce.com
   - cdn.nolt.io
   - cdn.now.gg
+  - cdn.nperf.com
   - cdn.onesignal.com
   - cdn.onetime.dog
   - cdn.onlyhentaistuff.com
@@ -1610,7 +1612,6 @@ domain_set:
   - resource.video.nimg.jp
   - resources-cache.prod.sketch.com
   - resources-live.sketch.cloud
-  - resources.esportsinsider.com
   - resources.help.salesforce.com
   - rest.happierleads.com
   - rsi.grafana.com
@@ -2213,6 +2214,7 @@ domain_set:
   - wp.salesforce.com
   - wpmedia.tealium.com
   - ws-assets.zoominfo.com
+  - ws-cdn.nperf.com
   - ws2-cache.aptoide.com
   - ww2-secure.justanswer.com
   - ww2.justanswer.com
@@ -2440,6 +2442,7 @@ domain_suffix_set:
   - discourse-cdn.com
   - disquscdn.com
   - divio-media.net
+  - dlunar.net
   - dmcdn.net
   - docker.io
   - dogehls.xyz
@@ -2682,7 +2685,6 @@ domain_suffix_set:
   - ipfs.telos.miami
   - ipfs.tribecap.co
   - ipfs.trusti.id
-  - ipfs.tubby.cloud
   - ipfs.uploads.nu
   - ipfs.xoqq.ch
   - ipfs.yt
