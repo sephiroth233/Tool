@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3227
+# 规则统计: 3228
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -709,6 +709,7 @@ HOST,cdna.artstation.com,CDN
 HOST,cdnapisec.kaltura.com,CDN
 HOST,cdnb.artstation.com,CDN
 HOST,cdne-pics.youjizz.com,CDN
+HOST,cdnfonts.devolutions.net,CDN
 HOST,cdnjs.betterstack.com,CDN
 HOST,cdnjs.buymeacoffee.com,CDN
 HOST,cdnjs.cat.net,CDN
@@ -1798,7 +1799,7 @@ HOST,static-exp3.licdn.com,CDN
 HOST,static-forms.klaviyo.com,CDN
 HOST,static-gcp.freepikcompany.com,CDN
 HOST,static-id.fc2.com,CDN
-HOST,static-landing.probit.com,CDN
+HOST,static-landing.probiplacehold.cot.com,CDN
 HOST,static-lccn.leetcode.com,CDN
 HOST,static-main.moovit.com,CDN
 HOST,static-media.fox.com,CDN

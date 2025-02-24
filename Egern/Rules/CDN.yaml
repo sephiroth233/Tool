@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3185
+# 规则统计: 3186
 
 domain_set:
   - 0x0.st
@@ -710,6 +710,7 @@ domain_set:
   - cdnapisec.kaltura.com
   - cdnb.artstation.com
   - cdne-pics.youjizz.com
+  - cdnfonts.devolutions.net
   - cdnjs.betterstack.com
   - cdnjs.buymeacoffee.com
   - cdnjs.cat.net
@@ -1799,7 +1800,7 @@ domain_set:
   - static-forms.klaviyo.com
   - static-gcp.freepikcompany.com
   - static-id.fc2.com
-  - static-landing.probit.com
+  - static-landing.probiplacehold.cot.com
   - static-lccn.leetcode.com
   - static-main.moovit.com
   - static-media.fox.com

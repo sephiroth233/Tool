@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 62926
+# 规则统计: 62928
 
 no_resolve: true
 domain_set:
@@ -2902,6 +2902,7 @@ domain_suffix_set:
   - ad-m.asia
   - ad-mapps.com
   - ad-maven.com
+  - ad-platform.jmty.jp
   - ad-plus.cn
   - ad-recommend.com
   - ad-score.com
@@ -6236,7 +6237,6 @@ domain_suffix_set:
   - api.abcsinsights.com
   - api.acquirewithus.com
   - api.ad-locus.com
-  - api.ad-platform.jmty.jp
   - api.ads.newsdigest.jp
   - api.ads.watchabc.go.com
   - api.ampiri.com
@@ -9878,7 +9878,6 @@ domain_suffix_set:
   - cdn-redirector.glopal.com
   - cdn-server.cc
   - cdn-server.top
-  - cdn.ad-platform.jmty.jp
   - cdn.admatic.com.tr
   - cdn.ads-flipp.com
   - cdn.affiliatable.io
@@ -9903,7 +9902,6 @@ domain_suffix_set:
   - cdn.nuqwe.com
   - cdn.odoscope.cloud
   - cdn.optmn.cloud
-  - cdn.polarbyte.com
   - cdn.pranmcpkx.com
   - cdn.raekdata.com
   - cdn.reproio.com
@@ -10026,6 +10024,7 @@ domain_suffix_set:
   - celebnewsuggestions.com
   - celeritascdn.com
   - celeryisolatedproject.com
+  - celestialspectra.com
   - cellar-analytics.mapion.co.jp
   - cellspsoatic.com
   - celsiusours.com
@@ -10207,6 +10206,7 @@ domain_suffix_set:
   - cheqzone.com
   - cherteevahy.net
   - cherylssb.com
+  - chessbranch.com
   - chetchoa.com
   - chetsingoptans.net
   - chezoams.com
@@ -20527,8 +20527,6 @@ domain_suffix_set:
   - flourishinginnovation.com
   - flourishingpartnership.com
   - flourishpath.online
-  - flow.kiloutou.fr
-  - floweryfact.com
   - flpwto.lohaco.jp
   - fls.shapeandhealthyslim.com
   - flstudiochina.com
@@ -21881,6 +21879,7 @@ domain_suffix_set:
   - gligoubsed.com
   - glijai.ten-navi.com
   - glimpaid.net
+  - glimr.io
   - glimtors.net
   - glipigaicm.net
   - gliptareemote.net
@@ -29361,6 +29360,7 @@ domain_suffix_set:
   - links.qumu.com
   - links.riverview.org
   - links.voyeurweb.com
+  - linksprf.com
   - linkt.ausfuellhilfe.com
   - linktech.cn
   - linsaicki.net
@@ -36086,7 +36086,6 @@ domain_suffix_set:
   - mnfqyj.corello.com.br
   - mng-ads.com
   - mnggif.kieler-jobanzeiger.de
-  - mngusr.com
   - mnifdlax.top
   - mninoq.xyz
   - mnnmnn.com
@@ -40672,7 +40671,6 @@ domain_suffix_set:
   - pixel.ex.co
   - pixel.facebook.com
   - pixel.fohr.co
-  - pixel.glimr.io
   - pixel.homebook.pl
   - pixel.honestjohn.co.uk
   - pixel.hotcut.com.au
@@ -41972,6 +41970,7 @@ domain_suffix_set:
   - pyymip.supportsmuraux.fr
   - pyyocq.luvreparis.co.kr
   - pzajdh.guicheweb.com.br
+  - pzapi-ij.com
   - pzapi-kg.com
   - pzd.rakuten.co.jp
   - pzfqzv.xyz
@@ -42257,6 +42256,7 @@ domain_suffix_set:
   - qnhnxr.markenkoffer.de
   - qnifdlay.top
   - qnjdgv.tostadora.fr
+  - qnki.cn
   - qnlbs2m0uoto.www.videoath.com
   - qnnyok.123print.com
   - qnp16tstw.com
@@ -43756,6 +43756,7 @@ domain_suffix_set:
   - rt.meno-vita.com
   - rt.meuimperiodigital.com
   - rt.nationalhealthmatters.com
+  - rt.newswire.ca
   - rt.nsadstracking.com
   - rt.policyfamilyquote.com
   - rt.policysidekick.com
@@ -45201,7 +45202,6 @@ domain_suffix_set:
   - secure.golp4elik.com
   - secure.happyretirementnews.com
   - secure.happyretirementstories.com
-  - secure.hiss3lark.com
   - secure.homeowner.wiki
   - secure.immixgroup.com
   - secure.info.domo.com
@@ -46757,6 +46757,7 @@ domain_suffix_set:
   - snammar-jumntal.com
   - snapads.com
   - snapmobileasia.net
+  - snapsgate.com
   - snaqyb.24mx.be
   - snarlsfuzzes.com
   - snat.goguardian.com
@@ -59064,6 +59065,7 @@ domain_suffix_set:
   - view.fujitv.co.jp
   - view.kirbybuildingsystems.com
   - view.metlspan.com
+  - view.mngusr.com
   - view.nucorbuildingsystems.com
   - view.oportun.com
   - view.peek-cloppenburg.de

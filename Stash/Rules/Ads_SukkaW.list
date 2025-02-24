@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 62930
+# 规则统计: 62932
 
 DOMAIN,2016.sina.cn
 DOMAIN,9ibbcq2d.sina.cn
@@ -2899,6 +2899,7 @@ DOMAIN-SUFFIX,ad-log.wemakeprice.com
 DOMAIN-SUFFIX,ad-m.asia
 DOMAIN-SUFFIX,ad-mapps.com
 DOMAIN-SUFFIX,ad-maven.com
+DOMAIN-SUFFIX,ad-platform.jmty.jp
 DOMAIN-SUFFIX,ad-plus.cn
 DOMAIN-SUFFIX,ad-recommend.com
 DOMAIN-SUFFIX,ad-score.com
@@ -6233,7 +6234,6 @@ DOMAIN-SUFFIX,api.a-kasse-guiden.dk
 DOMAIN-SUFFIX,api.abcsinsights.com
 DOMAIN-SUFFIX,api.acquirewithus.com
 DOMAIN-SUFFIX,api.ad-locus.com
-DOMAIN-SUFFIX,api.ad-platform.jmty.jp
 DOMAIN-SUFFIX,api.ads.newsdigest.jp
 DOMAIN-SUFFIX,api.ads.watchabc.go.com
 DOMAIN-SUFFIX,api.ampiri.com
@@ -9875,7 +9875,6 @@ DOMAIN-SUFFIX,cdn-media.brightline.tv
 DOMAIN-SUFFIX,cdn-redirector.glopal.com
 DOMAIN-SUFFIX,cdn-server.cc
 DOMAIN-SUFFIX,cdn-server.top
-DOMAIN-SUFFIX,cdn.ad-platform.jmty.jp
 DOMAIN-SUFFIX,cdn.admatic.com.tr
 DOMAIN-SUFFIX,cdn.ads-flipp.com
 DOMAIN-SUFFIX,cdn.affiliatable.io
@@ -9900,7 +9899,6 @@ DOMAIN-SUFFIX,cdn.net.elogia.net
 DOMAIN-SUFFIX,cdn.nuqwe.com
 DOMAIN-SUFFIX,cdn.odoscope.cloud
 DOMAIN-SUFFIX,cdn.optmn.cloud
-DOMAIN-SUFFIX,cdn.polarbyte.com
 DOMAIN-SUFFIX,cdn.pranmcpkx.com
 DOMAIN-SUFFIX,cdn.raekdata.com
 DOMAIN-SUFFIX,cdn.reproio.com
@@ -10023,6 +10021,7 @@ DOMAIN-SUFFIX,cejehd.eurohomme.co.kr
 DOMAIN-SUFFIX,celebnewsuggestions.com
 DOMAIN-SUFFIX,celeritascdn.com
 DOMAIN-SUFFIX,celeryisolatedproject.com
+DOMAIN-SUFFIX,celestialspectra.com
 DOMAIN-SUFFIX,cellar-analytics.mapion.co.jp
 DOMAIN-SUFFIX,cellspsoatic.com
 DOMAIN-SUFFIX,celsiusours.com
@@ -10204,6 +10203,7 @@ DOMAIN-SUFFIX,chengaib.net
 DOMAIN-SUFFIX,cheqzone.com
 DOMAIN-SUFFIX,cherteevahy.net
 DOMAIN-SUFFIX,cherylssb.com
+DOMAIN-SUFFIX,chessbranch.com
 DOMAIN-SUFFIX,chetchoa.com
 DOMAIN-SUFFIX,chetsingoptans.net
 DOMAIN-SUFFIX,chezoams.com
@@ -20524,8 +20524,6 @@ DOMAIN-SUFFIX,florinsqrs.top
 DOMAIN-SUFFIX,flourishinginnovation.com
 DOMAIN-SUFFIX,flourishingpartnership.com
 DOMAIN-SUFFIX,flourishpath.online
-DOMAIN-SUFFIX,flow.kiloutou.fr
-DOMAIN-SUFFIX,floweryfact.com
 DOMAIN-SUFFIX,flpwto.lohaco.jp
 DOMAIN-SUFFIX,fls.shapeandhealthyslim.com
 DOMAIN-SUFFIX,flstudiochina.com
@@ -21878,6 +21876,7 @@ DOMAIN-SUFFIX,gli9.inseec-bs.com
 DOMAIN-SUFFIX,gligoubsed.com
 DOMAIN-SUFFIX,glijai.ten-navi.com
 DOMAIN-SUFFIX,glimpaid.net
+DOMAIN-SUFFIX,glimr.io
 DOMAIN-SUFFIX,glimtors.net
 DOMAIN-SUFFIX,glipigaicm.net
 DOMAIN-SUFFIX,gliptareemote.net
@@ -29358,6 +29357,7 @@ DOMAIN-SUFFIX,links.npsemails.mbna.co.uk
 DOMAIN-SUFFIX,links.qumu.com
 DOMAIN-SUFFIX,links.riverview.org
 DOMAIN-SUFFIX,links.voyeurweb.com
+DOMAIN-SUFFIX,linksprf.com
 DOMAIN-SUFFIX,linkt.ausfuellhilfe.com
 DOMAIN-SUFFIX,linktech.cn
 DOMAIN-SUFFIX,linsaicki.net
@@ -36083,7 +36083,6 @@ DOMAIN-SUFFIX,mnfblu.schubiger.ch
 DOMAIN-SUFFIX,mnfqyj.corello.com.br
 DOMAIN-SUFFIX,mng-ads.com
 DOMAIN-SUFFIX,mnggif.kieler-jobanzeiger.de
-DOMAIN-SUFFIX,mngusr.com
 DOMAIN-SUFFIX,mnifdlax.top
 DOMAIN-SUFFIX,mninoq.xyz
 DOMAIN-SUFFIX,mnnmnn.com
@@ -40669,7 +40668,6 @@ DOMAIN-SUFFIX,pixel.europapress.net
 DOMAIN-SUFFIX,pixel.ex.co
 DOMAIN-SUFFIX,pixel.facebook.com
 DOMAIN-SUFFIX,pixel.fohr.co
-DOMAIN-SUFFIX,pixel.glimr.io
 DOMAIN-SUFFIX,pixel.homebook.pl
 DOMAIN-SUFFIX,pixel.honestjohn.co.uk
 DOMAIN-SUFFIX,pixel.hotcut.com.au
@@ -41969,6 +41967,7 @@ DOMAIN-SUFFIX,pyxjkx.springjapan.com
 DOMAIN-SUFFIX,pyymip.supportsmuraux.fr
 DOMAIN-SUFFIX,pyyocq.luvreparis.co.kr
 DOMAIN-SUFFIX,pzajdh.guicheweb.com.br
+DOMAIN-SUFFIX,pzapi-ij.com
 DOMAIN-SUFFIX,pzapi-kg.com
 DOMAIN-SUFFIX,pzd.rakuten.co.jp
 DOMAIN-SUFFIX,pzfqzv.xyz
@@ -42254,6 +42253,7 @@ DOMAIN-SUFFIX,qnhi.cn
 DOMAIN-SUFFIX,qnhnxr.markenkoffer.de
 DOMAIN-SUFFIX,qnifdlay.top
 DOMAIN-SUFFIX,qnjdgv.tostadora.fr
+DOMAIN-SUFFIX,qnki.cn
 DOMAIN-SUFFIX,qnlbs2m0uoto.www.videoath.com
 DOMAIN-SUFFIX,qnnyok.123print.com
 DOMAIN-SUFFIX,qnp16tstw.com
@@ -43753,6 +43753,7 @@ DOMAIN-SUFFIX,rt.mbeastmysterybox.com
 DOMAIN-SUFFIX,rt.meno-vita.com
 DOMAIN-SUFFIX,rt.meuimperiodigital.com
 DOMAIN-SUFFIX,rt.nationalhealthmatters.com
+DOMAIN-SUFFIX,rt.newswire.ca
 DOMAIN-SUFFIX,rt.nsadstracking.com
 DOMAIN-SUFFIX,rt.policyfamilyquote.com
 DOMAIN-SUFFIX,rt.policysidekick.com
@@ -45198,7 +45199,6 @@ DOMAIN-SUFFIX,secure.gartnerformarketers.com
 DOMAIN-SUFFIX,secure.golp4elik.com
 DOMAIN-SUFFIX,secure.happyretirementnews.com
 DOMAIN-SUFFIX,secure.happyretirementstories.com
-DOMAIN-SUFFIX,secure.hiss3lark.com
 DOMAIN-SUFFIX,secure.homeowner.wiki
 DOMAIN-SUFFIX,secure.immixgroup.com
 DOMAIN-SUFFIX,secure.info.domo.com
@@ -46754,6 +46754,7 @@ DOMAIN-SUFFIX,snalzlb.top
 DOMAIN-SUFFIX,snammar-jumntal.com
 DOMAIN-SUFFIX,snapads.com
 DOMAIN-SUFFIX,snapmobileasia.net
+DOMAIN-SUFFIX,snapsgate.com
 DOMAIN-SUFFIX,snaqyb.24mx.be
 DOMAIN-SUFFIX,snarlsfuzzes.com
 DOMAIN-SUFFIX,snat.goguardian.com
@@ -59061,6 +59062,7 @@ DOMAIN-SUFFIX,view.email.hostplus.com.au
 DOMAIN-SUFFIX,view.fujitv.co.jp
 DOMAIN-SUFFIX,view.kirbybuildingsystems.com
 DOMAIN-SUFFIX,view.metlspan.com
+DOMAIN-SUFFIX,view.mngusr.com
 DOMAIN-SUFFIX,view.nucorbuildingsystems.com
 DOMAIN-SUFFIX,view.oportun.com
 DOMAIN-SUFFIX,view.peek-cloppenburg.de
