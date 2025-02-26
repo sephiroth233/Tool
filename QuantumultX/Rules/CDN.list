@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3236
+# 规则统计: 3245
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -246,7 +246,6 @@ HOST,at.cbsi.com,CDN
 HOST,atn.hitomi.la,CDN
 HOST,attachments.office.net,CDN
 HOST,auth.split.io,CDN
-HOST,autoupdate.termius.com,CDN
 HOST,avatar.freepik.com,CDN
 HOST,avatar.stefanjudis.com,CDN
 HOST,avatar2.bahamut.com.tw,CDN
@@ -418,6 +417,7 @@ HOST,cdn.datdota.com,CDN
 HOST,cdn.db-ip.com,CDN
 HOST,cdn.decrypt.co,CDN
 HOST,cdn.delight-vr.com,CDN
+HOST,cdn.designsystem.arm.com,CDN
 HOST,cdn.deta.space,CDN
 HOST,cdn.devolutions.net,CDN
 HOST,cdn.dnsimple.com,CDN
@@ -741,6 +741,8 @@ HOST,checkout.stripe.com,CDN
 HOST,ci.testling.com,CDN
 HOST,claritystatic.azureedge.net,CDN
 HOST,clickup.marketlinc.com,CDN
+HOST,clientsdk.launchdarkly.com,CDN
+HOST,clientstream.launchdarkly.com,CDN
 HOST,clips-media-assets2.twitch.tv,CDN
 HOST,cloud.redhat.com,CDN
 HOST,cloud.typenetwork.com,CDN
@@ -891,6 +893,8 @@ HOST,euc-widget.freshworks.com,CDN
 HOST,event.ithome.com.tw,CDN
 HOST,events-delivery.apple.com,CDN
 HOST,events-live.apple.com,CDN
+HOST,events.launchdarkly.com,CDN
+HOST,events.ld.catamorphic.com,CDN
 HOST,events.split.io,CDN
 HOST,events.tableplus.com,CDN
 HOST,experience-ap.piano.io,CDN
@@ -917,6 +921,7 @@ HOST,fiddle.fastly.dev,CDN
 HOST,fiddle.jshell.net,CDN
 HOST,file.izanmei.net,CDN
 HOST,files.armorgames.com,CDN
+HOST,files.buildwithfern.com,CDN
 HOST,files.jotform.com,CDN
 HOST,files.mastodon.ktachibana.party,CDN
 HOST,files.mastodon.online,CDN
@@ -1023,6 +1028,7 @@ HOST,ias.r10s.jp,CDN
 HOST,ichef.bbci.co.uk,CDN
 HOST,icons.buffer.com,CDN
 HOST,icons.duckduckgo.com,CDN
+HOST,icons.ferndocs.com,CDN
 HOST,icons.leavemealone.com,CDN
 HOST,icons.llamao.fi,CDN
 HOST,icons.ly,CDN
@@ -1065,6 +1071,7 @@ HOST,images-eds-ssl.xboxlive.com,CDN
 HOST,images-ext-1.discordapp.net,CDN
 HOST,images-ext-2.discordapp.net,CDN
 HOST,images.991.com,CDN
+HOST,images.anandtech.com,CDN
 HOST,images.arigatotravel.com,CDN
 HOST,images.axios.com,CDN
 HOST,images.bfmtv.com,CDN
@@ -1658,6 +1665,7 @@ HOST,s2.coinmarketcap.com,CDN
 HOST,s2.qwant.com,CDN
 HOST,s3-alpha-sig.figma.com,CDN
 HOST,s3-alpha.figma.com,CDN
+HOST,s3-figma-force-client-reloads-production.figma.com,CDN
 HOST,s3-figma-plugin-images-production-sig.figma.com,CDN
 HOST,s3-symbol-logo.tradingview.com,CDN
 HOST,s3.2233778.xyz,CDN
@@ -3219,6 +3227,7 @@ HOST-WILDCARD,object-storage-*.vexxhost.net,CDN
 HOST-WILDCARD,ocsp.*.amazontrust.com,CDN
 HOST-WILDCARD,proxy-*.dailymotion.com,CDN
 HOST-WILDCARD,rr?---??.ouo.si,CDN
+HOST-WILDCARD,s3-*.figma.com,CDN
 HOST-WILDCARD,s3.*.wasabisys.com,CDN
 HOST-WILDCARD,s?.maxstream.org,CDN
 HOST-WILDCARD,s??.maxstream.org,CDN

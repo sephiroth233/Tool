@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3236
+# 规则统计: 3245
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -246,7 +246,6 @@ DOMAIN,at.cbsi.com
 DOMAIN,atn.hitomi.la
 DOMAIN,attachments.office.net
 DOMAIN,auth.split.io
-DOMAIN,autoupdate.termius.com
 DOMAIN,avatar.freepik.com
 DOMAIN,avatar.stefanjudis.com
 DOMAIN,avatar2.bahamut.com.tw
@@ -418,6 +417,7 @@ DOMAIN,cdn.datdota.com
 DOMAIN,cdn.db-ip.com
 DOMAIN,cdn.decrypt.co
 DOMAIN,cdn.delight-vr.com
+DOMAIN,cdn.designsystem.arm.com
 DOMAIN,cdn.deta.space
 DOMAIN,cdn.devolutions.net
 DOMAIN,cdn.dnsimple.com
@@ -741,6 +741,8 @@ DOMAIN,checkout.stripe.com
 DOMAIN,ci.testling.com
 DOMAIN,claritystatic.azureedge.net
 DOMAIN,clickup.marketlinc.com
+DOMAIN,clientsdk.launchdarkly.com
+DOMAIN,clientstream.launchdarkly.com
 DOMAIN,clips-media-assets2.twitch.tv
 DOMAIN,cloud.redhat.com
 DOMAIN,cloud.typenetwork.com
@@ -891,6 +893,8 @@ DOMAIN,euc-widget.freshworks.com
 DOMAIN,event.ithome.com.tw
 DOMAIN,events-delivery.apple.com
 DOMAIN,events-live.apple.com
+DOMAIN,events.launchdarkly.com
+DOMAIN,events.ld.catamorphic.com
 DOMAIN,events.split.io
 DOMAIN,events.tableplus.com
 DOMAIN,experience-ap.piano.io
@@ -917,6 +921,7 @@ DOMAIN,fiddle.fastly.dev
 DOMAIN,fiddle.jshell.net
 DOMAIN,file.izanmei.net
 DOMAIN,files.armorgames.com
+DOMAIN,files.buildwithfern.com
 DOMAIN,files.jotform.com
 DOMAIN,files.mastodon.ktachibana.party
 DOMAIN,files.mastodon.online
@@ -1023,6 +1028,7 @@ DOMAIN,ias.r10s.jp
 DOMAIN,ichef.bbci.co.uk
 DOMAIN,icons.buffer.com
 DOMAIN,icons.duckduckgo.com
+DOMAIN,icons.ferndocs.com
 DOMAIN,icons.leavemealone.com
 DOMAIN,icons.llamao.fi
 DOMAIN,icons.ly
@@ -1065,6 +1071,7 @@ DOMAIN,images-eds-ssl.xboxlive.com
 DOMAIN,images-ext-1.discordapp.net
 DOMAIN,images-ext-2.discordapp.net
 DOMAIN,images.991.com
+DOMAIN,images.anandtech.com
 DOMAIN,images.arigatotravel.com
 DOMAIN,images.axios.com
 DOMAIN,images.bfmtv.com
@@ -1658,6 +1665,7 @@ DOMAIN,s2.coinmarketcap.com
 DOMAIN,s2.qwant.com
 DOMAIN,s3-alpha-sig.figma.com
 DOMAIN,s3-alpha.figma.com
+DOMAIN,s3-figma-force-client-reloads-production.figma.com
 DOMAIN,s3-figma-plugin-images-production-sig.figma.com
 DOMAIN,s3-symbol-logo.tradingview.com
 DOMAIN,s3.2233778.xyz
@@ -3219,6 +3227,7 @@ DOMAIN-WILDCARD,object-storage-*.vexxhost.net
 DOMAIN-WILDCARD,ocsp.*.amazontrust.com
 DOMAIN-WILDCARD,proxy-*.dailymotion.com
 DOMAIN-WILDCARD,rr?---??.ouo.si
+DOMAIN-WILDCARD,s3-*.figma.com
 DOMAIN-WILDCARD,s3.*.wasabisys.com
 DOMAIN-WILDCARD,s?.maxstream.org
 DOMAIN-WILDCARD,s??.maxstream.org
