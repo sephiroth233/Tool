@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3245
+# 规则统计: 3249
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -644,8 +644,10 @@ HOST,cdn.ywxi.net,CDN
 HOST,cdn.zapier.com,CDN
 HOST,cdn.zeabur.com,CDN
 HOST,cdn.zhujiwiki.com,CDN
+HOST,cdn0-i.techbang.com,CDN
 HOST,cdn0.dan.com,CDN
 HOST,cdn0.iconfinder.com,CDN
+HOST,cdn0.techbang.com,CDN
 HOST,cdn01.jotfor.ms,CDN
 HOST,cdn02.jotfor.ms,CDN
 HOST,cdn03.jotfor.ms,CDN
@@ -660,6 +662,7 @@ HOST,cdn1.identitymind.com,CDN
 HOST,cdn1.plesk.com,CDN
 HOST,cdn1.stamped.io,CDN
 HOST,cdn1.sysgears.com,CDN
+HOST,cdn1.techbang.com,CDN
 HOST,cdn1.unrealengine.com,CDN
 HOST,cdn10.bigcommerce.com,CDN
 HOST,cdn11.bigcommerce.com,CDN
@@ -680,6 +683,7 @@ HOST,cdn2.macpaw.com,CDN
 HOST,cdn2.onlyfans.com,CDN
 HOST,cdn2.stamped.io,CDN
 HOST,cdn2.sysgears.com,CDN
+HOST,cdn2.techbang.com,CDN
 HOST,cdn2.ttloli.com,CDN
 HOST,cdn2.turboviplay.cc,CDN
 HOST,cdn2.unrealengine.com,CDN

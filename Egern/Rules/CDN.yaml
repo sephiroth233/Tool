@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3201
+# 规则统计: 3205
 
 domain_set:
   - 0x0.st
@@ -645,8 +645,10 @@ domain_set:
   - cdn.zapier.com
   - cdn.zeabur.com
   - cdn.zhujiwiki.com
+  - cdn0-i.techbang.com
   - cdn0.dan.com
   - cdn0.iconfinder.com
+  - cdn0.techbang.com
   - cdn01.jotfor.ms
   - cdn02.jotfor.ms
   - cdn03.jotfor.ms
@@ -661,6 +663,7 @@ domain_set:
   - cdn1.plesk.com
   - cdn1.stamped.io
   - cdn1.sysgears.com
+  - cdn1.techbang.com
   - cdn1.unrealengine.com
   - cdn10.bigcommerce.com
   - cdn11.bigcommerce.com
@@ -681,6 +684,7 @@ domain_set:
   - cdn2.onlyfans.com
   - cdn2.stamped.io
   - cdn2.sysgears.com
+  - cdn2.techbang.com
   - cdn2.ttloli.com
   - cdn2.turboviplay.cc
   - cdn2.unrealengine.com
