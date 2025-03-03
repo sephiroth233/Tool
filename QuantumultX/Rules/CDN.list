@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3260
+# 规则统计: 3262
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -555,6 +555,7 @@ HOST,cdn.privacy-mgmt.com,CDN
 HOST,cdn.privacy.paramount.com,CDN
 HOST,cdn.prod.ext.web.purview.azure.com,CDN
 HOST,cdn.prod.www.spiegel.de,CDN
+HOST,cdn.promotekit.com,CDN
 HOST,cdn.prowritingaid.com,CDN
 HOST,cdn.quadpay.com,CDN
 HOST,cdn.quickemailverification.com,CDN
@@ -2488,6 +2489,7 @@ HOST-SUFFIX,dummyjson.com,CDN
 HOST-SUFFIX,dwcdn.net,CDN
 HOST-SUFFIX,dweb.eu.org,CDN
 HOST-SUFFIX,dweb.link,CDN
+HOST-SUFFIX,dynamic-static-assets.com,CDN
 HOST-SUFFIX,e.crashlytics.com,CDN
 HOST-SUFFIX,easylist.to,CDN
 HOST-SUFFIX,ebayimg.com,CDN

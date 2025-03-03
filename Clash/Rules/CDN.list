@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3258
+# 规则统计: 3260
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -555,6 +555,7 @@ DOMAIN,cdn.privacy-mgmt.com
 DOMAIN,cdn.privacy.paramount.com
 DOMAIN,cdn.prod.ext.web.purview.azure.com
 DOMAIN,cdn.prod.www.spiegel.de
+DOMAIN,cdn.promotekit.com
 DOMAIN,cdn.prowritingaid.com
 DOMAIN,cdn.quadpay.com
 DOMAIN,cdn.quickemailverification.com
@@ -2488,6 +2489,7 @@ DOMAIN-SUFFIX,dummyjson.com
 DOMAIN-SUFFIX,dwcdn.net
 DOMAIN-SUFFIX,dweb.eu.org
 DOMAIN-SUFFIX,dweb.link
+DOMAIN-SUFFIX,dynamic-static-assets.com
 DOMAIN-SUFFIX,e.crashlytics.com
 DOMAIN-SUFFIX,easylist.to
 DOMAIN-SUFFIX,ebayimg.com
