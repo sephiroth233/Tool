@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3218
+# 规则统计: 3222
 
 domain_set:
   - 0x0.st
@@ -744,6 +744,7 @@ domain_set:
   - cfvod.kaltura.com
   - chart.googleapis.com
   - chat-content.beanfun.com
+  - chatwidgetmetrics-proxy.usepylon.com
   - checkout-sdk.bigcommerce.com
   - checkout.stripe.com
   - ci.testling.com
@@ -1840,6 +1841,7 @@ domain_set:
   - static-sv.fc2.com
   - static-web-prod.skillshare.com
   - static-web.grammarly.com
+  - static-www.onlyoffice.com
   - static.4shared.com
   - static.ada.support
   - static.addtoany.com
@@ -2220,6 +2222,7 @@ domain_set:
   - webfonts.zoho.com
   - webp.frostming.com
   - website-cdn.ipinfo.io
+  - website-prod.cache.wpscdn.com
   - webstatic.chargebee.com
   - widget.docsbot.ai
   - widget.freshworks.com
@@ -2889,6 +2892,7 @@ domain_suffix_set:
   - photobucket.com
   - phprcdn.com
   - pichost.top
+  - picjs.xyz
   - picsum.photos
   - pimg.tw
   - pinimg.com
