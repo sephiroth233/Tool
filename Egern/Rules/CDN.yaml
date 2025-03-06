@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3227
+# 规则统计: 3228
 
 domain_set:
   - 0x0.st
@@ -2257,6 +2257,7 @@ domain_set:
   - www.10086.win
   - www.bbthat.com
   - www.pngmart.com
+  - www.tbstat.com
   - www.typescriptlang.org
   - wwwimages2.adobe.com
   - xpaywalletcdn.azureedge.net
