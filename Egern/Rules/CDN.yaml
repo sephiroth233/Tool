@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3228
+# 规则统计: 3229
 
 domain_set:
   - 0x0.st
@@ -2336,6 +2336,7 @@ domain_suffix_set:
   - bestjavcdn.com
   - bftuvip.com
   - bfzypic.com
+  - bgstatic.com
   - biccam.com
   - bigcdn.cc
   - bigcontent.io

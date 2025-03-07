@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3272
+# 规则统计: 3273
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2334,6 +2334,7 @@ DOMAIN-SUFFIX,bdzybf7.com
 DOMAIN-SUFFIX,bestjavcdn.com
 DOMAIN-SUFFIX,bftuvip.com
 DOMAIN-SUFFIX,bfzypic.com
+DOMAIN-SUFFIX,bgstatic.com
 DOMAIN-SUFFIX,biccam.com
 DOMAIN-SUFFIX,bigcdn.cc
 DOMAIN-SUFFIX,bigcontent.io
