@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3321
+# 规则统计: 3332
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -262,6 +262,7 @@ DOMAIN,axiecdn.axieinfinity.com
 DOMAIN,az700632.vo.msecnd.net
 DOMAIN,b.peatio.com
 DOMAIN,b.sf-syn.com
+DOMAIN,b5x-sentry.1passwordservices.com
 DOMAIN,badbits.dwebops.pub
 DOMAIN,badge.buildkite.com
 DOMAIN,badge.fury.io
@@ -1008,6 +1009,7 @@ DOMAIN,gt1.onlyhentaistuff.com
 DOMAIN,gtranslate.io
 DOMAIN,hawk.tomsguide.com
 DOMAIN,headway-widget.net
+DOMAIN,heatmap-external-a.strava.com
 DOMAIN,hentaiworldtv.b-cdn.net
 DOMAIN,hhhhhhome86227170.wordpress.com
 DOMAIN,hips.hearstapps.com
@@ -1752,6 +1754,7 @@ DOMAIN,sandpack-cdn-staging.blazingly.io
 DOMAIN,sandpack-cdn-v2.codesandbox.io
 DOMAIN,sbl.onfastspring.com
 DOMAIN,scdn.clerk.com
+DOMAIN,scdn.line-apps.com
 DOMAIN,scontent.whatsapp.net
 DOMAIN,screenshots.codesandbox.io
 DOMAIN,screenshots.debian.net
@@ -1816,6 +1819,7 @@ DOMAIN,sp.replit.com
 DOMAIN,spcdn.incartupsell.com
 DOMAIN,spoprod-a.akamaihd.net
 DOMAIN,sprig.figma.com
+DOMAIN,ssl.gstatic.com
 DOMAIN,st-eu.dynamicyield.com
 DOMAIN,st.agrd.eu
 DOMAIN,st.deviantart.net
@@ -2158,6 +2162,7 @@ DOMAIN,todoist.b-cdn.net
 DOMAIN,ton.local.twitter.com
 DOMAIN,tools-static.wmflabs.org
 DOMAIN,tools.refokus.com
+DOMAIN,top1cdn.top1health.com
 DOMAIN,topbar-static.piano.io
 DOMAIN,torrindex.net
 DOMAIN,touchgal-image.moyu.moe
@@ -2296,6 +2301,7 @@ DOMAIN,ww2.justanswer.com
 DOMAIN,www-static.ripe.net
 DOMAIN,www.10086.win
 DOMAIN,www.bbthat.com
+DOMAIN,www.gstatic.com
 DOMAIN,www.pngmart.com
 DOMAIN,www.tbstat.com
 DOMAIN,www.typescriptlang.org
@@ -2899,6 +2905,7 @@ DOMAIN-SUFFIX,nincontent.com
 DOMAIN-SUFFIX,nineyu.com
 DOMAIN-SUFFIX,ninjastream.to
 DOMAIN-SUFFIX,nitrocdn.com
+DOMAIN-SUFFIX,nodecdn.net
 DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,nordcdn.com
 DOMAIN-SUFFIX,notify.bugsnag.com
@@ -3048,6 +3055,7 @@ DOMAIN-SUFFIX,senja.io
 DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,sessions.bugsnag.com
 DOMAIN-SUFFIX,settings.crashlytics.com
+DOMAIN-SUFFIX,sfbassets.com
 DOMAIN-SUFFIX,sfdcstatic.com
 DOMAIN-SUFFIX,sftcdn.net
 DOMAIN-SUFFIX,shgcdn.com
@@ -3128,6 +3136,7 @@ DOMAIN-SUFFIX,superfiliate-cdn.com
 DOMAIN-SUFFIX,surge.sh
 DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,susercontent.com
+DOMAIN-SUFFIX,sway-cdn.com
 DOMAIN-SUFFIX,swiftypecdn.com
 DOMAIN-SUFFIX,sxccdn.com
 DOMAIN-SUFFIX,szjal.cn
@@ -3234,6 +3243,7 @@ DOMAIN-SUFFIX,wp.com
 DOMAIN-SUFFIX,wpcomstaging.com
 DOMAIN-SUFFIX,wpmucdn.com
 DOMAIN-SUFFIX,wsimg.com
+DOMAIN-SUFFIX,wsrv.nl
 DOMAIN-SUFFIX,www.s81c.com
 DOMAIN-SUFFIX,xda-cdn.com
 DOMAIN-SUFFIX,xdaimages.com
@@ -3294,6 +3304,7 @@ DOMAIN-WILDCARD,cdn?-dl.pornhost.com
 DOMAIN-WILDCARD,cdn?.18girlssex.com
 DOMAIN-WILDCARD,cdn?.mikuclub.fun
 DOMAIN-WILDCARD,cdns.*.gigya.com
+DOMAIN-WILDCARD,chunk-*.mux.com
 DOMAIN-WILDCARD,file?.mikuclub.fun
 DOMAIN-WILDCARD,i?.nhentai.net
 DOMAIN-WILDCARD,image*.cloudokyo.cloud
