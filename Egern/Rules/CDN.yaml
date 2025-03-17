@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3273
+# 规则统计: 3279
 
 domain_set:
   - 0x0.st
@@ -629,6 +629,7 @@ domain_set:
   - cdn.unrealengine.com
   - cdn.unwire.hk
   - cdn.up-timely.com
+  - cdn.uptimia.com
   - cdn.usd.fan
   - cdn.userreport.com
   - cdn.v2ex.com
@@ -2041,6 +2042,7 @@ domain_set:
   - static.typingclub.com
   - static.ui.com
   - static.underhentai.net
+  - static.uptimia.com
   - static.v2ex.com
   - static.vinted.com
   - static.vocadb.net
@@ -2313,6 +2315,9 @@ domain_suffix_set:
   - 7mmtv.tv
   - 91pic.org
   - 98avcdn.xyz
+  - 99avcdn.com
+  - 99avcdn.net
+  - 99avcdn.org
   - 9cache.com
   - a.storyblok.com
   - a1tb.com
@@ -3271,6 +3276,7 @@ domain_keyword_set:
   - -res.cloudinary.com
   - -thumbs.pornhost.com
   - -thumbs.worldsex.com
+  - 99avcdn
   - cdn.adultempire.com
   - dsn.algolia.net
   - vod-adaptive.akamaized.net

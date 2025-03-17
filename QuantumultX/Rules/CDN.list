@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3317
+# 规则统计: 3323
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -628,6 +628,7 @@ HOST,cdn.tuk.dev,CDN
 HOST,cdn.unrealengine.com,CDN
 HOST,cdn.unwire.hk,CDN
 HOST,cdn.up-timely.com,CDN
+HOST,cdn.uptimia.com,CDN
 HOST,cdn.usd.fan,CDN
 HOST,cdn.userreport.com,CDN
 HOST,cdn.v2ex.com,CDN
@@ -2040,6 +2041,7 @@ HOST,static.twitchcdn.net,CDN
 HOST,static.typingclub.com,CDN
 HOST,static.ui.com,CDN
 HOST,static.underhentai.net,CDN
+HOST,static.uptimia.com,CDN
 HOST,static.v2ex.com,CDN
 HOST,static.vinted.com,CDN
 HOST,static.vocadb.net,CDN
@@ -2311,6 +2313,9 @@ HOST-SUFFIX,666565.xyz,CDN
 HOST-SUFFIX,7mmtv.tv,CDN
 HOST-SUFFIX,91pic.org,CDN
 HOST-SUFFIX,98avcdn.xyz,CDN
+HOST-SUFFIX,99avcdn.com,CDN
+HOST-SUFFIX,99avcdn.net,CDN
+HOST-SUFFIX,99avcdn.org,CDN
 HOST-SUFFIX,9cache.com,CDN
 HOST-SUFFIX,a.storyblok.com,CDN
 HOST-SUFFIX,a1tb.com,CDN
@@ -3268,6 +3273,7 @@ HOST-KEYWORD,-files.gitbook.io,CDN
 HOST-KEYWORD,-res.cloudinary.com,CDN
 HOST-KEYWORD,-thumbs.pornhost.com,CDN
 HOST-KEYWORD,-thumbs.worldsex.com,CDN
+HOST-KEYWORD,99avcdn,CDN
 HOST-KEYWORD,cdn.adultempire.com,CDN
 HOST-KEYWORD,dsn.algolia.net,CDN
 HOST-KEYWORD,vod-adaptive.akamaized.net,CDN
