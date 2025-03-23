@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3354
+# 规则统计: 3358
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -355,6 +355,7 @@ HOST,cdn-web.orbstack.dev,CDN
 HOST,cdn-widgetsrepository.yotpo.com,CDN
 HOST,cdn-www.bluestacks.com,CDN
 HOST,cdn-yotpo-images-production.yotpo.com,CDN
+HOST,cdn.123av.me,CDN
 HOST,cdn.17app.co,CDN
 HOST,cdn.18jav.tv,CDN
 HOST,cdn.7tv.app,CDN
@@ -2025,6 +2026,7 @@ HOST,static.pingcap.com,CDN
 HOST,static.playstation.com,CDN
 HOST,static.plus.net,CDN
 HOST,static.politico.com,CDN
+HOST,static.polldaddy.com,CDN
 HOST,static.probit.com,CDN
 HOST,static.queue-it.net,CDN
 HOST,static.rakuten.com,CDN
@@ -2180,6 +2182,7 @@ HOST,top1cdn.top1health.com,CDN
 HOST,topbar-static.piano.io,CDN
 HOST,torrindex.net,CDN
 HOST,touchgal-image.moyu.moe,CDN
+HOST,townsquare.media,CDN
 HOST,tracking.inflection.io,CDN
 HOST,truth.bahamut.com.tw,CDN
 HOST,tuf-repo-cdn.sigstore.dev,CDN
@@ -3088,6 +3091,7 @@ HOST-SUFFIX,sirv.com,CDN
 HOST-SUFFIX,siteintercept.qualtrics.com,CDN
 HOST-SUFFIX,sitescdn.net,CDN
 HOST-SUFFIX,sixyik.com,CDN
+HOST-SUFFIX,skyearth8.xyz,CDN
 HOST-SUFFIX,skypack.dev,CDN
 HOST-SUFFIX,skypeassets.com,CDN
 HOST-SUFFIX,slack-edge.com,CDN

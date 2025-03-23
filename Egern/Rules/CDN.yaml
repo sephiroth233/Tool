@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3309
+# 规则统计: 3313
 
 domain_set:
   - 0x0.st
@@ -356,6 +356,7 @@ domain_set:
   - cdn-widgetsrepository.yotpo.com
   - cdn-www.bluestacks.com
   - cdn-yotpo-images-production.yotpo.com
+  - cdn.123av.me
   - cdn.17app.co
   - cdn.18jav.tv
   - cdn.7tv.app
@@ -2026,6 +2027,7 @@ domain_set:
   - static.playstation.com
   - static.plus.net
   - static.politico.com
+  - static.polldaddy.com
   - static.probit.com
   - static.queue-it.net
   - static.rakuten.com
@@ -2181,6 +2183,7 @@ domain_set:
   - topbar-static.piano.io
   - torrindex.net
   - touchgal-image.moyu.moe
+  - townsquare.media
   - tracking.inflection.io
   - truth.bahamut.com.tw
   - tuf-repo-cdn.sigstore.dev
@@ -3090,6 +3093,7 @@ domain_suffix_set:
   - siteintercept.qualtrics.com
   - sitescdn.net
   - sixyik.com
+  - skyearth8.xyz
   - skypack.dev
   - skypeassets.com
   - slack-edge.com
