@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3313
+# 规则统计: 3318
 
 domain_set:
   - 0x0.st
@@ -119,6 +119,7 @@ domain_set:
   - assets.clever-cloud.com
   - assets.clickfunnels.com
   - assets.cloudpilot.ai
+  - assets.cmcmarkets.com
   - assets.codepen.io
   - assets.coinbase.com
   - assets.coingecko.com
@@ -149,6 +150,7 @@ domain_set:
   - assets.genius.com
   - assets.getkirby.com
   - assets.github.dev
+  - assets.goat.com
   - assets.grammarly.com
   - assets.grooveapps.com
   - assets.guim.co.uk
@@ -403,6 +405,7 @@ domain_set:
   - cdn.clever-cloud.com
   - cdn.cliqz.com
   - cdn.cloudcraft.co
+  - cdn.cmcmarkets.com
   - cdn.cms-twdigitalassets.com
   - cdn.cnn.com
   - cdn.cnx-software.com
@@ -782,6 +785,7 @@ domain_set:
   - cms-assets.nodecraft.com
   - cms-assets.webediamovies.pro
   - cms-assets.xboxservices.com
+  - cms-cdn.goat.com
   - cms-cdn.now.gg
   - cms.recordedfuture.com
   - cms.therecord.media
@@ -1083,6 +1087,7 @@ domain_set:
   - image.dooo.ng
   - image.email.microsoftemail.com
   - image.freepik.com
+  - image.goat.com
   - image.gyutto.com
   - image.gyutto.jp
   - image.hkhl.hk
