@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3358
+# 规则统计: 3359
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3315,6 +3315,7 @@ HOST-KEYWORD,web-assets.zendesk,CDN
 HOST-WILDCARD,*.fsvod?.com,CDN
 HOST-WILDCARD,*.img.*.sendibm?.com,CDN
 HOST-WILDCARD,*.kuaikan-cdn?.com,CDN
+HOST-WILDCARD,*.skyearth?.xyz,CDN
 HOST-WILDCARD,appcenter-filemanagement-*.cloudapp.net,CDN
 HOST-WILDCARD,assets*.freshdesk.com,CDN
 HOST-WILDCARD,blog-imgs-??.2nt.com,CDN
