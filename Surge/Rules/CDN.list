@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3364
+# 规则统计: 3365
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -323,6 +323,7 @@ DOMAIN,cdn-1.ggjav.com
 DOMAIN,cdn-a.sonyentertainmentnetwork.com
 DOMAIN,cdn-app.pathfactory.com
 DOMAIN,cdn-assets.circleci.com
+DOMAIN,cdn-avatars.huggingface.co
 DOMAIN,cdn-bundler.nice-team.net
 DOMAIN,cdn-c.leavemealone.com
 DOMAIN,cdn-client.medium.com

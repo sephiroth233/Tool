@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3318
+# 规则统计: 3319
 
 domain_set:
   - 0x0.st
@@ -324,6 +324,7 @@ domain_set:
   - cdn-a.sonyentertainmentnetwork.com
   - cdn-app.pathfactory.com
   - cdn-assets.circleci.com
+  - cdn-avatars.huggingface.co
   - cdn-bundler.nice-team.net
   - cdn-c.leavemealone.com
   - cdn-client.medium.com
