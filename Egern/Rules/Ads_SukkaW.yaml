@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 70761
+# 规则统计: 70763
 
 no_resolve: true
 domain_set:
@@ -385,6 +385,7 @@ domain_set:
   - crab.baidu.com
   - crash.163.com
   - crashlytics.163.com
+  - crashstats-collector-2.opera.com
   - cre-dp.sina.cn
   - cre.dp.sina.cn
   - cre.mix.sina.com.cn
@@ -33463,6 +33464,7 @@ domain_suffix_set:
   - links.riverview.org
   - links.voyeurweb.com
   - linksecurecd.com
+  - linksprf.com
   - linkt.ausfuellhilfe.com
   - linktech.cn
   - linsaicki.net
