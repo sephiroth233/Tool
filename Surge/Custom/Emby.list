@@ -1,4 +1,4 @@
-# 最后更新时间：2025-01-15 19:44
+# 最后更新时间：2025-04-02 12:40
 
 ##### A #####
 
@@ -9,7 +9,7 @@ DOMAIN-SUFFIX,agan2.vip
 DOMAIN-SUFFIX,emby.aiyowei.ml
 
 # AlphaTV
-DOMAIN,oversea.alphatvapp.top
+DOMAIN-SUFFIX,alphatvapp.top
 
 ##### B #####
 
@@ -42,6 +42,9 @@ DOMAIN-SUFFIX,wiri.tk
 
 # Dolphin(海豚)
 DOMAIN-SUFFIX,xiaoyi.one
+
+# DegYaxEmby
+DOMAIN-SUFFIX,e.degyax.one
 
 ##### E #####
 
@@ -136,6 +139,7 @@ DOMAIN-SUFFIX,lyrebirdemby.com
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,emby.ml
 DOMAIN-SUFFIX,loseremby.org
+DOMAIN-SUFFIX,emby.moe
 
 # 牢大(Emby餐厅)
 DOMAIN-SUFFIX,mius.uk
@@ -176,6 +180,10 @@ DOMAIN-SUFFIX,mulgore.net
 # MdssCloud
 DOMAIN-SUFFIX,emby.mdss.cloud
 
+# 墨云阁
+DOMAIN-SUFFIX,emby-myg-de.vfing.de
+DOMAIN,2pfdml.mobaiemby.site
+
 ##### N #####
 
 # ntRRR
@@ -197,8 +205,14 @@ DOMAIN-SUFFIX,bangumi.ca
 # nijigem(二次元)
 DOMAIN-SUFFIX,nijigem.by
 
-# Nebula
-DOMAIN-SUFFIX,nebula-media.org
+# Nebula & Starharn
+DOMAIN,starharn-cf.nebula-media.org
+DOMAIN,starharn.nebula-media.org
+DOMAIN,web-starharn.nebula-media.org
+DOMAIN,emby.nebula-media.org
+DOMAIN,emby-cdn1.nebula-media.org
+DOMAIN,cf-cdn1.nebula-media.org
+DOMAIN,web.nebula-media.org
 
 # Netcup
 DOMAIN-SUFFIX,404.sb
@@ -244,7 +258,7 @@ DOMAIN-SUFFIX,pornemby.club
 DOMAIN-SUFFIX,ii00.cc
 
 # PornEmby(网抑云)
-DOMAIN,195.201.86.86
+IP-CIDR,195.201.86.86/32,no-resolve
 
 # polo(儿童)
 DOMAIN-SUFFIX,poloemby.xyz
@@ -337,11 +351,21 @@ DOMAIN-SUFFIX,tkremby.xyz
 # Texon
 DOMAIN-SUFFIX,texon.fans
 
+# 桃子
+DOMAIN-SUFFIX,embymv.link
+
 ##### U #####
 
 ##### V #####
 
 ##### W #####
+
+# WordLine
+DOMAIN-SUFFIX,tv.worldline.space
+IP-CIDR,202.61.247.129/32,no-resolve
+IP-CIDR,195.128.102.208/32,no-resolve
+IP-CIDR,168.119.137.205/32,no-resolve
+IP-CIDR,195.128.100.146/32,no-resolve
 
 ##### X #####
 
@@ -404,7 +428,6 @@ DOMAIN-SUFFIX,dicarerhome.com
 DOMAIN-SUFFIX,lucasmedia.top
 DOMAIN-SUFFIX,9191001.xyz
 IP-CIDR,188.172.228.49/32,no-resolve
-
 
 ##### 好鸭emby #####
 DOMAIN-SUFFIX,niceduck.lol
