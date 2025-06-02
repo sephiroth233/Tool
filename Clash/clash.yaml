@@ -1,0 +1,110 @@
+mixed-port: 7893
+#当多个 TCP 请求同时发出时，Clash 会并发处理这些请求，从而提升性能和响应速度
+tcp-concurrent: true
+#如果设置为 true，局域网中的其他设备可以通过 Clash 的 IP 地址和端口号使用代理服务
+allow-lan: true
+#如果设置为 false，Clash 不会处理 IPv6 流量，也不会解析 IPv6 地址。
+ipv6: false
+#在某些情况下，Clash 会对请求进行延迟处理以优化性能。
+unified-delay: true
+#Clash 会伪装成 Chrome 浏览器发送请求，以提高兼容性和隐私性。
+global-client-fingerprint: chrome
+#设置 Clash 查找进程的模式。strict：严格模式，只查找明确的进程信息。loose：宽松模式，允许模糊查找
+find-process-mode: strict
+
+geodata-mode: true
+geox-url:
+  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
+  mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+  asn: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-asn.mmdb"
+
+#用于控制 Clash 的配置文件行为，特别是用户选择的节点和 fake-ip 模式的相关设置。
+profile: { store-selected: true, store-fake-ip: false }
+#启用流量嗅探功能
+sniffer: { enable: true, sniff: { HTTP: { ports: [80], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack: [any:53]
+
+dns:
+  enable: true
+  ipv6: false
+  #这是默认的 DNS 服务器列表，Clash 会优先使用这些服务器进行 DNS 查询
+  default-nameserver: [223.5.5.5, 119.29.29.29]
+  #这是 Clash 的增强 DNS 模式，fake-ip 模式会将所有解析的域名映射到一个虚假的 IP 地址（例如 198.18.0.1/16 范围内的地址），从而实现透明代理。
+  #另一种模式是 redir-host，直接返回真实的 IP 地址
+  enhanced-mode: fake-ip
+  #在 fake-ip 模式下，Clash 会使用这个 IP 地址范围生成虚假的 IP 地址。198.18.0.1/16 是专门保留用于网络测试的地址范围，不会与实际的公网 IP 冲突
+  fake-ip-range: 198.18.0.1/16
+  #表示是否使用系统的 hosts 文件来解析域名。如果设置为 true，Clash 会优先根据 hosts 文件中的配置解析域名。
+  use-hosts: true
+  #主要的 DNS 服务器列表，支持 DoH（DNS over HTTPS）协议。Clash 会优先使用这些服务器解析域名
+  nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+  #备用的 DNS 服务器列表。如果主要的 nameserver 无法解析某些域名（例如被污染或被阻止的域名），Clash 会尝试使用这些备用的 DNS 服务器
+  fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
+  #备用 DNS 的过滤规则，用于决定哪些域名会使用 fallback 服务器解析
+  # geoip: true：表示启用 GeoIP 检测。Clash 会根据域名的地理位置决定是否使用备用 DNS
+  # ipcidr: [240.0.0.0/4, 0.0.0.0/32]：指定 IP 地址范围过滤规则
+  fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+  
+
+######### 锚点 start #######
+# proxy策略相关
+pg: &pg { type: select, proxies: [ 香港节点,台湾节点,日本节点,美国节点,韩国节点,新加坡节点,Emby节点,手动选择,自动选择,DIRECT] }
+#订阅更新相关
+pu: &pu { type: http, interval: 86400, health-check: { enable: true, url: https://www.apple.com/library/test/success.html, interval: 300 ,timeout: 5000} }
+#延迟测试相关
+url-test: &url-test { type: url-test, url: https://www.apple.com/library/test/success.html, interval: 60,tolerance: 0, include-all: true }
+#节点选择
+select : &select { type: select,   use: [ Subscribe ] }
+bd: &bd { type: http, format: text,  behavior: domain,    interval: 86400 }
+bc: &bc { type: http, format: text,  behavior: classical, interval: 86400 }
+
+
+proxy-providers:
+  Subscribe:
+    url: "订阅地址"
+    <<: *pu
+proxies: []
+proxy-groups:
+
+  #策略组
+  - { name: 手动选择, <<: *select ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png}
+  - { name: Global,   <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
+  - { name: Ai, <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bot.png}
+  - { name: Telegram,  <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png}
+  - { name: YouTube, <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
+  - { name: Github,  <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png}
+  - { name: Microsoft, <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png}
+  - { name: Emby, <<: *pg ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
+
+
+  #节点筛选
+  - { name: 自动选择, hidden: true, <<: *url-test ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png}
+  - { name: Emby节点, hidden: false,<<: *select,   filter: "(?i)hy|Emby|0\\.\\d+" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
+  - { name: 香港节点, hidden: false,<<: *url-test, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png}
+  - { name: 台湾节点, hidden: false,<<: *url-test, filter: "(?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png}
+  - { name: 日本节点, hidden: false,<<: *url-test, filter: "(?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
+  - { name: 美国节点, hidden: false,<<: *url-test, filter: "(?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png}
+  - { name: 韩国节点, hidden: false,<<: *url-test, filter: "(?i)🇰🇷|韩国|韓|首尔|(\b(KR|Korea)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png}
+  - { name: 新加坡节点, hidden: false,<<: *url-test, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
+
+rule-providers:
+  ai:   { <<: *bc , url: https://raw.githubusercontent.com/sephiroth233/Tool/master/Clash/Rules/AI.list,   path: ./ruleset/ai.yaml }
+  emby: { <<: *bc , url: https://raw.githubusercontent.com/sephiroth233/Tool/master/Clash/Rules/Emby.list, path: ./ruleset/emby.yaml }
+
+rules:
+  - RULE-SET,emby,Emby
+  - RULE-SET,ai,Ai
+  - GEOSITE,telegram,Telegram
+  - GEOSITE,github,Github
+  - GEOSITE,youtube,YouTube
+  - GEOSITE,microsoft,Microsoft
+  - GEOSITE,cn,DIRECT
+  - GEOIP,CN,DIRECT
+  - GEOIP,Lan,DIRECT
+  - MATCH,Global
+
