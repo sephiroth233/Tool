@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7302
+# 规则统计: 7303
 
 no_resolve: true
 domain_set:
@@ -4511,6 +4511,7 @@ domain_suffix_set:
   - onmypc.us
   - onthehunt.com
   - ontrac.com
+  - oojj.de
   - oopsforum.com
   - open.com.hk
   - open.firstory.me
