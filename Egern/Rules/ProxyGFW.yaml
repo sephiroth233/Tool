@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7308
+# 规则统计: 7309
 
 no_resolve: true
 domain_set:
@@ -2095,6 +2095,7 @@ domain_suffix_set:
   - foolsmountain.com
   - fooooo.com
   - footwiball.com
+  - forbes.com
   - foreignaffairs.com
   - foreignpolicy.com
   - form.new
