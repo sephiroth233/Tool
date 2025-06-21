@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7309
+# 规则统计: 7310
 
 no_resolve: true
 domain_set:
@@ -325,6 +325,7 @@ domain_suffix_set:
   - amplitude.com
   - ampproject.org
   - amtb-taipei.org
+  - amuletmc.com
   - anchor.fm
   - anchorfree.com
   - ancsconf.org
