@@ -431,5 +431,7 @@ IP-CIDR,188.172.228.49/32,no-resolve
 
 ##### 好鸭emby #####
 DOMAIN-SUFFIX,niceduck.lol
-DOMAIN-SUFFIX,emby.moe
-DOMAIN-SUFFIX,5203166.xyz
+
+
+#### facmata
+DOMAIN-SUFFIX,omni.313445.xyz
