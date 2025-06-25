@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 38
+# 规则统计: 39
 
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com

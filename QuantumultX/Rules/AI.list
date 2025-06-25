@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 38
+# 规则统计: 39
 
 HOST,ai.google.dev,AI
 HOST,alkalicore-pa.clients6.google.com,AI
@@ -32,6 +32,7 @@ HOST-SUFFIX,notebooklm.google,AI
 HOST-SUFFIX,notebooklm.google.com,AI
 HOST-SUFFIX,oaistatic.com,AI
 HOST-SUFFIX,openart.ai,AI
+HOST-SUFFIX,openrouter.ai,AI
 HOST-SUFFIX,perplexity.ai,AI
 HOST-SUFFIX,poe.com,AI
 HOST-SUFFIX,proactivebackend-pa.googleapis.com,AI
