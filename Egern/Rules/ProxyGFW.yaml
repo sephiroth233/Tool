@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7315
+# 规则统计: 7316
 
 no_resolve: true
 domain_set:
@@ -4980,6 +4980,7 @@ domain_suffix_set:
   - radiotime.com
   - radiovaticana.org
   - radiovncr.com
+  - radmin-vpn.com
   - rael.org
   - raggedbanner.com
   - raidcall.com.tw
