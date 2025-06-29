@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7316
+# 规则统计: 7317
 
 no_resolve: true
 domain_set:
@@ -3216,6 +3216,7 @@ domain_suffix_set:
   - imdb.com
   - img.dlsite.jp
   - img.ly
+  - img.picgo.net
   - imgasd.com
   - imgchili.net
   - imgmega.com
