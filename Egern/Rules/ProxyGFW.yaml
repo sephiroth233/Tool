@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7317
+# 规则统计: 7318
 
 no_resolve: true
 domain_set:
@@ -1622,6 +1622,7 @@ domain_suffix_set:
   - donmai.us
   - dontfilter.us
   - dontmovetochina.com
+  - doom9.org
   - doosho.com
   - doourbest.org
   - dorjeshugden.com
