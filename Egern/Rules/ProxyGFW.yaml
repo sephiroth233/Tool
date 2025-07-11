@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7318
+# 规则统计: 7319
 
 no_resolve: true
 domain_set:
@@ -1722,6 +1722,7 @@ domain_suffix_set:
   - e-traderland.net
   - e-zone.com.hk
   - e123.hk
+  - e621.net
   - earlytibet.com
   - earthcam.com
   - earthvpn.com
