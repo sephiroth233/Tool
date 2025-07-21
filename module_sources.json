@@ -1,0 +1,50 @@
+{
+    "loon": [
+        {
+            "name": "TestFlightRegionUnlock",
+            "url": "https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx"
+        },
+        {
+            "name": "QuickSearch",
+            "url": "https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx"
+        },
+        {
+            "name": "Himalaya_remove_ads",
+            "url": "https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx"
+        },
+        {
+            "name": "YouTube_remove_ads",
+            "url": "https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx"
+        },
+        {
+            "name": "NeteaseCloudMusic_remove_ads",
+            "url": "https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx"
+        },
+        {
+            "name": "Weixin_Official_Accounts_remove_ads",
+            "url": "https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx"
+        },
+        {
+            "name": "BaiduNetDisk_remove_ads",
+            "url": "https://kelee.one/Tool/Loon/Lpx/BaiduNetDisk_remove_ads.lpx"
+        },
+        {
+            "name": "Amap_remove_ads",
+            "url": "https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx"
+        },
+        {
+            "name": "QiDian_remove_ads",
+            "url": "https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx"
+        },
+        {
+            "name": "Bilibili_remove_ads",
+            "url": "https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx"
+        }
+    ],
+    "qx": [
+        {
+            "name": "StartUpAds",
+            "url": "https://gist.githubusercontent.com/ddgksf2013/12ef6aad209155e7eb62c5b00c11b9dd/raw/StartUpAds.conf"
+        }
+    ]
+}
