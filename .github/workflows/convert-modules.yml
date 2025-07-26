@@ -68,10 +68,10 @@ jobs:
         echo "### 文件统计" >> $GITHUB_STEP_SUMMARY
         echo "| 类型 | 文件数量 |" >> $GITHUB_STEP_SUMMARY
         echo "|------|----------|" >> $GITHUB_STEP_SUMMARY
-        echo "| Surge | $(find module/surge -name "*.conf" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
-        echo "| Loon | $(find module/loon -name "*.conf" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
-        echo "| Stash | $(find module/stash -name "*.conf" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
-        echo "| Shadowrocket | $(find module/shadowrocket -name "*.conf" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
+        echo "| Surge | $(find module/surge -name "*.sgmodule" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
+        echo "| Loon | $(find module/loon -name "*.sgmodule" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
+        echo "| Stash | $(find module/stash -name "*.sgmodule" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
+        echo "| Shadowrocket | $(find module/shadowrocket -name "*.sgmodule" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         if [ "${{ steps.verify-changed-files.outputs.changed }}" == "true" ]; then
           echo "✅ 模块已更新并提交到仓库" >> $GITHUB_STEP_SUMMARY
