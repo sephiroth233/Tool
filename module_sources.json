@@ -1,4 +1,35 @@
 {
+  "loon": [
+    {
+      "name": "FleaMarket_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx"
+    },
+    {
+      "name": "Taobao_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx"
+    },
+    {
+      "name": "JD_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx"
+    },
+    {
+      "name": "PinDuoDuo_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx"
+    },
+    {
+      "name": "Spotify_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx"
+    },
+    {
+      "name": "TubeMax_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/TubeMax_remove_ads.lpx"
+    },
+    {
+      "name": "DingdongMaicai_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/DingdongMaicai_remove_ads.lpx"
+    }
+
+  ],
   "qx": [
     {
       "name": "StartUpAds",
