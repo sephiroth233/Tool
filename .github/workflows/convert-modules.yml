@@ -1,0 +1,80 @@
+name: Convert Proxy Modules
+
+on:
+  # 定时执行：每天凌晨2点执行
+  schedule:
+    - cron: '0 2 * * *'
+  
+  # 手动触发
+  workflow_dispatch:
+  
+  # 当模块源配置文件更新时触发
+  push:
+    paths:
+      - 'module_sources.json'
+      - 'convert_modules.py'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        # 如果需要额外的依赖，可以在这里添加
+        # pip install requests
+    
+    - name: Run module conversion
+      run: |
+        python convert_modules.py
+    
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add module/
+        git commit -m "🔄 Auto update proxy modules - $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S CST')"
+        git push
+    
+    - name: Create summary
+      if: always()
+      run: |
+        echo "## 模块转换结果 📊" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 转换时间" >> $GITHUB_STEP_SUMMARY
+        echo "$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 文件统计" >> $GITHUB_STEP_SUMMARY
+        echo "| 类型 | 文件数量 |" >> $GITHUB_STEP_SUMMARY
+        echo "|------|----------|" >> $GITHUB_STEP_SUMMARY
+        echo "| Surge | $(find module/surge -name "*.conf" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
+        echo "| Loon | $(find module/loon -name "*.conf" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
+        echo "| Stash | $(find module/stash -name "*.conf" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
+        echo "| Shadowrocket | $(find module/shadowrocket -name "*.conf" 2>/dev/null | wc -l) |" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.verify-changed-files.outputs.changed }}" == "true" ]; then
+          echo "✅ 模块已更新并提交到仓库" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "ℹ️ 没有检测到模块变化" >> $GITHUB_STEP_SUMMARY
+        fi

@@ -1,0 +1,61 @@
+{
+  "qx": [
+    {
+      "name": "StartUpAds",
+      "desc": "墨鱼去开屏广告",
+      "url": "https://gist.githubusercontent.com/ddgksf2013/12ef6aad209155e7eb62c5b00c11b9dd/raw/StartUpAds.conf"
+    },
+    {
+      "name": "Ximalaya",
+      "desc": "喜马拉雅去广告",
+      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf"
+    },
+    {
+      "name": "BilibiliAds",
+      "desc": "B站去广告",
+      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/BilibiliAds.conf"
+    },
+    {
+      "name": "Amap_ads",
+      "desc": "高德地图去广告",
+      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Amap.conf"
+    },
+    {
+      "name": "qidian",
+      "desc": "起点去广告",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf"
+    },
+    {
+      "name": "baiduCloud",
+      "desc": "百度网盘去广告",
+      "url": "https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js"
+    },
+    {
+      "name": "TestFlightAccount",
+      "desc": "TestFlight账号解锁",
+      "url": "https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js"
+    },
+    {
+      "name": "UnblockURLinWeChat",
+      "desc": "微信解锁外链",
+      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/UnblockURLinWeChat.conf"
+    },
+    {
+      "name": "Q-Search",
+      "desc": "超级搜索",
+      "url": "https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf"
+    }
+  ],
+  "surge": [
+    {
+      "name": "YouTube",
+      "desc": "YouTube去广告",
+      "url": "https://raw.githubusercontent.com/Maasea/sgmodule/refs/heads/master/YouTube.Enhance.sgmodule"
+    },
+    {
+      "name": "Netease_ads",
+      "desc": "网易云去广告",
+      "url": "https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Official/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%8E%BB%E5%B9%BF%E5%91%8A.official.sgmodule"
+    }
+  ]
+}
