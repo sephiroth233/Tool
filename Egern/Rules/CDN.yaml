@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3782
+# 规则统计: 3784
 
 domain_set:
   - 0x0.st
@@ -2249,6 +2249,7 @@ domain_set:
   - static.guim.co.uk
   - static.heavy-r.com
   - static.helpjuice.com
+  - static.hosting.com
   - static.hotjar.com
   - static.hubspot.com
   - static.hugedomains.com
@@ -3302,7 +3303,6 @@ domain_suffix_set:
   - nelreports.net
   - nest.land
   - net.anydesk.com
-  - netdna-ssl.com
   - netlify.app
   - neweggimages.com
   - newscdn.com.au
@@ -3482,6 +3482,7 @@ domain_suffix_set:
   - shgcdn.com
   - shields.io
   - shopifycdn.com
+  - shoppulse88.store
   - shortpixel.ai
   - simgbb.com
   - similarcdn.com
@@ -3561,6 +3562,7 @@ domain_suffix_set:
   - superfiliate-cdn.com
   - surge.sh
   - surrit.com
+  - surrit.store
   - susercontent.com
   - svbtleusercontent.com
   - sway-cdn.com
