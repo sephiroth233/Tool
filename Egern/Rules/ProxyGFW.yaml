@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7321
+# 规则统计: 7323
 
 no_resolve: true
 domain_set:
@@ -3774,6 +3774,7 @@ domain_suffix_set:
   - lsxszzg.com
   - ltn.com.tw
   - luckydesigner.space
+  - ludepress.com
   - luke54.com
   - luke54.org
   - lupm.org
@@ -6624,6 +6625,7 @@ domain_suffix_set:
   - wailaike.net
   - wainao.me
   - waiwaier.com
+  - walletconnect.com
   - wallmama.com
   - wallornot.org
   - wallpapercasa.com
