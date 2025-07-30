@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7322
+# 规则统计: 7323
 
 no_resolve: true
 domain_set:
@@ -6625,6 +6625,7 @@ domain_suffix_set:
   - wailaike.net
   - wainao.me
   - waiwaier.com
+  - walletconnect.com
   - wallmama.com
   - wallornot.org
   - wallpapercasa.com
