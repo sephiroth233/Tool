@@ -1,17 +1,20 @@
 # 规则名称: TikTok
-# 规则统计: 27
+# 规则统计: 30
 
 HOST,lf16-effectcdn.byteeffecttos-g.com,TikTok
 HOST,lf16-pkgcdn.pitaya-clientai.com,TikTok
 HOST,p16-tiktokcdn-com.akamaized.net,TikTok
+HOST,trae-api-sg.mchost.guru,TikTok
 HOST-SUFFIX,bytedapm.com,TikTok
 HOST-SUFFIX,bytegecko-i18n.com,TikTok
+HOST-SUFFIX,byteintlapi.com,TikTok
 HOST-SUFFIX,byteoversea.com,TikTok
 HOST-SUFFIX,capcut.com,TikTok
 HOST-SUFFIX,ibytedtos.com,TikTok
 HOST-SUFFIX,ibyteimg.com,TikTok
 HOST-SUFFIX,ipstatp.com,TikTok
 HOST-SUFFIX,isnssdk.com,TikTok
+HOST-SUFFIX,marscode.com,TikTok
 HOST-SUFFIX,muscdn.com,TikTok
 HOST-SUFFIX,musical.ly,TikTok
 HOST-SUFFIX,sgpstatp.com,TikTok
