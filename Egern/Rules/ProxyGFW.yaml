@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7323
+# 规则统计: 7325
 
 no_resolve: true
 domain_set:
@@ -6900,6 +6900,8 @@ domain_suffix_set:
   - www2.ohchr.org
   - www2.rocketbbs.com
   - wwwhost.biz
+  - wxw.cat
+  - wxw.moe
   - wzyboy.im
   - x-art.com
   - x-berry.com
