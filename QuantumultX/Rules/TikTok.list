@@ -1,5 +1,5 @@
 # 规则名称: TikTok
-# 规则统计: 30
+# 规则统计: 31
 
 HOST,lf16-effectcdn.byteeffecttos-g.com,TikTok
 HOST,lf16-pkgcdn.pitaya-clientai.com,TikTok
@@ -28,6 +28,7 @@ HOST-SUFFIX,tiktokd.org,TikTok
 HOST-SUFFIX,tiktokmusic.app,TikTok
 HOST-SUFFIX,tiktokv.com,TikTok
 HOST-SUFFIX,tiktokv.us,TikTok
+HOST-SUFFIX,trae.ai,TikTok
 HOST-SUFFIX,ttwebview.com,TikTok
 HOST-KEYWORD,musical.ly,TikTok
 HOST-KEYWORD,tiktok,TikTok
