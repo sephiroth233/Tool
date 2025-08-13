@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 101368
+# 规则统计: 101409
 
 no_resolve: true
 domain_set:
@@ -2642,6 +2642,7 @@ domain_suffix_set:
   - a.vturb.net
   - a.vws4brkfst.com
   - a.wanzhuang.com
+  - a.wb.ru
   - a.weareknitters.ch
   - a.weareknitters.co.uk
   - a.weareknitters.com
@@ -8364,6 +8365,7 @@ domain_suffix_set:
   - antibot.me
   - antiqueskinnyminute.com
   - antiredcessant.com
+  - antisagrucks.cyou
   - antitracking.owncast.online
   - antiwarmilium.rest
   - antlerlode.com
@@ -10579,6 +10581,7 @@ domain_suffix_set:
   - ashetandrew.com
   - ashiq.creditrepaircloud.com
   - ashiverbulkier.click
+  - ashlingpaybox.cfd
   - ashmbgbktnp.com
   - ashobzshava.com
   - ashorenorris.com
@@ -15850,6 +15853,7 @@ domain_suffix_set:
   - cesario.bt.no
   - cessationhamster.com
   - cestondjellab.cfd
+  - cesuraeflaked.help
   - cet.ximpl.digital
   - cetlwsf.top
   - cetusinvestmentsbtc.com
@@ -16287,6 +16291,7 @@ domain_suffix_set:
   - cicutareffelt.cyou
   - cicutayields.rest
   - ciderfeast.com
+  - cidersbursula.rest
   - cidersnaval.rest
   - cidhmxxb.icu
   - ciduq.proboostnow.com
@@ -19121,6 +19126,7 @@ domain_suffix_set:
   - cuckoo.cult.supply
   - cuckoo.jerandky.com
   - cuckoo.peoplefirstjobs.com
+  - cuckooamaine.cfd
   - cuckooretire.com
   - cuckoosad.com
   - cucnmtf.top
@@ -23961,6 +23967,7 @@ domain_suffix_set:
   - db7q4jg5rkhk8.cloudfront.net
   - dba9ytko5p72r.cloudfront.net
   - dbba.cn
+  - dbbzorowkbg.com
   - dbcru.ryka.com
   - dbdophuz.icu
   - dbegq.skullcandy.co.uk
@@ -25028,6 +25035,7 @@ domain_suffix_set:
   - dii4.zoohit.sk
   - diipxa.roadtechmarine.com.au
   - dikeaxillas.com
+  - dikedbizonal.cfd
   - dikeprotectorencyclopaedia.com
   - dikhsb.vividseats.com
   - dilatenine.com
@@ -26292,6 +26300,7 @@ domain_suffix_set:
   - dutorterraom.com
   - duu8lzqdm8tsz.cloudfront.net
   - duuddots.com
+  - duumvirkokopu.help
   - duxiaoman.com
   - duy1ol4n1csnp.cloudfront.net
   - duyewnf.icu
@@ -29494,6 +29503,7 @@ domain_suffix_set:
   - exbujk.glamood.com
   - exc.ns.nl
   - excavatenearbywand.com
+  - exceedunited.com
   - exceptingpealstipulate.com
   - exceptional-ingress.life
   - exch.bolderman.nl
@@ -34246,6 +34256,7 @@ domain_suffix_set:
   - gqssj.dukesweightloss.com.au
   - gqwwshbdd1.fun
   - gqxwfhe7o.com
+  - gqzfbvfyd.com
   - gr.a23.in
   - graceful-operation.com
   - gracefulmilk.com
@@ -37404,6 +37415,7 @@ domain_suffix_set:
   - hardnessanything.com
   - hare.felix-schmid.de
   - hare.startupbootcamp.com.au
+  - hareliphowlets.world
   - haresmodus.com
   - harfl.com
   - hargaizethoump.com
@@ -37747,6 +37759,7 @@ domain_suffix_set:
   - herb2warn.com
   - herb7calk.com
   - herbgreencolumn.com
+  - herbmuzzier.help
   - herbousabutted.cfd
   - herdpiteousextensive.com
   - here.bathroomupgradeservice.com
@@ -41676,6 +41689,7 @@ domain_suffix_set:
   - instantdeceived.com
   - instantdollarz.com
   - instantfox.co
+  - insteamarchont.help
   - instinctiveads.com
   - institutehopelessbeck.com
   - instraffic.com
@@ -41935,6 +41949,7 @@ domain_suffix_set:
   - ioxqdp.leatherology.com
   - ioyfmfjrtkpvt.online
   - ioykmxa.icu
+  - ioynumodqydgd.site
   - iozozb.shapertools.com
   - ip-a-box.com
   - ip-route.net
@@ -41981,6 +41996,7 @@ domain_suffix_set:
   - ipssss.com
   - ipsum.amrel.com
   - ipt.versusarthritis.org
+  - iptaumoati.net
   - iptmgi.akan.co.kr
   - iptmih.hifi-regler.de
   - iptrauaktnua.com
@@ -44580,6 +44596,7 @@ domain_suffix_set:
   - kvzvieyakmhfn.site
   - kw3y5otoeuniv7e9rsi.com
   - kwalnc.vans.co.kr
+  - kwaqgkjkwmgza.top
   - kwaterd.top
   - kwbpge.jra-van.jp
   - kwcnmtd.top
@@ -50764,6 +50781,7 @@ domain_suffix_set:
   - lucrinearraign.com
   - lucvqsbzwrjvc.site
   - lucwypvpwkafq.site
+  - lucysaftly.shop
   - ludibrynecklet.qpon
   - ludicrousarch.com
   - ludicrousfreshencovering.com
@@ -50818,6 +50836,7 @@ domain_suffix_set:
   - lunatazetas.top
   - lunchroomlock.com
   - lungfish.datadividendproject.com
+  - lunncorrea.shop
   - luomi.com
   - lupomaclunch.rest
   - lupon.media
@@ -53683,7 +53702,9 @@ domain_suffix_set:
   - md.tvzhe.com
   - mdamcsx.top
   - mdckwfdl.com
+  - mddbdmylgchjx.space
   - mddsp.info
+  - mdemhpkv.com
   - mdentss.yopagomenos.co
   - mdhhvc.jeep.fr
   - mdhuf.rebelsrefinery.com
@@ -53958,6 +53979,7 @@ domain_suffix_set:
   - med.viibrydhcp.com
   - med.vraylar.com
   - medalbashfulsunstroke.com
+  - medalopenairtedious.com
   - meddleplant.com
   - medfoodsafety.com
   - media-412.com
@@ -58202,6 +58224,7 @@ domain_suffix_set:
   - nadelle.wantsext.me
   - nadese.xyz
   - nadtcmetrics.haworth.com
+  - naedyudpxzmgs.online
   - naeeo.zogics.com
   - naesl.theinkeylist.com
   - naettarq.com
@@ -59082,6 +59105,7 @@ domain_suffix_set:
   - nlvmu.korres.com
   - nlvnht.miror.jp
   - nlvuh.longtermdenial.com
+  - nlxqmdklnddacxd.com
   - nlytcs.idfnet.net
   - nlyvcmyicrhkv.online
   - nlztpmhcxyzwh.vip
@@ -59574,6 +59598,7 @@ domain_suffix_set:
   - nuidra.so-inside.com
   - nuiknnf.icu
   - nukeluck.net
+  - nukepassage.digital
   - nukktn.dorko.hu
   - nukql.hyperlitemountaingear.com
   - nuleedsa.net
@@ -59596,6 +59621,7 @@ domain_suffix_set:
   - nunpceatffub.com
   - nunsourdaultozy.net
   - nuqgovoiojw.com
+  - nuqozsvweq.com
   - nuquds.citizenwatch.com
   - nuqutunqnun.com
   - nuqwe.com
@@ -59650,6 +59676,7 @@ domain_suffix_set:
   - nwbmvq.jockey.com
   - nwbpsg.amso.pl
   - nwchhcafat.com
+  - nwcqpowysqivqdv.com
   - nwemnd.com
   - nwfkjx.gadventures.com
   - nwfsbmmxcft.com
@@ -59851,6 +59878,7 @@ domain_suffix_set:
   - oastspanoche.help
   - oatfowlmartha.shop
   - oauqyw.xyz
+  - oaviupucnkb.com
   - oavowuftili.com
   - oavurognaurd.net
   - oawcqaqaykn.com
@@ -61406,6 +61434,7 @@ domain_suffix_set:
   - otto.iaki.it
   - otto5loki.com
   - ottobreeze-ss.olladeals.com
+  - ottomanneath.digital
   - ottud.mariemur.com
   - otunmakpjbtga.website
   - oturvy.sanitairwinkel.nl
@@ -62927,6 +62956,7 @@ domain_suffix_set:
   - pdsssl.gmarket.co.kr
   - pdsvcldomosqork.com
   - pdtwji.umnitsa.ru
+  - pdtxeefqnanql.store
   - pduiz.juiceplus.com
   - pduwvp.chanti.dk
   - pduyiwkjonxlr.com
@@ -63791,6 +63821,7 @@ domain_suffix_set:
   - platform.cid.samba.tv
   - platform.iteratehq.com
   - platformsolutions.shutterstock.com
+  - platooncombinedborrowed.com
   - platsbhima.shop
   - platypus.cmp.is
   - platypus.colly.com
@@ -63938,6 +63969,7 @@ domain_suffix_set:
   - plx.tik.porn
   - plxibyjobzgfn.site
   - plxrafpdsvxyu.website
+  - plyerglebes.click
   - plyfoni.ru
   - plygainroundup.com
   - plyizb.latour-lith.nl
@@ -65713,6 +65745,7 @@ domain_suffix_set:
   - qgg7e.icu
   - qghhm.allthingsgofestival.com
   - qgmikp.fleurdumal.com
+  - qgmwyffvrtflx.space
   - qgoxfsyuxhbbe.com
   - qgpsz.armedforcesgear.com
   - qgpzqe.alterego-design.fr
@@ -67677,11 +67710,13 @@ domain_suffix_set:
   - rffsds.fsastore.com
   - rfgkp.kathrynwilson.com
   - rfgsdgg.top
+  - rfhaalawjdmk.xyz
   - rfhdiykjbiyba.space
   - rfifavwhiomx.com
   - rfihub.com
   - rfihub.net
   - rfity.com
+  - rfjqkgnnuouma.space
   - rfjrih.skinceuticals.com
   - rfk.biglots.com
   - rflbhv.3ple.jp
@@ -68001,6 +68036,7 @@ domain_suffix_set:
   - rlowcjmyl.com
   - rlownaahoqm.com
   - rlrxuaxclxeshd.com
+  - rlsnntgffqnli.online
   - rltjqqrufde.com
   - rltps.navyhaircare.com
   - rluginhufbunhg.com
@@ -69899,6 +69935,7 @@ domain_suffix_set:
   - sauboufougroay.net
   - saucingsurrein.cyou
   - saugellaviso.it
+  - saulaupady.com
   - saumoncrup.qpon
   - saumoupsaug.com
   - saunaleap.com
@@ -70788,6 +70825,7 @@ domain_suffix_set:
   - semeel.click
   - semeionfleet.cyou
   - semeionrethrow.digital
+  - semeseamidol.cyou
   - semitaehecte.digital
   - semplesapolune.com
   - sempresfac.click
@@ -74453,6 +74491,7 @@ domain_suffix_set:
   - sidenoteproductionbond.com
   - siegesgrovel.life
   - siemensvenula.cyou
+  - sienadrachma.shop
   - sierrakermit.com
   - sievepalmful.com
   - siewca.topagrar.pl
@@ -83646,6 +83685,7 @@ domain_suffix_set:
   - staupsoaksy.net
   - staurtakroa.net
   - stawhoph.com
+  - stawisthmia.digital
   - stawnamytal.digital
   - staxisclivias.com
   - stay.lottehotel.com
@@ -87410,6 +87450,7 @@ domain_suffix_set:
   - tetd.douglas.ee
   - tetd.douglas.es
   - tetd.douglas.lv
+  - tethsmackled.life
   - tetlwsi.top
   - teue.cn
   - teufitnetmen.com
