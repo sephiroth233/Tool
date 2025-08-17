@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7298
+# 规则统计: 7301
 
 no_resolve: true
 domain_set:
@@ -4605,6 +4605,7 @@ domain_suffix_set:
   - palmislife.com
   - paltalk.com
   - panamapapers.sueddeutsche.de
+  - pancakeswap.finance
   - pandafan.pub
   - pandapow.co
   - pandapow.net
@@ -4681,6 +4682,7 @@ domain_suffix_set:
   - perplexity.ai
   - persecutionblog.com
   - persiankitty.com
+  - pewresearch.org
   - pfd.org.hk
   - phapluan.org
   - phayul.com
@@ -4845,6 +4847,7 @@ domain_suffix_set:
   - prisoneralert.com
   - pritunl.com
   - privacybox.de
+  - privacyguides.org
   - private.com
   - privateinternetaccess.com
   - privatepaste.com
