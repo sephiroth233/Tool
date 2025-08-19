@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7301
+# 规则统计: 7305
 
 no_resolve: true
 domain_set:
@@ -1527,6 +1527,7 @@ domain_suffix_set:
   - demo.unlock-music.dev
   - democrats.org
   - demosisto.hk
+  - deno.dev
   - depositphotos.com
   - derekhsu.homeip.net
   - desc.se
@@ -1611,6 +1612,7 @@ domain_suffix_set:
   - docker.com
   - docker.io
   - docs.cfw.lbyczf.com
+  - docs.deno.com
   - docs.new
   - doctorvoice.org
   - documentingreality.com
@@ -2252,6 +2254,7 @@ domain_suffix_set:
   - furhhdl.org
   - furinkan.com
   - furl.net
+  - furrybar.com
   - futurechinaforum.org
   - futuremessage.org
   - fux.com
@@ -4211,6 +4214,7 @@ domain_suffix_set:
   - nationsonline.org
   - nationwide.com
   - naughtyamerica.com
+  - naver.com
   - naver.jp
   - navy.mil
   - navyfamily.navy.mil
