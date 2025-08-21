@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7305
+# 规则统计: 7306
 
 no_resolve: true
 domain_set:
@@ -6313,6 +6313,7 @@ domain_suffix_set:
   - udn.com.tw
   - udnbkk.com
   - udndata.com
+  - udomain.hk
   - uforadio.com.tw
   - ufreevpn.com
   - ugo.com

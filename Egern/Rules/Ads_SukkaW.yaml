@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 102915
+# 规则统计: 102918
 
 no_resolve: true
 domain_set:
@@ -102581,6 +102581,7 @@ domain_wildcard_set:
   - business-facebook-*.pages.dev
   - c*hit.zerkalo.io
   - c.blue.*.com
+  - cancelaciondeseguros-*.azurewebsites.net
   - cardverify*-booking.com
   - cdn*.pdmntn.com
   - cdn*.swaxis.com
@@ -102646,6 +102647,7 @@ domain_wildcard_set:
   - geoloc*.geostats.ovh
   - geoloc*.geovisite.ovh
   - geotargetly-api-*.com
+  - gohvb-*.web.app
   - gonews*.net
   - govern-assessment-validation-*.vercel.app
   - govuk.*.top
@@ -102714,6 +102716,7 @@ domain_wildcard_set:
   - mcs-*.lemon8-app.us
   - mcs-*.tiktok.com
   - mcs-va-*.tiktokv.com
+  - mcs.*.tiktok.com
   - mcs.*.tiktokv.com
   - mediate-ios-*.hyprmx.com
   - messagerie*.godaddysites.com
