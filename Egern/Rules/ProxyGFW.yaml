@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7306
+# 规则统计: 7307
 
 no_resolve: true
 domain_set:
@@ -3352,6 +3352,7 @@ domain_suffix_set:
   - itemfix.com
   - ithelp.ithome.com.tw
   - ithome.com.tw
+  - itiger.com
   - itsaol.com
   - itshidden.com
   - itsky.it
