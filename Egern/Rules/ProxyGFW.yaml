@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7310
+# 规则统计: 7311
 
 no_resolve: true
 domain_set:
@@ -4043,6 +4043,7 @@ domain_suffix_set:
   - mohu.club
   - mohu.ml
   - mohu.rocks
+  - moj.gov.tw
   - mojim.com
   - mol.gov.tw
   - molihua.org
