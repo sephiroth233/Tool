@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7312
+# 规则统计: 7311
 
 no_resolve: true
 domain_set:
@@ -1654,7 +1654,6 @@ domain_suffix_set:
   - dowjones.com
   - download.aircrack-ng.org
   - download.cnet.com
-  - dpdns.org
   - dphk.org
   - dpool.top
   - dpp.org.tw
