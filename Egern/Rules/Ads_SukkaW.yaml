@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 102992
+# 规则统计: 102993
 
 no_resolve: true
 domain_set:
@@ -102686,6 +102686,7 @@ domain_wildcard_set:
   - download-wetransfer-*.vercel.app
   - dualstack.adbert-web-lbs-*.elb.amazonaws.com
   - dw-informer-*.newsru.com
+  - dwp-yous*.top
   - e-interac-*.com
   - e-navy*.weebly.com
   - eclog*-*.cafe24.com
