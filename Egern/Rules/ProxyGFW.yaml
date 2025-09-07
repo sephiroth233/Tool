@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7314
+# 规则统计: 7315
 
 no_resolve: true
 domain_set:
@@ -3303,6 +3303,7 @@ domain_suffix_set:
   - iphonetaiwan.org
   - iphonix.fr
   - ipicture.ru
+  - ipify.org
   - ipinfo.io
   - ipjetable.net
   - ipobar.com
