@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3918
+# 规则统计: 3923
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -810,6 +810,8 @@ DOMAIN,cdn.writeas.net
 DOMAIN,cdn.xeiaso.net
 DOMAIN,cdn.xgroovy.com
 DOMAIN,cdn.xvidzz.com
+DOMAIN,cdn.yamibuy.com
+DOMAIN,cdn.yamibuy.net
 DOMAIN,cdn.yinghuazy.xyz
 DOMAIN,cdn.you.com
 DOMAIN,cdn.ywxi.net
@@ -1186,6 +1188,7 @@ DOMAIN,files.scamadviser.com
 DOMAIN,files.slack.com
 DOMAIN,files.smashing.media
 DOMAIN,files.svc.ui.com
+DOMAIN,files.webfe.shopee.io
 DOMAIN,files.writefreely.org
 DOMAIN,files.yande.re
 DOMAIN,filestore.fortinet.com
@@ -1468,6 +1471,7 @@ DOMAIN,img.adspower.net
 DOMAIN,img.agrd.eu
 DOMAIN,img.announcekit.app
 DOMAIN,img.api.video
+DOMAIN,img.apk.cafe
 DOMAIN,img.applealmond.com
 DOMAIN,img.apponic.com
 DOMAIN,img.atlasobscura.com
@@ -2177,6 +2181,7 @@ DOMAIN,socialpic.video.friday.tw
 DOMAIN,solve-widget.forethought.ai
 DOMAIN,source.domaintools.com
 DOMAIN,source.unsplash.com
+DOMAIN,sourcemap.webfe.shopeemobile.com
 DOMAIN,sourcemaps.squarespace.net
 DOMAIN,sourcepoint.theguardian.com
 DOMAIN,sp-spiegel-de.spiegel.de
