@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7315
+# 规则统计: 7317
 
 no_resolve: true
 domain_set:
@@ -3884,6 +3884,7 @@ domain_suffix_set:
   - mcaf.ee
   - mcfog.com
   - mcreasite.com
+  - mcusercontent.com
   - md-t.org
   - me.me
   - me.ns.ci
@@ -5743,6 +5744,7 @@ domain_suffix_set:
   - taiwanyes.com
   - taiwanyes.ning.com
   - talk853.com
+  - talkatone.com
   - talkboxapp.com
   - talkcc.com
   - talkonly.net
