@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3969
+# 规则统计: 3974
 
 domain_set:
   - 0x0.st
@@ -376,6 +376,7 @@ domain_set:
   - c8.patreon.com
   - ca.nfs.pub
   - cacerts.digicert.com
+  - cacerts.rapidssl.com
   - cache-05.filehippo.net
   - cache.armorgames.com
   - cache.hackedfreegames.com
@@ -768,6 +769,7 @@ domain_set:
   - cdn.substack.com
   - cdn.sunofbeaches.com
   - cdn.svgator.com
+  - cdn.syftdata.com
   - cdn.tailwindcss.com
   - cdn.techcommunity.microsoft.com
   - cdn.termius.com
@@ -909,6 +911,7 @@ domain_set:
   - cdn9.bigcommerce.com
   - cdna.artstation.com
   - cdnapi.kaltura.com
+  - cdnassets.roboflow.com
   - cdnb.artstation.com
   - cdnc.imagefap.com
   - cdne-pics.youjizz.com
@@ -2156,6 +2159,7 @@ domain_set:
   - scripts.webeo.com
   - sdata.ndtv.com
   - sdk.customfit.ai
+  - sdk.gleap.io
   - sdk.listenlive.co
   - sdk.loyaltylion.net
   - sdk.privacy-center.org
@@ -2461,6 +2465,7 @@ domain_set:
   - static.registration.bluehost.com
   - static.reo.dev
   - static.replay.io
+  - static.roboflow.com
   - static.salidzini.lv
   - static.scarf.sh
   - static.seel.com
