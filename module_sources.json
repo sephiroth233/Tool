@@ -1,10 +1,6 @@
 {
   "loon": [
     {
-      "name": "FleaMarket_remove_ads",
-      "url": "https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx"
-    },
-    {
       "name": "Taobao_remove_ads",
       "url": "https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx"
     },
@@ -19,10 +15,6 @@
     {
       "name": "Spotify_remove_ads",
       "url": "https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx"
-    },
-    {
-      "name": "TubeMax_remove_ads",
-      "url": "https://kelee.one/Tool/Loon/Lpx/TubeMax_remove_ads.lpx"
     },
     {
       "name": "DingdongMaicai_remove_ads",
@@ -61,7 +53,7 @@
     {
       "name": "Amap_ads",
       "desc": "高德地图去广告",
-      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Amap.conf"
+      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/AmapAds.conf"
     },
     {
       "name": "qidian",
@@ -72,11 +64,6 @@
       "name": "baiduCloud",
       "desc": "百度网盘去广告",
       "url": "https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js"
-    },
-    {
-      "name": "TestFlightAccount",
-      "desc": "TestFlight账号解锁",
-      "url": "https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js"
     },
     {
       "name": "UnblockURLinWeChat",
