@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3998
+# 规则统计: 4000
 
 domain_set:
   - 0x0.st
@@ -1426,6 +1426,7 @@ domain_set:
   - images.en.aptoide.com
   - images.everyplate.com
   - images.fandango.com
+  - images.filepuma.com
   - images.financemagnates.com
   - images.findagrave.com
   - images.flightradar24.com
@@ -1698,6 +1699,7 @@ domain_set:
   - launchercontent.mojang.com
   - lc.nssurge.com
   - lcdn-locator.apple.com
+  - learn-attachment.microsoft.com
   - learn.optimizely.com
   - lecontent.sololearn.com
   - ledger-wp-website-s3-prd.ledger.com

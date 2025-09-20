@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 832
+# 规则统计: 835
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,acg.tv
@@ -10,7 +10,9 @@ DOMAIN,cdnstatic.tencentcs.com
 DOMAIN,cn.download.nvidia.com
 DOMAIN,config.ubnt.com
 DOMAIN,dl.ubnt.com
+DOMAIN,dns.pub
 DOMAIN,doh.pub
+DOMAIN,dot.pub
 DOMAIN,gstore.val.manlaxy.com
 DOMAIN,i.dell.com
 DOMAIN,kms.03k.org
@@ -66,6 +68,7 @@ DOMAIN-SUFFIX,360in.com
 DOMAIN-SUFFIX,360kuai.com
 DOMAIN-SUFFIX,360os.com
 DOMAIN-SUFFIX,360safe.com
+DOMAIN-SUFFIX,360simg.com
 DOMAIN-SUFFIX,360tpcdn.com
 DOMAIN-SUFFIX,360webcache.com
 DOMAIN-SUFFIX,36kr.com
