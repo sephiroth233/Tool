@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7320
+# 规则统计: 7321
 
 no_resolve: true
 domain_set:
@@ -181,6 +181,7 @@ domain_suffix_set:
   - abitno.linpie.com
   - ablwang.com
   - aboluowang.com
+  - about.gitlab.com
   - about.google
   - about.me
   - abplive.com
