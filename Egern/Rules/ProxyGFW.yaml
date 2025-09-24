@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7321
+# 规则统计: 7323
 
 no_resolve: true
 domain_set:
@@ -385,6 +385,7 @@ domain_suffix_set:
   - api-secure.recaptcha.net
   - api-verify.recaptcha.net
   - api.ai
+  - api.palworldgame.com
   - api.proxlet.com
   - api.pureapk.com
   - api.recaptcha.net
@@ -4477,6 +4478,7 @@ domain_suffix_set:
   - ocry.com
   - ocsp.int-x3.letsencrypt.org
   - october-review.org
+  - octocaptcha.com
   - oculus.com
   - oculuscdn.com
   - odysee.com
