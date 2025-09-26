@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7325
+# 规则统计: 7326
 
 no_resolve: true
 domain_set:
@@ -6766,6 +6766,7 @@ domain_suffix_set:
   - wikimapia.org
   - wikimedia.org
   - wikinews.org
+  - wikipedia.com
   - wikipedia.org
   - wikiquote.org
   - wikisource.org
