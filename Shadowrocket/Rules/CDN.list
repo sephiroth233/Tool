@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4009
+# 规则统计: 4012
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -156,6 +156,7 @@ DOMAIN,assets.dictionary.com
 DOMAIN,assets.dify.ai
 DOMAIN,assets.dnsfilter.com
 DOMAIN,assets.documentcloud.org
+DOMAIN,assets.dub.co
 DOMAIN,assets.dwncdn.net
 DOMAIN,assets.ecomm.ui.com
 DOMAIN,assets.embeddables.com
@@ -1322,6 +1323,7 @@ DOMAIN,i.iwara.tv
 DOMAIN,i.jpg.dog
 DOMAIN,i.kickstarter.com
 DOMAIN,i.loli.best
+DOMAIN,i.magecdn.com
 DOMAIN,i.mediatek.com
 DOMAIN,i.mij.rip
 DOMAIN,i.mt.lv
@@ -2783,6 +2785,7 @@ DOMAIN,web-assets.waze.com
 DOMAIN,web-assets.zendesk.co.jp
 DOMAIN,web-assets.zendesk.com
 DOMAIN,web-cdn.bitrise.io
+DOMAIN,web-cdn.bsky.app
 DOMAIN,web-sdk-cdn.eyefitu.com
 DOMAIN,web-sdk.eyefitu.com
 DOMAIN,web-static.archive.org
