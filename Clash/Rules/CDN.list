@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4012
+# 规则统计: 4013
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2079,6 +2079,7 @@ DOMAIN,resources.digital-cloud.medallia.com
 DOMAIN,resources.help.salesforce.com
 DOMAIN,resources.whatwg.org
 DOMAIN,rest.happierleads.com
+DOMAIN,reviews-badge.capterra.com
 DOMAIN,rs-cdn.splashtop.com
 DOMAIN,rsi.grafana.com
 DOMAIN,rsms.me
