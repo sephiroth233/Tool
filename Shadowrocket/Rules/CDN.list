@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4028
+# 规则统计: 4032
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -308,6 +308,7 @@ DOMAIN,avatars.mds.yandex.net
 DOMAIN,avatars.micro.blog
 DOMAIN,avatars.plurk.com
 DOMAIN,avts.wmlabs.net
+DOMAIN,awsimgsrc.dmm.co.jp
 DOMAIN,axiecdn.axieinfinity.com
 DOMAIN,az700632.vo.msecnd.net
 DOMAIN,b.peatio.com
@@ -1967,6 +1968,7 @@ DOMAIN,pics.x-n-x-x.pro
 DOMAIN,pics2.serviporno.com
 DOMAIN,pictures-cdn.porn.com
 DOMAIN,pim-media.intel.com
+DOMAIN,pixoraa.cc
 DOMAIN,pkg-cdn.jetbrains.team
 DOMAIN,pkg-size.dev
 DOMAIN,pkg.csb.dev
@@ -2215,6 +2217,7 @@ DOMAIN,segapi.clerk.com
 DOMAIN,segment.digitalocean.com
 DOMAIN,sentry.ainopara.com
 DOMAIN,seo-wp.airdroid.com
+DOMAIN,sequoia.cdn-apple.com
 DOMAIN,service-icons.zeabur.com
 DOMAIN,services.linkfire.com
 DOMAIN,sf-coze-web-cdn.coze.com
@@ -2708,6 +2711,7 @@ DOMAIN,ubistatic2-a.akamaihd.net
 DOMAIN,ubistatic2-a.ubisoft.com
 DOMAIN,udata.namespace.so
 DOMAIN,uhf.microsoft.com
+DOMAIN,ui-cdn.digitalocean-ui.com
 DOMAIN,ui-cdn.digitalocean.com
 DOMAIN,ui-statics-cf.streamable.com
 DOMAIN,ui.contentstack.com
