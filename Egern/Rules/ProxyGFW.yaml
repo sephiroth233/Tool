@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7326
+# 规则统计: 7327
 
 no_resolve: true
 domain_set:
@@ -5765,6 +5765,7 @@ domain_suffix_set:
   - tap.io
   - tapanwap.com
   - tapatalk.com
+  - taptap.io
   - taptap.tw
   - taragana.com
   - tardigrade.io
