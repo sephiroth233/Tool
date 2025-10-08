@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7328
+# 规则统计: 7329
 
 no_resolve: true
 domain_set:
@@ -5485,6 +5485,7 @@ domain_suffix_set:
   - solarsystem.nasa.gov
   - solidaritetibet.org
   - solidfiles.com
+  - solscan.io
   - solv.finance
   - somee.com
   - sonatype.org
