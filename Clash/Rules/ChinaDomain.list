@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 832
+# 规则统计: 833
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,acg.tv
@@ -411,6 +411,7 @@ DOMAIN-SUFFIX,hwccpc.com
 DOMAIN-SUFFIX,hwht.com
 DOMAIN-SUFFIX,hwtrip.com
 DOMAIN-SUFFIX,hwwt8.com
+DOMAIN-SUFFIX,i4.cn
 DOMAIN-SUFFIX,ialicdn.com
 DOMAIN-SUFFIX,ibreader.com
 DOMAIN-SUFFIX,ibuscloud.com
