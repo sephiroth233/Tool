@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4043
+# 规则统计: 4048
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1412,6 +1412,7 @@ DOMAIN,image.thefly.com
 DOMAIN,image.tmdb.org
 DOMAIN,image.vuukle.com
 DOMAIN,image.westinyou.com
+DOMAIN,image.yuntu.com.tw
 DOMAIN,imagecdn.clips4sale.com
 DOMAIN,imagehost.player.fm
 DOMAIN,imageio.forbes.com
@@ -1479,6 +1480,7 @@ DOMAIN,images.purevpn-tools.com
 DOMAIN,images.samsung.com
 DOMAIN,images.scalero.io
 DOMAIN,images.scrolller.com
+DOMAIN,images.softwaresuggest.com
 DOMAIN,images.spot.im
 DOMAIN,images.spr.so
 DOMAIN,images.store.crowdstrike.com
@@ -1837,6 +1839,7 @@ DOMAIN,media.shopimind.com
 DOMAIN,media.smooch.io
 DOMAIN,media.steampowered.com
 DOMAIN,media.tailfin.cc
+DOMAIN,media.technologycounter.com
 DOMAIN,media.telanganatoday.com
 DOMAIN,media.tenor.com
 DOMAIN,media.themoviedb.org
@@ -2916,6 +2919,7 @@ DOMAIN-SUFFIX,abc-cdn.net.au
 DOMAIN-SUFFIX,abcnewsfe.com
 DOMAIN-SUFFIX,abebookscdn.com
 DOMAIN-SUFFIX,addons.business
+DOMAIN-SUFFIX,adguardcdn.com
 DOMAIN-SUFFIX,adobeccstatic.com
 DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,agechecker-northern-apps.com
@@ -3676,6 +3680,7 @@ DOMAIN-SUFFIX,quip-cdn.com
 DOMAIN-SUFFIX,quip-marketing.com
 DOMAIN-SUFFIX,quoracdn.net
 DOMAIN-SUFFIX,qy0.ru
+DOMAIN-SUFFIX,rackcdn.com
 DOMAIN-SUFFIX,radix-ui.com
 DOMAIN-SUFFIX,randomuser.me
 DOMAIN-SUFFIX,ravencoinipfs-gateway.com
