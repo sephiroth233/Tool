@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4066
+# 规则统计: 4068
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -3248,6 +3248,7 @@ DOMAIN-SUFFIX,flagcdn.com
 DOMAIN-SUFFIX,flaglog.com
 DOMAIN-SUFFIX,flagpedia.net
 DOMAIN-SUFFIX,flk-ipfs.xyz
+DOMAIN-SUFFIX,flsrv.net
 DOMAIN-SUFFIX,fmcdn.net
 DOMAIN-SUFFIX,fncstatic.com
 DOMAIN-SUFFIX,fontawesome.com
@@ -4010,6 +4011,7 @@ DOMAIN-KEYWORD,fonts.hanime1
 DOMAIN-KEYWORD,images.trustpilot.com
 DOMAIN-KEYWORD,images.trustpilot.net
 DOMAIN-KEYWORD,scripts.trustpilot.com
+DOMAIN-KEYWORD,static.grammarly.com
 DOMAIN-KEYWORD,static.trustpilot.com
 DOMAIN-KEYWORD,vdownload.hanime1
 DOMAIN-KEYWORD,vod-adaptive.akamaized.net

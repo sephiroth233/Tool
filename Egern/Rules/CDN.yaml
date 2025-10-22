@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4066
+# 规则统计: 4068
 
 domain_set:
   - 0x0.st
@@ -3250,6 +3250,7 @@ domain_suffix_set:
   - flaglog.com
   - flagpedia.net
   - flk-ipfs.xyz
+  - flsrv.net
   - fmcdn.net
   - fncstatic.com
   - fontawesome.com
@@ -4013,6 +4014,7 @@ domain_keyword_set:
   - images.trustpilot.com
   - images.trustpilot.net
   - scripts.trustpilot.com
+  - static.grammarly.com
   - static.trustpilot.com
   - vdownload.hanime1
   - vod-adaptive.akamaized.net
