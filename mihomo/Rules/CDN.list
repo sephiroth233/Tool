@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4068
+# 规则统计: 4069
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -3273,6 +3273,7 @@ DOMAIN-SUFFIX,gammacdn.com
 DOMAIN-SUFFIX,gateway.originprotocol.com
 DOMAIN-SUFFIX,gateway.pinata.cloud
 DOMAIN-SUFFIX,gateway.serph.network
+DOMAIN-SUFFIX,gauthstatic.com
 DOMAIN-SUFFIX,gayzyimage.com
 DOMAIN-SUFFIX,gcr.si
 DOMAIN-SUFFIX,gdvid.info
