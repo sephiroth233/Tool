@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7336
+# 规则统计: 7337
 
 no_resolve: true
 domain_set:
@@ -1619,6 +1619,7 @@ domain_suffix_set:
   - doc.new
   - docker.com
   - docker.io
+  - dockerstatus.com
   - docs.cfw.lbyczf.com
   - docs.deno.com
   - docs.new
