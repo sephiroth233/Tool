@@ -74,6 +74,11 @@
       "name": "Q-Search",
       "desc": "超级搜索",
       "url": "https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf"
+    },
+    {
+      "name": "QiShuiMusicAds",
+      "desc": "汽水音乐去广告",
+      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/QiShuiMusicAds.conf"
     }
   ],
   "surge": [
