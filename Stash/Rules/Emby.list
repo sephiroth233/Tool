@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 182
+# 规则统计: 183
 
 DOMAIN,2pfdml.mobaiemby.site
 DOMAIN,cc.coemn.com
@@ -123,6 +123,7 @@ DOMAIN-SUFFIX,lyrebirdemby.com
 DOMAIN-SUFFIX,magpie.cyou
 DOMAIN-SUFFIX,magpiecdn.tech
 DOMAIN-SUFFIX,mcjoker.xyz
+DOMAIN-SUFFIX,mefun.vip
 DOMAIN-SUFFIX,misty.ltd
 DOMAIN-SUFFIX,mius.uk
 DOMAIN-SUFFIX,mjjemby.org

@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 182
+# 规则统计: 183
 
 no_resolve: true
 domain_set:
@@ -126,6 +126,7 @@ domain_suffix_set:
   - magpie.cyou
   - magpiecdn.tech
   - mcjoker.xyz
+  - mefun.vip
   - misty.ltd
   - mius.uk
   - mjjemby.org

@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 182
+# 规则统计: 183
 
 HOST,2pfdml.mobaiemby.site,Emby
 HOST,cc.coemn.com,Emby
@@ -123,6 +123,7 @@ HOST-SUFFIX,lyrebirdemby.com,Emby
 HOST-SUFFIX,magpie.cyou,Emby
 HOST-SUFFIX,magpiecdn.tech,Emby
 HOST-SUFFIX,mcjoker.xyz,Emby
+HOST-SUFFIX,mefun.vip,Emby
 HOST-SUFFIX,misty.ltd,Emby
 HOST-SUFFIX,mius.uk,Emby
 HOST-SUFFIX,mjjemby.org,Emby
