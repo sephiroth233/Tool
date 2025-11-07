@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4077
+# 规则统计: 4079
 
 domain_set:
   - 0x0.st
@@ -832,6 +832,7 @@ domain_set:
   - cdn.wccftech.com
   - cdn.webclicks24.com
   - cdn.weglot.com
+  - cdn.whoer.com
   - cdn.wikimg.net
   - cdn.wikiwand.com
   - cdn.wikiwiki.jp
@@ -1497,6 +1498,7 @@ domain_set:
   - images.voguehk.com
   - images.web3.storage
   - images.weserv.nl
+  - images.whoer.com
   - images.wikia.com
   - images.wsj.net
   - images.wsjcommerce.net

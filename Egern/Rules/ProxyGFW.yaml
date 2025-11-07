@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7338
+# 规则统计: 7339
 
 no_resolve: true
 domain_set:
@@ -2085,6 +2085,7 @@ domain_suffix_set:
   - flecheinthepeche.fr
   - fleshbot.com
   - fleursdeslettres.com
+  - flexclip.com
   - flexpool.io
   - flgg.us
   - flgjustice.org
