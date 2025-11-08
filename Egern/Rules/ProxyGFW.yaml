@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7339
+# 规则统计: 7340
 
 no_resolve: true
 domain_set:
@@ -3235,6 +3235,7 @@ domain_suffix_set:
   - imageflea.com
   - imageglass.org
   - images-gaytube.com
+  - images.prismic.io
   - imageshack.us
   - imagevenue.com
   - imagezilla.net
