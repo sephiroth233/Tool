@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4132
+# 规则统计: 4133
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -629,6 +629,7 @@ DOMAIN,cdn.infoq.com
 DOMAIN,cdn.insightmediagroup.io
 DOMAIN,cdn.ionos.de
 DOMAIN,cdn.ip2location.io
+DOMAIN,cdn.iplocation.net
 DOMAIN,cdn.iporntv.net
 DOMAIN,cdn.ipregistry.co
 DOMAIN,cdn.jamieoliver.com
