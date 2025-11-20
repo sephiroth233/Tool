@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 836
+# 规则统计: 835
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,acg.tv
@@ -213,7 +213,6 @@ DOMAIN-SUFFIX,cdn-go.cn
 DOMAIN-SUFFIX,cdngslb.com
 DOMAIN-SUFFIX,cdnjtzy.com
 DOMAIN-SUFFIX,changyan.com
-DOMAIN-SUFFIX,chaoxing.cc
 DOMAIN-SUFFIX,chaoxing.com
 DOMAIN-SUFFIX,chaoxingv.com
 DOMAIN-SUFFIX,chazidian.com
