@@ -39,6 +39,14 @@
     {
       "name": "FleaMarket_remove_ads",
       "url": "https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx"
+    },
+    {
+      "name": "Block_HTTPDNS",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx"
+    },
+    {
+      "name": "BlockAdvertisers",
+      "url": "https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx"
     }
 
   ],
