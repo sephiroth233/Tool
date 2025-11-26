@@ -47,6 +47,9 @@
     {
       "name": "BlockAdvertisers",
       "url": "https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx"
+    },{
+      "name":"GoogleSearchRedirect",
+      "url":"https://kelee.one/Tool/Loon/Lpx/Google.lpx"
     }
 
   ],
