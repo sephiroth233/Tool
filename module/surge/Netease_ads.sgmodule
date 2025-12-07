@@ -8,11 +8,11 @@
 #!arguments=隐藏底部标签开关↓:--,发现:0,漫游:1,笔记:0,隐藏首页卡片开关↓:--,问候语:1,每日推荐:0,推荐歌单:0,最近常听:0,音乐合伙人:0,雷达歌单:1,排行榜:0,推荐专属歌单:1,你的专属歌单:1,脚本伪vip:#
 
 [Rule]
-DOMAIN,iadmusicmat.music.126.net,REJECT-NO-DROP
-DOMAIN,iadmat.nosdn.127.net,REJECT-NO-DROP
-DOMAIN,iadmatapk.nosdn.127.net,REJECT-NO-DROP
-DOMAIN,httpdns.n.netease.com,REJECT-NO-DROP
-DOMAIN,httpdns.music.163.com,REJECT-NO-DROP
+DOMAIN,iadmusicmat.music.126.net,REJECT-NO-DROP,extended-matching,pre-matching
+DOMAIN,iadmat.nosdn.127.net,REJECT-NO-DROP,extended-matching,pre-matching
+DOMAIN,iadmatapk.nosdn.127.net,REJECT-NO-DROP,extended-matching,pre-matching
+DOMAIN,httpdns.n.netease.com,REJECT-NO-DROP,extended-matching,pre-matching
+DOMAIN,httpdns.music.163.com,REJECT-NO-DROP,extended-matching,pre-matching
 
 [Map Local]
 ^https?:\/\/(ipv4|interface\d?)\.music\.163.com\/e?api\/ad data-type=text data="{}"

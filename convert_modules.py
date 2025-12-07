@@ -9,20 +9,23 @@
 - 自动创建目录结构
 - 批量处理多个模块
 - 支持自定义目标类型配置
+- 支持 Surge 高级特性：pre-matching 和 extended-matching (sni/pm 参数)
 
 使用方法：
 1. 在 module_sources.json 中配置模块源
 2. 可选择性指定 targets 数组来控制转换目标
-3. 运行脚本进行批量转换
+3. 对于需要 sni/pm 参数的模块，设置 "advanced_matching": true
+4. 运行脚本进行批量转换
 """
 
 import json
 import os
+import re
 import shutil
 import urllib.request
 import urllib.parse
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional, Set
 
 # 转换配置
 CONVERSION_CONFIG = {
@@ -60,20 +63,107 @@ def load_module_sources() -> Dict[str, List[Dict[str, Any]]]:
         return json.load(f)
 
 
-def create_conversion_url(source_url: str, module_name: str, source_type: str, target_type: str, desc: str = None) -> str:
-    """创建转换URL"""
+def extract_rules_for_matching(content: str) -> tuple[Set[str], Set[str]]:
+    """
+    从 Surge 模块的 [Rule] 部分提取规则值
+
+    返回:
+        tuple[Set[str], Set[str]]: (sni_values, pm_values)
+        - sni_values: 用于 extended-matching (DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, URL-REGEX)
+        - pm_values: 用于 pre-matching (DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6)
+    """
+    sni_values = set()  # extended-matching
+    pm_values = set()   # pre-matching
+
+    # 查找 [Rule] 部分（匹配到下一个 section 标记或文件末尾）
+    # section 标记格式: [字母开头的名称]，排除 IPv6 地址中的方括号
+    rule_match = re.search(r'\[Rule\]\s*(.*?)(?=\[[A-Za-z]|\Z)', content, re.DOTALL | re.IGNORECASE)
+    if not rule_match:
+        return sni_values, pm_values
+
+    # 逐行处理规则
+    for line in rule_match.group(1).split('\n'):
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+
+        parts = line.split(',')
+        if len(parts) < 2:
+            continue
+
+        rule_type = parts[0].strip().upper()
+        value = parts[1].strip().strip('"')  # 去除引号
+
+        # DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD -> sni + pm
+        if rule_type in ('DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD'):
+            sni_values.add(value)
+            pm_values.add(value)
+
+        # IP-CIDR, IP-CIDR6 -> pm only
+        elif rule_type in ('IP-CIDR', 'IP-CIDR6'):
+            pm_values.add(value)
+
+        # URL-REGEX -> sni only
+        elif rule_type == 'URL-REGEX':
+            sni_values.add(value)
+
+        # AND/OR 复合规则 - 提取嵌套值
+        elif rule_type in ('AND', 'OR','NOT'):
+            _extract_composite_values(line, sni_values, pm_values)
+
+    return sni_values, pm_values
+
+
+def _extract_composite_values(line: str, sni_values: Set[str], pm_values: Set[str]):
+    """从 AND/OR 复合规则中提取值"""
+    # DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD -> sni + pm
+    for m in re.finditer(r'\((?:DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD),([^,)]+)', line, re.IGNORECASE):
+        value = m.group(1).strip()
+        sni_values.add(value)
+        pm_values.add(value)
+
+    # IP-CIDR, IP-CIDR6 -> pm only
+    for m in re.finditer(r'\(IP-CIDR6?,([^,)]+)', line, re.IGNORECASE):
+        pm_values.add(m.group(1).strip())
+
+    # URL-REGEX -> sni only (值在引号内)
+    for m in re.finditer(r'\(URL-REGEX,"([^"]+)"', line, re.IGNORECASE):
+        sni_values.add(m.group(1).strip())
+
+
+def fetch_content(url: str) -> Optional[str]:
+    """获取URL内容"""
+    try:
+        with urllib.request.urlopen(url) as response:
+            return response.read().decode('utf-8')
+    except Exception as e:
+        print(f"获取内容失败 {url}: {e}")
+        return None
+
+
+def create_conversion_url(source_url: str, module_name: str, source_type: str, target_type: str,
+                          desc: str = None, sni_domains: str = None, pm_domains: str = None) -> str:
+    """
+    创建转换URL
+
+    Args:
+        source_url: 源模块URL
+        module_name: 模块名称
+        source_type: 源类型 (loon/qx/surge)
+        target_type: 目标类型 (surge/shadowrocket)
+        desc: 模块描述
+        sni_domains: SNI域名列表，用+连接
+        pm_domains: pre-matching域名列表，用+连接
+    """
     config = CONVERSION_CONFIG[source_type]
     target_config = config["targets"][target_type]
 
     # 构建转换URL
     filename = f"{module_name}.{target_config['ext']}"
 
-    # 对source_url进行URL编码，处理中文字符
-    # encoded_source_url = urllib.parse.quote(source_url, safe=':/?#[]@!$&\'()*+,;=')
-
     # 构建基础URL
     base_conversion_url = f"{BASE_URL}/file/_start_/{source_url}/_end_/{filename}"
-    
+
     # 构建查询参数
     params = {
         'type': config['type'],
@@ -82,16 +172,57 @@ def create_conversion_url(source_url: str, module_name: str, source_type: str, t
         'jqEnabled': 'true',
         'category': 'Lang'
     }
-    
+
     # 如果有desc参数，添加到参数中
     if desc:
         params['n'] = desc
-    
+
+    # 添加 sni 和 pm 参数（用于 Surge 高级特性）
+    if sni_domains:
+        params['sni'] = sni_domains
+    if pm_domains:
+        params['pm'] = pm_domains
+
     # 使用urlencode来正确编码查询参数
     query_string = urllib.parse.urlencode(params, encoding='utf-8')
     conversion_url = f"{base_conversion_url}?{query_string}"
 
     return conversion_url
+
+
+def get_advanced_matching_values(source_url: str, module_name: str, source_type: str) -> tuple[Optional[str], Optional[str]]:
+    """
+    获取用于 sni/pm 参数的规则值列表
+
+    流程：
+    1. 先获取基础转换后的 Surge 模块内容
+    2. 解析 [Rule] 部分提取规则值
+    3. 返回用 + 连接的字符串 (sni_str, pm_str)
+
+    规则分类：
+    - sni (extended-matching): DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, URL-REGEX
+    - pm (pre-matching): DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6
+    """
+    # 先创建一个不带 sni/pm 的基础转换URL
+    basic_url = create_conversion_url(source_url, module_name, source_type, "surge")
+
+    print(f"  获取模块内容以提取规则...")
+    content = fetch_content(basic_url)
+    if not content:
+        return None, None
+
+    sni_values, pm_values = extract_rules_for_matching(content)
+
+    if not sni_values and not pm_values:
+        print(f"  未找到匹配规则")
+        return None, None
+
+    # 用 + 连接值
+    sni_str = '+'.join(sorted(sni_values)) if sni_values else None
+    pm_str = '+'.join(sorted(pm_values)) if pm_values else None
+
+    print(f"  提取到 {len(sni_values)} 个 sni 规则, {len(pm_values)} 个 pm 规则")
+    return sni_str, pm_str
 
 
 def download_file(url: str, filepath: str) -> bool:
@@ -162,6 +293,15 @@ def convert_modules():
             print(f"\n转换模块: {module_name}")
             print(f"源地址: {source_url}")
 
+            # 检查目标是否包含 surge，如果包含则需要获取高级匹配特性的值
+            sni_str = None
+            pm_str = None
+            needs_surge = "surge" in targets and "surge" in CONVERSION_CONFIG[source_type]["targets"]
+
+            if needs_surge:
+                print(f"  启用高级匹配特性 (pre-matching/extended-matching)")
+                sni_str, pm_str = get_advanced_matching_values(source_url, module_name, source_type)
+
             for target_type in targets:
                 # 检查目标类型是否在转换配置中
                 if target_type not in CONVERSION_CONFIG[source_type]["targets"]:
@@ -176,12 +316,15 @@ def convert_modules():
                 filepath = os.path.join(MODULE_DIR, target_type, filename)
 
                 # 创建转换URL
-                conversion_url = create_conversion_url(source_url, module_name, source_type, target_type, desc)
+                # 只有 surge 目标类型才使用 sni/pm 参数
+                if target_type == "surge" and (sni_str or pm_str):
+                    conversion_url = create_conversion_url(
+                        source_url, module_name, source_type, target_type, desc,
+                        sni_domains=sni_str, pm_domains=pm_str
+                    )
+                else:
+                    conversion_url = create_conversion_url(source_url, module_name, source_type, target_type, desc)
 
-                # 如果是自身类型转换，显示特殊信息
-                # if source_type == target_type:
-                #     print(f"  复制原始文件到 {target_type.upper()}: {conversion_url}")
-                # else:
                 print(f"  转换为 {target_type.upper()}: {conversion_url}")
 
                 # 下载转换后的文件

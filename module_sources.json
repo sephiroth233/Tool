@@ -47,52 +47,57 @@
     {
       "name": "BlockAdvertisers",
       "url": "https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx"
-    },{
-      "name":"GoogleSearchRedirect",
-      "url":"https://kelee.one/Tool/Loon/Lpx/Google.lpx"
+    },
+    {
+      "name": "GoogleSearchRedirect",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Google.lpx"
+    },
+    {
+      "name": "Amap_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx"
+    },
+    {
+      "name": "QiDian_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx"
+    },
+    {
+      "name": "BaiduNetDisk_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/BaiduNetDisk_remove_ads.lpx"
+    },
+    {
+      "name": "Bilibili_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx"
+    },
+    {
+      "name": "QuickSearch",
+      "url": "https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx"
+    },
+    {
+      "name": "Weixin_Official_Accounts_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx"
+    },
+    {
+      "name": "Weixin_external_links_unlock",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx"
+    },
+    {
+      "name": "RedPaper_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx"
+    },
+    {
+      "name": "Himalaya_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx"
+    },
+    {
+      "name": "YoudaoNote_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/YoudaoNote_remove_ads.lpx"
     }
-
   ],
   "qx": [
-    {
-      "name": "StartUpAds",
-      "desc": "墨鱼去开屏广告",
-      "url": "https://gist.githubusercontent.com/ddgksf2013/12ef6aad209155e7eb62c5b00c11b9dd/raw/StartUpAds.conf"
-    },
     {
       "name": "Ximalaya",
       "desc": "喜马拉雅去广告",
       "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf"
-    },
-    {
-      "name": "BilibiliAds",
-      "desc": "B站去广告",
-      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/BilibiliAds.conf"
-    },
-    {
-      "name": "Amap_ads",
-      "desc": "高德地图去广告",
-      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/AmapAds.conf"
-    },
-    {
-      "name": "qidian",
-      "desc": "起点去广告",
-      "url": "https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf"
-    },
-    {
-      "name": "baiduCloud",
-      "desc": "百度网盘去广告",
-      "url": "https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js"
-    },
-    {
-      "name": "UnblockURLinWeChat",
-      "desc": "微信解锁外链",
-      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/UnblockURLinWeChat.conf"
-    },
-    {
-      "name": "Q-Search",
-      "desc": "超级搜索",
-      "url": "https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf"
     },
     {
       "name": "QiShuiMusicAds",
