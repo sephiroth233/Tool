@@ -9,7 +9,7 @@ DOMAIN-SUFFIX,optimus-ads.amap.com,DIRECT
 # > 高德地图_开屏请求@ddgksf2013
 ^https?:\/\/.*\.amap\.com\/ws\/aos\/alimama\/splash_screen - reject-200
 # > 高德地图_首页底部信息流@ddgksf2013
-^https?:\/\/.*\.amap\.com\/v\d\/ai_rec\/home_qs - reject-dict
+^https?:\/\/.*\.amap\.com\/v\d\/ai_rec\/ - reject-dict
 # > 高德地图_路线规划下方广告@ddgksf2013
 ^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? - reject-dict
 # > 高德地图_Tip请求@ddgksf2013

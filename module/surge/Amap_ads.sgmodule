@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,optimus-ads.amap.com,DIRECT
 ^https?:\/\/.*\.amap\.com\/ws\/aos\/alimama\/splash_screen data-type=text data=" " status-code=200
 
 # > 高德地图_首页底部信息流@ddgksf2013
-^https?:\/\/.*\.amap\.com\/v\d\/ai_rec\/home_qs data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/.*\.amap\.com\/v\d\/ai_rec\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 # > 高德地图_路线规划下方广告@ddgksf2013
 ^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
