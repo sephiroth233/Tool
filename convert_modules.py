@@ -71,6 +71,7 @@ def extract_rules_for_matching(content: str) -> tuple[Set[str], Set[str]]:
         tuple[Set[str], Set[str]]: (sni_values, pm_values)
         - sni_values: 用于 extended-matching (DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, URL-REGEX)
         - pm_values: 用于 pre-matching (DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6)
+                     注意: pm 只能用于 REJECT 策略的规则
     """
     sni_values = set()  # extended-matching
     pm_values = set()   # pre-matching
@@ -94,14 +95,27 @@ def extract_rules_for_matching(content: str) -> tuple[Set[str], Set[str]]:
         rule_type = parts[0].strip().upper()
         value = parts[1].strip().strip('"')  # 去除引号
 
-        # DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD -> sni + pm
+        # 获取策略，用于判断是否可以添加到 pm
+        # 拒绝策略包括: REJECT, REJECT-DROP, REJECT-TINYGIF, REJECT-NO-DROP 等
+        if rule_type in ('AND', 'OR', 'NOT'):
+            # 复合规则的策略在括号组之后，通常是最后一个部分
+            # 例如: AND,((DOMAIN-KEYWORD,adash),(DOMAIN-SUFFIX,example.com)),REJECT
+            policy = parts[-1].strip().upper()
+        else:
+            # 普通规则格式: DOMAIN,example.com,REJECT 或 IP-CIDR,1.2.3.4/24,REJECT-DROP,no-resolve
+            policy = parts[2].strip().upper() if len(parts) >= 3 else ""
+        is_reject = policy.startswith("REJECT")
+
+        # DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD -> sni, pm(仅REJECT)
         if rule_type in ('DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD'):
             sni_values.add(value)
-            pm_values.add(value)
+            if is_reject:
+                pm_values.add(value)
 
-        # IP-CIDR, IP-CIDR6 -> pm only
+        # IP-CIDR, IP-CIDR6 -> pm only (仅REJECT)
         elif rule_type in ('IP-CIDR', 'IP-CIDR6'):
-            pm_values.add(value)
+            if is_reject:
+                pm_values.add(value)
 
         # URL-REGEX -> sni only
         elif rule_type == 'URL-REGEX':
@@ -109,22 +123,32 @@ def extract_rules_for_matching(content: str) -> tuple[Set[str], Set[str]]:
 
         # AND/OR 复合规则 - 提取嵌套值
         elif rule_type in ('AND', 'OR','NOT'):
-            _extract_composite_values(line, sni_values, pm_values)
+            _extract_composite_values(line, sni_values, pm_values, is_reject)
 
     return sni_values, pm_values
 
 
-def _extract_composite_values(line: str, sni_values: Set[str], pm_values: Set[str]):
-    """从 AND/OR 复合规则中提取值"""
-    # DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD -> sni + pm
+def _extract_composite_values(line: str, sni_values: Set[str], pm_values: Set[str], is_reject: bool = False):
+    """
+    从 AND/OR 复合规则中提取值
+
+    Args:
+        line: 规则行
+        sni_values: sni 值集合
+        pm_values: pm 值集合
+        is_reject: 是否为 REJECT 策略，只有 REJECT 策略才能添加到 pm
+    """
+    # DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD -> sni, pm(仅REJECT)
     for m in re.finditer(r'\((?:DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD),([^,)]+)', line, re.IGNORECASE):
         value = m.group(1).strip()
         sni_values.add(value)
-        pm_values.add(value)
+        if is_reject:
+            pm_values.add(value)
 
-    # IP-CIDR, IP-CIDR6 -> pm only
+    # IP-CIDR, IP-CIDR6 -> pm only (仅REJECT)
     for m in re.finditer(r'\(IP-CIDR6?,([^,)]+)', line, re.IGNORECASE):
-        pm_values.add(m.group(1).strip())
+        if is_reject:
+            pm_values.add(m.group(1).strip())
 
     # URL-REGEX -> sni only (值在引号内)
     for m in re.finditer(r'\(URL-REGEX,"([^"]+)"', line, re.IGNORECASE):
