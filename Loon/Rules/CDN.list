@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4196
+# 规则统计: 4205
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -179,6 +179,7 @@ DOMAIN,assets.gcore.pro
 DOMAIN,assets.geeksforgeeks.org
 DOMAIN,assets.genius.com
 DOMAIN,assets.getkirby.com
+DOMAIN,assets.getpostman.com
 DOMAIN,assets.github.dev
 DOMAIN,assets.goat.com
 DOMAIN,assets.gorgias.help
@@ -192,6 +193,7 @@ DOMAIN,assets.hearstapps.com
 DOMAIN,assets.holopin.io
 DOMAIN,assets.humix.com
 DOMAIN,assets.ifttt.com
+DOMAIN,assets.ipapi.com
 DOMAIN,assets.ipstack.com
 DOMAIN,assets.jable.tv
 DOMAIN,assets.jolipage.co
@@ -392,6 +394,7 @@ DOMAIN,cache-05.filehippo.net
 DOMAIN,cache.armorgames.com
 DOMAIN,cache.hackedfreegames.com
 DOMAIN,cache.industry.siemens.com
+DOMAIN,cache.ip-api.com
 DOMAIN,cache.omnicalculator.com
 DOMAIN,cached.rebuyengine.com
 DOMAIN,canny-assets.io
@@ -1147,6 +1150,7 @@ DOMAIN,dlassets-ssl.xboxlive.com
 DOMAIN,do.featurebase.app
 DOMAIN,docs.brew.sh
 DOMAIN,docs.rs
+DOMAIN,documenter-assets.pstmn.io
 DOMAIN,domain.expiring-soon.xyz
 DOMAIN,doppler-config.cbsivideo.com
 DOMAIN,doujin-assets.dmm.co.jp
@@ -1420,6 +1424,7 @@ DOMAIN,icons.ly
 DOMAIN,icons.simplesvg.com
 DOMAIN,icons.veryicon.com
 DOMAIN,icons.zeabur.com
+DOMAIN,identity-assets.getpostman.com
 DOMAIN,idportal-cdn-prd.unity.com
 DOMAIN,iframe.nbcnews.com
 DOMAIN,ih0.redbubble.net
@@ -2524,6 +2529,7 @@ DOMAIN,static.freedownloadmanager.org
 DOMAIN,static.freeimages.com
 DOMAIN,static.generated.photos
 DOMAIN,static.getbutton.io
+DOMAIN,static.getpostman.com
 DOMAIN,static.gettyimages.com
 DOMAIN,static.giant-bicycles.com
 DOMAIN,static.gigabyte.com
@@ -2549,6 +2555,8 @@ DOMAIN,static.inferno.iheart.com
 DOMAIN,static.inflect.com
 DOMAIN,static.infomaniak.ch
 DOMAIN,static.institution.grammarly.com
+DOMAIN,static.ipgeolocation.io
+DOMAIN,static.iplocate.io
 DOMAIN,static.iris.informa.com
 DOMAIN,static.itch.io
 DOMAIN,static.iyf.tv
@@ -3433,6 +3441,7 @@ DOMAIN-SUFFIX,himg.nl
 DOMAIN-SUFFIX,hits.b3log.org
 DOMAIN-SUFFIX,hommec.com
 DOMAIN-SUFFIX,howtogeekimages.com
+DOMAIN-SUFFIX,hrcdn.net
 DOMAIN-SUFFIX,hs-scripts.com
 DOMAIN-SUFFIX,hs-scripts.net
 DOMAIN-SUFFIX,hsappstatic.net
