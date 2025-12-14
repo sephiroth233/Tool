@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4215
+# 规则统计: 4216
 
 domain_set:
   - 0x0.st
@@ -1567,6 +1567,7 @@ domain_set:
   - images1.cmp.optimizely.com
   - images1.vinted.net
   - images1.welcomesoftware.com
+  - images10.newegg.com
   - images2.cmp.optimizely.com
   - images2.giant-bicycles.com
   - images2.vudu.com
