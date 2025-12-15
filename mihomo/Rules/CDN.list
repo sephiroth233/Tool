@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4216
+# 规则统计: 4221
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -162,6 +162,7 @@ DOMAIN,assets.documentcloud.org
 DOMAIN,assets.dub.co
 DOMAIN,assets.ecomm.ui.com
 DOMAIN,assets.embeddables.com
+DOMAIN,assets.endorsely.com
 DOMAIN,assets.euractiv.com
 DOMAIN,assets.exercism.org
 DOMAIN,assets.extension.grammarly.com
@@ -220,6 +221,7 @@ DOMAIN,assets.nintendo.com
 DOMAIN,assets.nxtrace.org
 DOMAIN,assets.onestore.ms
 DOMAIN,assets.ontrack.com
+DOMAIN,assets.openalternative.co
 DOMAIN,assets.openshift.com
 DOMAIN,assets.openshift.net
 DOMAIN,assets.orz.uno
@@ -1677,6 +1679,7 @@ DOMAIN,img.windy.com
 DOMAIN,img.xbooru.com
 DOMAIN,img.xhacgn.com
 DOMAIN,img.xjh.me
+DOMAIN,img.yna.co.kr
 DOMAIN,img.youtube.com
 DOMAIN,img0.socialshopwave.com
 DOMAIN,img0.yna.co.kr
@@ -2116,6 +2119,7 @@ DOMAIN,previews.fleek.co
 DOMAIN,privacy.axios.com
 DOMAIN,pro2-ui-assets-s3-fy.myportfolio.com
 DOMAIN,prod-cdn.webtune.ai
+DOMAIN,prod-images.rippling.com
 DOMAIN,prod-packager-packages.codesandbox.io
 DOMAIN,prod-streaming-video-msn-com.akamaized.net
 DOMAIN,prod-video-cms-amp-microsoft-com.akamaized.net
@@ -4004,6 +4008,7 @@ DOMAIN-SUFFIX,tiles-api.maps.komoot.net
 DOMAIN-SUFFIX,tiles.mapbox.com
 DOMAIN-SUFFIX,tiles.virtualearth.net
 DOMAIN-SUFFIX,tindiemedia.com
+DOMAIN-SUFFIX,tinifycdn.com
 DOMAIN-SUFFIX,tiqcdn.com
 DOMAIN-SUFFIX,tkcdns.com
 DOMAIN-SUFFIX,tmsimg.com
