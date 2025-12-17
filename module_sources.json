@@ -93,18 +93,6 @@
       "url": "https://kelee.one/Tool/Loon/Lpx/YoudaoNote_remove_ads.lpx"
     }
   ],
-  "qx": [
-    {
-      "name": "Ximalaya",
-      "desc": "喜马拉雅去广告",
-      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf"
-    },
-    {
-      "name": "QiShuiMusicAds",
-      "desc": "汽水音乐去广告",
-      "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/QiShuiMusicAds.conf"
-    }
-  ],
   "surge": [
     {
       "name": "YouTube",
