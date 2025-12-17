@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42204
+# 规则统计: 42223
 
 domain_suffix_set:
   - 0.0.0.1
@@ -3990,7 +3990,6 @@ domain_suffix_set:
   - aaktao.entel.cl
   - aamcompany.actonservice.com
   - aametrics.aktia.fi
-  - aamt.msnbc.com
   - aamt.nbcnews.com
   - aamt.newsapp.telemundo.com
   - aamt.today.com
@@ -4014,6 +4013,7 @@ domain_suffix_set:
   - aazmiw.reisenthel.com
   - ab-machine.forbes.com
   - ab.blogs.es
+  - ab.dns-finder.com
   - ab.fanatical.com
   - ab.oney.es
   - ab.perfumesclub.com
@@ -4937,6 +4937,7 @@ domain_suffix_set:
   - ali8.alinea.fr
   - alias.cloud-marketing.dimensiondata.com
   - aliasanvil.com
+  - alib.nine.com.au
   - alibabapizza.openapp.link
   - alicat.actonservice.com
   - alikeaddition.com
@@ -5096,6 +5097,7 @@ domain_suffix_set:
   - analytics-cf.bigcrunch.com
   - analytics-cms.whitebeard.me
   - analytics-coletor-site.ojc.com.br
+  - analytics-collect.karakuri.ai
   - analytics-consent-manager-v2-prod.azureedge.net
   - analytics-dataplane.invideo.io
   - analytics-fe.digital-cloud-prem.medallia.com
@@ -5297,6 +5299,7 @@ domain_suffix_set:
   - analytics.geoutletstore.com
   - analytics.gestore.com
   - analytics.getshogun.com
+  - analytics.getsnworks.com
   - analytics.gewaterheater.com
   - analytics.glance.inmobi.com
   - analytics.global.sky.com
@@ -7521,6 +7524,7 @@ domain_suffix_set:
   - bienvenido.americanindustriesgroup.com
   - bigcustomernetwork.actonservice.com
   - bigdata.clarin.com
+  - bigfishapparel.com
   - bigworldfashion.com
   - bijkep.hotelesestelar.com
   - bikepaws.com
@@ -7622,6 +7626,7 @@ domain_suffix_set:
   - bluelp.2ask.blue.com.hk
   - bluemarblepayroll.actonservice.com
   - bluemountains.actonservice.com
+  - bluenest.net
   - blueoceanpharma.actonservice.com
   - blueoyster.click
   - bluevinebooks.com
@@ -9073,6 +9078,7 @@ domain_suffix_set:
   - compare.easyviaggio.com
   - compare.easyviajar.com
   - comparereaction.com
+  - compilework.com
   - complexpixel.com
   - compliance.coniferhealth.com
   - compliance.govdocs.com
@@ -9418,6 +9424,7 @@ domain_suffix_set:
   - coordinatedcoat.com
   - cooyxg.tennis-point.de
   - copilot-telemetry.githubusercontent.com
+  - copperstills.net
   - copycarpenter.com
   - copyfranchise.com
   - copyrightaccesscontrols.com
@@ -9517,6 +9524,7 @@ domain_suffix_set:
   - courageousbaby.com
   - covenant.psjhealth.org
   - coverlayer.com
+  - cowbelltime.com
   - cowhmc.docmorris.de
   - coyizl.embracon.com.br
   - cozydusk.com
@@ -10767,7 +10775,6 @@ domain_suffix_set:
   - deeplink.wagr.ai
   - deeplink.wbnc.99array.com
   - deeplink.winespectator.com
-  - deeplink.xeropan.com
   - deeplinkdev.upoker.net
   - deeplinks.amex.dynamify.com
   - deeplinks.breaz.dynamify.com
@@ -10968,6 +10975,7 @@ domain_suffix_set:
   - dialogue.nl.mazda.be
   - diamages.carte-gr.total.fr
   - diboji.class101.net
+  - dicecandies.com
   - dicemoments.com
   - didzrr.nutraholic.com
   - difficultfog.com
@@ -11569,6 +11577,7 @@ domain_suffix_set:
   - e.pomonaelectronics.com
   - e.quizlet.com
   - e.replacementdevicelawsuit.com
+  - e.revenue.cat
   - e.shop.app
   - e.synchronybank.com
   - e.unchealthcare.org
@@ -11946,6 +11955,7 @@ domain_suffix_set:
   - eifeou.pandahall.com
   - eiftfa.fashionette.de
   - eightgreens.com
+  - eighthlayer.net
   - eikwax.marmot.com
   - eimcqw.dickies.com
   - einrfh.justanswer.com
@@ -15123,6 +15133,7 @@ domain_suffix_set:
   - heuida.shopafrm.com
   - hevqaz.submarino.com.br
   - heyaxr.fashiondays.bg
+  - heycomputers.com
   - hf.forevernetworks.com
   - hfc195b.com
   - hfmogh.piatradesign.ro
@@ -15496,6 +15507,7 @@ domain_suffix_set:
   - iconnode.com
   - icslearn.actonsoftware.com
   - ictrjw.barcastores.com
+  - icywinter.com
   - id-ward.com
   - id.a-mx.com
   - idbkfy.kango-roo.com
@@ -19710,6 +19722,7 @@ domain_suffix_set:
   - madebyintent.com
   - madisoncres.actonservice.com
   - madlysuccessful.com
+  - madoverrice.com
   - madrid.report.botm.transparentedge.io
   - maeketing.net.gafas.es
   - mafiahairdresser.actonservice.com
@@ -21682,6 +21695,7 @@ domain_suffix_set:
   - metc.banfield.com
   - meteachugood.holdmybeerconsulting.com
   - meter.bref.sh
+  - metis.truecaller.com
   - metric-nonssl.nomura.co.jp
   - metric.1035thearrow.com
   - metric.4imprint.com
@@ -24825,6 +24839,7 @@ domain_suffix_set:
   - p.cab.ua
   - p.classroombookings.com
   - p.codio.com
+  - p.controld.com
   - p.cquotient.com
   - p.data.cctv.com
   - p.ejs.dev
@@ -37963,6 +37978,8 @@ domain_suffix_set:
   - tracking.carsales.com.au
   - tracking.cat898.com
   - tracking.cdiscount.com
+  - tracking.cds.dmm.co.jp
+  - tracking.cds.dmm.com
   - tracking.cello-square.com
   - tracking.cengage.com
   - tracking.cenomicenters.com
@@ -39930,6 +39947,7 @@ domain_suffix_set:
   - vapxga.sieh-an.de
   - varys.asongofzandc.xyz
   - vatrack.hinet.net
+  - vault.gostatera.com
   - vazulp.graniph.com
   - vbe.voyage-prive.be
   - vbkryy.pasonacareer.jp
@@ -40712,6 +40730,7 @@ domain_suffix_set:
   - whitepapers.blackboard.com
   - whitepapers.rockwellautomation.com
   - whoami.akamai.net.iberostar.com
+  - wholepagecache.com
   - whoogled.com
   - whqkyq.leasingmarkt.de
   - whwiab.pamono.it

@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42204
+# 规则统计: 42223
 
 DOMAIN-SUFFIX,0.0.0.1
 DOMAIN-SUFFIX,0.myikas.com
@@ -3989,7 +3989,6 @@ DOMAIN-SUFFIX,aakashapp.byjus.com
 DOMAIN-SUFFIX,aaktao.entel.cl
 DOMAIN-SUFFIX,aamcompany.actonservice.com
 DOMAIN-SUFFIX,aametrics.aktia.fi
-DOMAIN-SUFFIX,aamt.msnbc.com
 DOMAIN-SUFFIX,aamt.nbcnews.com
 DOMAIN-SUFFIX,aamt.newsapp.telemundo.com
 DOMAIN-SUFFIX,aamt.today.com
@@ -4013,6 +4012,7 @@ DOMAIN-SUFFIX,aazfby.auto.de
 DOMAIN-SUFFIX,aazmiw.reisenthel.com
 DOMAIN-SUFFIX,ab-machine.forbes.com
 DOMAIN-SUFFIX,ab.blogs.es
+DOMAIN-SUFFIX,ab.dns-finder.com
 DOMAIN-SUFFIX,ab.fanatical.com
 DOMAIN-SUFFIX,ab.oney.es
 DOMAIN-SUFFIX,ab.perfumesclub.com
@@ -4936,6 +4936,7 @@ DOMAIN-SUFFIX,ali-pro-pull.kwai.net.iberostar.com
 DOMAIN-SUFFIX,ali8.alinea.fr
 DOMAIN-SUFFIX,alias.cloud-marketing.dimensiondata.com
 DOMAIN-SUFFIX,aliasanvil.com
+DOMAIN-SUFFIX,alib.nine.com.au
 DOMAIN-SUFFIX,alibabapizza.openapp.link
 DOMAIN-SUFFIX,alicat.actonservice.com
 DOMAIN-SUFFIX,alikeaddition.com
@@ -5095,6 +5096,7 @@ DOMAIN-SUFFIX,analytics-beacon.p.uliza.jp
 DOMAIN-SUFFIX,analytics-cf.bigcrunch.com
 DOMAIN-SUFFIX,analytics-cms.whitebeard.me
 DOMAIN-SUFFIX,analytics-coletor-site.ojc.com.br
+DOMAIN-SUFFIX,analytics-collect.karakuri.ai
 DOMAIN-SUFFIX,analytics-consent-manager-v2-prod.azureedge.net
 DOMAIN-SUFFIX,analytics-dataplane.invideo.io
 DOMAIN-SUFFIX,analytics-fe.digital-cloud-prem.medallia.com
@@ -5296,6 +5298,7 @@ DOMAIN-SUFFIX,analytics.genial.ly
 DOMAIN-SUFFIX,analytics.geoutletstore.com
 DOMAIN-SUFFIX,analytics.gestore.com
 DOMAIN-SUFFIX,analytics.getshogun.com
+DOMAIN-SUFFIX,analytics.getsnworks.com
 DOMAIN-SUFFIX,analytics.gewaterheater.com
 DOMAIN-SUFFIX,analytics.glance.inmobi.com
 DOMAIN-SUFFIX,analytics.global.sky.com
@@ -7520,6 +7523,7 @@ DOMAIN-SUFFIX,bidswitch.net
 DOMAIN-SUFFIX,bienvenido.americanindustriesgroup.com
 DOMAIN-SUFFIX,bigcustomernetwork.actonservice.com
 DOMAIN-SUFFIX,bigdata.clarin.com
+DOMAIN-SUFFIX,bigfishapparel.com
 DOMAIN-SUFFIX,bigworldfashion.com
 DOMAIN-SUFFIX,bijkep.hotelesestelar.com
 DOMAIN-SUFFIX,bikepaws.com
@@ -7621,6 +7625,7 @@ DOMAIN-SUFFIX,bluekai.com
 DOMAIN-SUFFIX,bluelp.2ask.blue.com.hk
 DOMAIN-SUFFIX,bluemarblepayroll.actonservice.com
 DOMAIN-SUFFIX,bluemountains.actonservice.com
+DOMAIN-SUFFIX,bluenest.net
 DOMAIN-SUFFIX,blueoceanpharma.actonservice.com
 DOMAIN-SUFFIX,blueoyster.click
 DOMAIN-SUFFIX,bluevinebooks.com
@@ -9072,6 +9077,7 @@ DOMAIN-SUFFIX,community.keeperz.app
 DOMAIN-SUFFIX,compare.easyviaggio.com
 DOMAIN-SUFFIX,compare.easyviajar.com
 DOMAIN-SUFFIX,comparereaction.com
+DOMAIN-SUFFIX,compilework.com
 DOMAIN-SUFFIX,complexpixel.com
 DOMAIN-SUFFIX,compliance.coniferhealth.com
 DOMAIN-SUFFIX,compliance.govdocs.com
@@ -9417,6 +9423,7 @@ DOMAIN-SUFFIX,coop.vmware.com
 DOMAIN-SUFFIX,coordinatedcoat.com
 DOMAIN-SUFFIX,cooyxg.tennis-point.de
 DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com
+DOMAIN-SUFFIX,copperstills.net
 DOMAIN-SUFFIX,copycarpenter.com
 DOMAIN-SUFFIX,copyfranchise.com
 DOMAIN-SUFFIX,copyrightaccesscontrols.com
@@ -9516,6 +9523,7 @@ DOMAIN-SUFFIX,counters.libertaddigital.com
 DOMAIN-SUFFIX,courageousbaby.com
 DOMAIN-SUFFIX,covenant.psjhealth.org
 DOMAIN-SUFFIX,coverlayer.com
+DOMAIN-SUFFIX,cowbelltime.com
 DOMAIN-SUFFIX,cowhmc.docmorris.de
 DOMAIN-SUFFIX,coyizl.embracon.com.br
 DOMAIN-SUFFIX,cozydusk.com
@@ -10766,7 +10774,6 @@ DOMAIN-SUFFIX,deeplink.tytod.com
 DOMAIN-SUFFIX,deeplink.wagr.ai
 DOMAIN-SUFFIX,deeplink.wbnc.99array.com
 DOMAIN-SUFFIX,deeplink.winespectator.com
-DOMAIN-SUFFIX,deeplink.xeropan.com
 DOMAIN-SUFFIX,deeplinkdev.upoker.net
 DOMAIN-SUFFIX,deeplinks.amex.dynamify.com
 DOMAIN-SUFFIX,deeplinks.breaz.dynamify.com
@@ -10967,6 +10974,7 @@ DOMAIN-SUFFIX,dialogue.mazda.sk
 DOMAIN-SUFFIX,dialogue.nl.mazda.be
 DOMAIN-SUFFIX,diamages.carte-gr.total.fr
 DOMAIN-SUFFIX,diboji.class101.net
+DOMAIN-SUFFIX,dicecandies.com
 DOMAIN-SUFFIX,dicemoments.com
 DOMAIN-SUFFIX,didzrr.nutraholic.com
 DOMAIN-SUFFIX,difficultfog.com
@@ -11568,6 +11576,7 @@ DOMAIN-SUFFIX,e.nicklauschildrens.org
 DOMAIN-SUFFIX,e.pomonaelectronics.com
 DOMAIN-SUFFIX,e.quizlet.com
 DOMAIN-SUFFIX,e.replacementdevicelawsuit.com
+DOMAIN-SUFFIX,e.revenue.cat
 DOMAIN-SUFFIX,e.shop.app
 DOMAIN-SUFFIX,e.synchronybank.com
 DOMAIN-SUFFIX,e.unchealthcare.org
@@ -11945,6 +11954,7 @@ DOMAIN-SUFFIX,eicyds.qoo10.jp
 DOMAIN-SUFFIX,eifeou.pandahall.com
 DOMAIN-SUFFIX,eiftfa.fashionette.de
 DOMAIN-SUFFIX,eightgreens.com
+DOMAIN-SUFFIX,eighthlayer.net
 DOMAIN-SUFFIX,eikwax.marmot.com
 DOMAIN-SUFFIX,eimcqw.dickies.com
 DOMAIN-SUFFIX,einrfh.justanswer.com
@@ -15122,6 +15132,7 @@ DOMAIN-SUFFIX,hesprh.sony.jp
 DOMAIN-SUFFIX,heuida.shopafrm.com
 DOMAIN-SUFFIX,hevqaz.submarino.com.br
 DOMAIN-SUFFIX,heyaxr.fashiondays.bg
+DOMAIN-SUFFIX,heycomputers.com
 DOMAIN-SUFFIX,hf.forevernetworks.com
 DOMAIN-SUFFIX,hfc195b.com
 DOMAIN-SUFFIX,hfmogh.piatradesign.ro
@@ -15495,6 +15506,7 @@ DOMAIN-SUFFIX,iconmediapixel.com
 DOMAIN-SUFFIX,iconnode.com
 DOMAIN-SUFFIX,icslearn.actonsoftware.com
 DOMAIN-SUFFIX,ictrjw.barcastores.com
+DOMAIN-SUFFIX,icywinter.com
 DOMAIN-SUFFIX,id-ward.com
 DOMAIN-SUFFIX,id.a-mx.com
 DOMAIN-SUFFIX,idbkfy.kango-roo.com
@@ -19709,6 +19721,7 @@ DOMAIN-SUFFIX,maddeningpowder.com
 DOMAIN-SUFFIX,madebyintent.com
 DOMAIN-SUFFIX,madisoncres.actonservice.com
 DOMAIN-SUFFIX,madlysuccessful.com
+DOMAIN-SUFFIX,madoverrice.com
 DOMAIN-SUFFIX,madrid.report.botm.transparentedge.io
 DOMAIN-SUFFIX,maeketing.net.gafas.es
 DOMAIN-SUFFIX,mafiahairdresser.actonservice.com
@@ -21681,6 +21694,7 @@ DOMAIN-SUFFIX,metawelcome.com
 DOMAIN-SUFFIX,metc.banfield.com
 DOMAIN-SUFFIX,meteachugood.holdmybeerconsulting.com
 DOMAIN-SUFFIX,meter.bref.sh
+DOMAIN-SUFFIX,metis.truecaller.com
 DOMAIN-SUFFIX,metric-nonssl.nomura.co.jp
 DOMAIN-SUFFIX,metric.1035thearrow.com
 DOMAIN-SUFFIX,metric.4imprint.com
@@ -24824,6 +24838,7 @@ DOMAIN-SUFFIX,p.aty.sohu.com
 DOMAIN-SUFFIX,p.cab.ua
 DOMAIN-SUFFIX,p.classroombookings.com
 DOMAIN-SUFFIX,p.codio.com
+DOMAIN-SUFFIX,p.controld.com
 DOMAIN-SUFFIX,p.cquotient.com
 DOMAIN-SUFFIX,p.data.cctv.com
 DOMAIN-SUFFIX,p.ejs.dev
@@ -37962,6 +37977,8 @@ DOMAIN-SUFFIX,tracking.care.salinasvalleyhealth.com
 DOMAIN-SUFFIX,tracking.carsales.com.au
 DOMAIN-SUFFIX,tracking.cat898.com
 DOMAIN-SUFFIX,tracking.cdiscount.com
+DOMAIN-SUFFIX,tracking.cds.dmm.co.jp
+DOMAIN-SUFFIX,tracking.cds.dmm.com
 DOMAIN-SUFFIX,tracking.cello-square.com
 DOMAIN-SUFFIX,tracking.cengage.com
 DOMAIN-SUFFIX,tracking.cenomicenters.com
@@ -39929,6 +39946,7 @@ DOMAIN-SUFFIX,vanishmemory.com
 DOMAIN-SUFFIX,vapxga.sieh-an.de
 DOMAIN-SUFFIX,varys.asongofzandc.xyz
 DOMAIN-SUFFIX,vatrack.hinet.net
+DOMAIN-SUFFIX,vault.gostatera.com
 DOMAIN-SUFFIX,vazulp.graniph.com
 DOMAIN-SUFFIX,vbe.voyage-prive.be
 DOMAIN-SUFFIX,vbkryy.pasonacareer.jp
@@ -40711,6 +40729,7 @@ DOMAIN-SUFFIX,whispermeeting.com
 DOMAIN-SUFFIX,whitepapers.blackboard.com
 DOMAIN-SUFFIX,whitepapers.rockwellautomation.com
 DOMAIN-SUFFIX,whoami.akamai.net.iberostar.com
+DOMAIN-SUFFIX,wholepagecache.com
 DOMAIN-SUFFIX,whoogled.com
 DOMAIN-SUFFIX,whqkyq.leasingmarkt.de
 DOMAIN-SUFFIX,whwiab.pamono.it
