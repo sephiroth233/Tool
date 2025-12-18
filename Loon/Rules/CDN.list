@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4225
+# 规则统计: 4232
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -18,6 +18,7 @@ DOMAIN,academy-public.coinmarketcap.com
 DOMAIN,account-cdn.svc.ui.com
 DOMAIN,account-widget-mfe.gcore.com
 DOMAIN,accounts-cdn.9gag.com
+DOMAIN,acdn.mercury.com
 DOMAIN,adkit.9pub.io
 DOMAIN,aff.equalweb.com
 DOMAIN,affportal.bhphoto.com
@@ -209,6 +210,7 @@ DOMAIN,assets.mailgun.com
 DOMAIN,assets.mastercard.com
 DOMAIN,assets.matters.news
 DOMAIN,assets.mayoclinic.org
+DOMAIN,assets.mcp.corespeed.io
 DOMAIN,assets.media-platform.com
 DOMAIN,assets.monei.com
 DOMAIN,assets.monica.im
@@ -685,6 +687,7 @@ DOMAIN,cdn.mathjax.org
 DOMAIN,cdn.matterhorn.app
 DOMAIN,cdn.mcauto-images-production.sendgrid.net
 DOMAIN,cdn.mcr.ea.com
+DOMAIN,cdn.mercury.com
 DOMAIN,cdn.metadata.io
 DOMAIN,cdn.mewe.com
 DOMAIN,cdn.micro.blog
@@ -1016,6 +1019,7 @@ DOMAIN,checkout.stripe.com
 DOMAIN,chunk-composing.canva.com
 DOMAIN,ci.testling.com
 DOMAIN,cimg.cnyes.cool
+DOMAIN,circle-flags.zeljko.me
 DOMAIN,clara.iwara.tv
 DOMAIN,claritystatic.azureedge.net
 DOMAIN,clickup.marketlinc.com
@@ -1827,6 +1831,7 @@ DOMAIN,load.csell.co
 DOMAIN,loader.mantis-intelligence.com
 DOMAIN,log-collector.17app.co
 DOMAIN,logo.clearbit.com
+DOMAIN,logos.composio.dev
 DOMAIN,logos.kiwibrowser.com
 DOMAIN,logos.speedtestcustom.com
 DOMAIN,loutre.blockchair.io
@@ -2080,6 +2085,7 @@ DOMAIN,pkg-size.dev
 DOMAIN,pkg.csb.dev
 DOMAIN,pkgs.dev.azure.com
 DOMAIN,pl.ea.com
+DOMAIN,placeholder.pics
 DOMAIN,platform-assets.typekit.net
 DOMAIN,platform.instagram.com
 DOMAIN,platform.theverge.com
@@ -3156,6 +3162,7 @@ DOMAIN-SUFFIX,cdn-lfs-us-1.huggingface.co
 DOMAIN-SUFFIX,cdn-lfs.hf.co
 DOMAIN-SUFFIX,cdn-lfs.huggingface.co
 DOMAIN-SUFFIX,cdn-one.com
+DOMAIN-SUFFIX,cdn-plain.com
 DOMAIN-SUFFIX,cdn-spurit.com
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,cdn-uploads.huggingface.co
