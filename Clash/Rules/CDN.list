@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4242
+# 规则统计: 4243
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2190,6 +2190,7 @@ DOMAIN,redircdn.com
 DOMAIN,registry.api.cnn.io
 DOMAIN,registry.oomol.com
 DOMAIN,regmedia.co.uk
+DOMAIN,reload.getsentry.net
 DOMAIN,renderer-assets.typeform.com
 DOMAIN,res-etl-ssl.mypikpak.com
 DOMAIN,res-geo.cdn.office.net
