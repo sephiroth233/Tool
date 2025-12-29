@@ -91,7 +91,28 @@
     {
       "name": "YoudaoNote_remove_ads",
       "url": "https://kelee.one/Tool/Loon/Lpx/YoudaoNote_remove_ads.lpx"
+    },
+    {
+      "name": "JDWaimai_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx"
+    },
+    {
+      "name": "QuarkBrowser_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx"
+    },
+    {
+      "name": "TXDocs_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/TXDocs_remove_ads.lpx"
+    },
+    {
+      "name": "XiaChuFang_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/XiaChuFang_remove_ads.lpx"
+    },
+    {
+      "name": "Yueyou_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/Yueyou_remove_ads.lpx"
     }
+
   ],
   "surge": [
     {
