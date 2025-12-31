@@ -283,10 +283,46 @@ def clean_module_directories():
         target_dir.mkdir(parents=True, exist_ok=True)
         print(f"创建目录: {target_dir}")
 
+def check_base_url_accessible() -> bool:
+    """检查BASE_URL是否可访问"""
+    import urllib.request
+    import urllib.error
+    import socket
+
+    try:
+        # 尝试访问BASE_URL，设置超时
+        req = urllib.request.Request(BASE_URL, method='HEAD')
+        # 设置超时时间为5秒
+        with urllib.request.urlopen(req, timeout=5) as response:
+            # 只要没有异常抛出，就认为可访问
+            status = response.status
+            print(f"BASE_URL ({BASE_URL}) 可访问，状态码: {status}")
+            return True
+    except urllib.error.HTTPError as e:
+        # HTTP错误（如404、500）表示服务器可访问，只是返回了错误状态
+        print(f"BASE_URL ({BASE_URL}) 可访问，但返回错误状态码: {e.code} {e.reason}")
+        return True
+    except urllib.error.URLError as e:
+        # 其他URL错误（连接拒绝、DNS解析失败等）表示不可访问
+        print(f"BASE_URL ({BASE_URL}) 无法访问: {e}")
+        return False
+    except socket.timeout:
+        print(f"BASE_URL ({BASE_URL}) 连接超时")
+        return False
+    except Exception as e:
+        print(f"BASE_URL ({BASE_URL}) 检查时发生未知错误: {e}")
+        return False
+
 
 def convert_modules():
     """执行模块转换"""
     print("开始模块转换...")
+
+    # 检查BASE_URL是否可访问
+    if not check_base_url_accessible():
+        print("错误: BASE_URL无法访问，跳过模块转换以避免数据丢失。")
+        print("请检查网络连接或BASE_URL配置。")
+        return
 
     # 清理并创建目录
     clean_module_directories()
