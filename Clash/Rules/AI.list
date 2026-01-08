@@ -1,14 +1,16 @@
 # 规则名称: AI
-# 规则统计: 49
+# 规则统计: 52
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ai.google.dev
 DOMAIN,aida.googleapis.com
 DOMAIN,aisandbox-pa.googleapis.com
 DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,antigravity-unleash.goog
 DOMAIN,antigravity.google
 DOMAIN,api.github.com
 DOMAIN,api.jetbrains.ai
+DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,file.oaiusercontent.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,jules.google.com
@@ -28,6 +30,7 @@ DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com

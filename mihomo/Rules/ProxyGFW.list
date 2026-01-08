@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7391
+# 规则统计: 7406
 
 DOMAIN,cloud.oracle.com
 DOMAIN,steambroadcast.akamaized.net
@@ -238,6 +238,7 @@ DOMAIN-SUFFIX,ai-wen.net
 DOMAIN-SUFFIX,ai.binwang.me
 DOMAIN-SUFFIX,ai.dev
 DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aiosearch.com
 DOMAIN-SUFFIX,aiph.net
 DOMAIN-SUFFIX,airasia.com
@@ -1509,6 +1510,7 @@ DOMAIN-SUFFIX,dawangidc.com
 DOMAIN-SUFFIX,daxa.cn
 DOMAIN-SUFFIX,dayabook.com
 DOMAIN-SUFFIX,daylife.com
+DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,dbc.hk
 DOMAIN-SUFFIX,dbgjd.com
@@ -3371,7 +3373,6 @@ DOMAIN-SUFFIX,ismalltits.com
 DOMAIN-SUFFIX,ismprofessional.net
 DOMAIN-SUFFIX,isohunt.com
 DOMAIN-SUFFIX,israbox.com
-DOMAIN-SUFFIX,issues.chromium.org
 DOMAIN-SUFFIX,issuu.com
 DOMAIN-SUFFIX,istars.co.nz
 DOMAIN-SUFFIX,istarshine.com
@@ -4582,6 +4583,8 @@ DOMAIN-SUFFIX,onmypc.us
 DOMAIN-SUFFIX,onthehunt.com
 DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oojj.de
+DOMAIN-SUFFIX,ooni.io
+DOMAIN-SUFFIX,ooni.org
 DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,open.com.hk
 DOMAIN-SUFFIX,open.firstory.me
@@ -4714,6 +4717,7 @@ DOMAIN-SUFFIX,pct.org.tw
 DOMAIN-SUFFIX,pdetails.com
 DOMAIN-SUFFIX,pdproxy.com
 DOMAIN-SUFFIX,pds.nasa.gov
+DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,peace.ca
 DOMAIN-SUFFIX,peacefire.org
 DOMAIN-SUFFIX,peacehall.com
@@ -4782,14 +4786,23 @@ DOMAIN-SUFFIX,pinkrod.com
 DOMAIN-SUFFIX,pinoy-n.com
 DOMAIN-SUFFIX,pinterest.at
 DOMAIN-SUFFIX,pinterest.ca
+DOMAIN-SUFFIX,pinterest.cl
 DOMAIN-SUFFIX,pinterest.co.kr
 DOMAIN-SUFFIX,pinterest.co.uk
 DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinterest.com.au
+DOMAIN-SUFFIX,pinterest.com.mx
 DOMAIN-SUFFIX,pinterest.de
 DOMAIN-SUFFIX,pinterest.dk
+DOMAIN-SUFFIX,pinterest.es
 DOMAIN-SUFFIX,pinterest.fr
+DOMAIN-SUFFIX,pinterest.ie
+DOMAIN-SUFFIX,pinterest.it
 DOMAIN-SUFFIX,pinterest.jp
 DOMAIN-SUFFIX,pinterest.nl
+DOMAIN-SUFFIX,pinterest.nz
+DOMAIN-SUFFIX,pinterest.ph
+DOMAIN-SUFFIX,pinterest.pt
 DOMAIN-SUFFIX,pinterest.se
 DOMAIN-SUFFIX,pioneer-worker.forums-free.com
 DOMAIN-SUFFIX,pipii.tv
@@ -6436,6 +6449,7 @@ DOMAIN-SUFFIX,unstable.icu
 DOMAIN-SUFFIX,untraceable.us
 DOMAIN-SUFFIX,unwire.hk
 DOMAIN-SUFFIX,uocn.org
+DOMAIN-SUFFIX,up.audio
 DOMAIN-SUFFIX,upbit.com
 DOMAIN-SUFFIX,updates.tdesktop.com
 DOMAIN-SUFFIX,updatestar.com
@@ -6982,6 +6996,7 @@ DOMAIN-SUFFIX,xbabe.com
 DOMAIN-SUFFIX,xbookcn.com
 DOMAIN-SUFFIX,xbtce.com
 DOMAIN-SUFFIX,xcafe.in
+DOMAIN-SUFFIX,xcancel.com
 DOMAIN-SUFFIX,xcity.jp
 DOMAIN-SUFFIX,xcritic.com
 DOMAIN-SUFFIX,xerotica.com

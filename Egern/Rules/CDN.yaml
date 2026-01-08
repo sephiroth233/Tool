@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4253
+# 规则统计: 4280
 
 domain_set:
   - 0x0.st
@@ -117,6 +117,7 @@ domain_set:
   - assets-next.mattersprotocol.io
   - assets-s3-us-east-1.ceros.com
   - assets-themes.chess.com
+  - assets-v2.i-scmp.com
   - assets-v2.super.so
   - assets-www.readspeaker.com
   - assets-www.xbox.com
@@ -223,6 +224,7 @@ domain_set:
   - assets.nflxext.com
   - assets.nintendo.com
   - assets.nxtrace.org
+  - assets.nypost.com
   - assets.onestore.ms
   - assets.ontrack.com
   - assets.openalternative.co
@@ -270,6 +272,7 @@ domain_set:
   - assets.toot.cafe
   - assets.tvtropes.org
   - assets.twitch.tv
+  - assets.unicorn.studio
   - assets.unifi-ai.com
   - assets.upload.io
   - assets.vantage.sh
@@ -344,6 +347,7 @@ domain_set:
   - before.good-apps.co
   - beta.eslint-react.xyz
   - bhl.scpwikicn.com
+  - biomejs.dev
   - blacklist.tampermonkey.net
   - blade-public-static.blade-group.com
   - blob.jortage.com
@@ -508,6 +512,7 @@ domain_set:
   - cdn.bigcloud.click
   - cdn.birdie.so
   - cdn.blogarama.com
+  - cdn.boldmethod.com
   - cdn.botframework.com
   - cdn.branch.io
   - cdn.brandfetch.io
@@ -637,6 +642,7 @@ domain_set:
   - cdn.hk01.com
   - cdn.hongkongcard.com
   - cdn.hypershort.com
+  - cdn.i-scmp.com
   - cdn.icomoon.io
   - cdn.icon-icons.com
   - cdn.iconfinder.com
@@ -953,6 +959,7 @@ domain_set:
   - cdn3.unrealengine.com
   - cdn4.bigcommerce.com
   - cdn4.edgedatg.com
+  - cdn4.focus.bg
   - cdn4.iconfinder.com
   - cdn4.sysgears.com
   - cdn4.telegram.space
@@ -1085,6 +1092,7 @@ domain_set:
   - consumersite-assets.trustpilot.net
   - consumersiteimages.trustpilot.net
   - content-a.strava.com
+  - content-cdn.svc.ui.com
   - content-management-files.canva.com
   - content-prod-live.cert.starbucks.com
   - content.any.run
@@ -1230,6 +1238,7 @@ domain_set:
   - eslint-react.xyz
   - eslint.org
   - eslint.style
+  - eu-assets.i.posthog.com
   - eu-images.contentstack.com
   - eu.cdnbye.com
   - eu.hamreus.com
@@ -1275,6 +1284,7 @@ domain_set:
   - fiddle.jshell.net
   - file.ahu.moe
   - file.izanmei.net
+  - file.xiaohai.ai
   - file.zoom.us
   - file1.hkepc.net
   - files.armorgames.com
@@ -1474,6 +1484,7 @@ domain_set:
   - image.mux.com
   - image.nmb.best
   - image.p-c2-x.abema-tv.com
+  - image.pitchbook.com
   - image.prntscr.com
   - image.send.grammarly.com
   - image.ship.vercel.com
@@ -1521,6 +1532,7 @@ domain_set:
   - images.ecomm.microsoft.com
   - images.emojiterra.com
   - images.en.aptoide.com
+  - images.euronews.com
   - images.everyplate.com
   - images.fandango.com
   - images.filepuma.com
@@ -1627,7 +1639,6 @@ domain_set:
   - img.clerk.com
   - img.community.ui.com
   - img.connatix.com
-  - img.coomer.su
   - img.decrypt.co
   - img.dlsite.jp
   - img.domaintools.com
@@ -1652,12 +1663,12 @@ domain_set:
   - img.javynow.com
   - img.jsdelivr.com
   - img.kbhgames.com
-  - img.kemono.su
   - img.logokit.com
   - img.ltyears.com
   - img.lvv2.com
   - img.m.mw
   - img.majors.im
+  - img.manyse.com
   - img.ml0987.com
   - img.moedog.org
   - img.moegirl.tw
@@ -1712,7 +1723,6 @@ domain_set:
   - img3.socialshopwave.com
   - img3.yna.co.kr
   - img4.airdroid.com
-  - img4.gelbooru.com
   - img4.javmost.com
   - img4.socialshopwave.com
   - img4.yna.co.kr
@@ -1757,7 +1767,6 @@ domain_set:
   - interwiki.scpwiki.com
   - interwiki.scpwikicn.com
   - ip-ranges.amazonaws.com
-  - ipfs.d.tube
   - irp-cdn.multiscreensite.com
   - isitmaintained.com
   - j.udn.com.tw
@@ -1840,7 +1849,6 @@ domain_set:
   - load.csell.co
   - loader.mantis-intelligence.com
   - log-collector.17app.co
-  - logo.clearbit.com
   - logos.composio.dev
   - logos.kiwibrowser.com
   - logos.speedtestcustom.com
@@ -1873,6 +1881,8 @@ domain_set:
   - media-cdn.atlassian.com
   - media-cdn.comfy.social
   - media-cdn.epicgames.com
+  - media-cdn.factba.se
+  - media-cdn.rollcall.com
   - media-central.indianexpress.com
   - media-cms.ayoba.me
   - media-cms.onesignal.com
@@ -1888,6 +1898,7 @@ domain_set:
   - media.contentapi.ea.com
   - media.convertkit.com
   - media.crazyshit.com
+  - media.d.tube
   - media.daily.dev
   - media.datacenterdynamics.com
   - media.dev.to
@@ -1897,6 +1908,7 @@ domain_set:
   - media.ettoday.net
   - media.evolv.ai
   - media.fc2.com
+  - media.fidoalliance.org
   - media.flaticon.com
   - media.fs.com
   - media.gamestop.com
@@ -1904,9 +1916,11 @@ domain_set:
   - media.gettr.com
   - media.gettyimages.com
   - media.giphy.com
+  - media.glassdoor.com
   - media.graphassets.com
   - media.hachyderm.io
   - media.hentaifreak.org
+  - media.identity.ui.com
   - media.infosec.exchange
   - media.inhumanity.com
   - media.invisioncic.com
@@ -1971,6 +1985,7 @@ domain_set:
   - mkt-site-asset.crypto.com
   - mobilecenter.azureedge.net
   - moderate.cleantalk.org
+  - modules.kernelsu.org
   - modulous.huffpost.com
   - momentjs.com
   - moodular.jotform.com
@@ -2102,14 +2117,13 @@ domain_set:
   - platform.vox.com
   - platforms.makemytrip.com
   - play.gotolstoy.com
-  - play.izanmei.net
   - play.publicradio.org
   - play.vidyard.com
   - play.xfvod.pro
+  - play.xiaoh.ai
   - player-frontend.cnevids.com
   - player.cnevids.com
   - player.interactivity.brightcove.com
-  - player.louisvuitton.com
   - player.svc.litv.tv
   - player.vimeo.com
   - players.brightcove.net
@@ -2310,7 +2324,6 @@ domain_set:
   - safebrowsing.googleapis.com
   - sandpack-cdn-staging.blazingly.io
   - sandpack-cdn-v2.codesandbox.io
-  - sato.manyse.com
   - sbl.onfastspring.com
   - scache.vzw.com
   - scache1.vzw.com
@@ -2529,6 +2542,7 @@ domain_set:
   - static.comicbz.com
   - static.community.workday.com
   - static.convertio.co
+  - static.corespeed.io
   - static.corp.google.com
   - static.crunchyroll.com
   - static.crypto.com
@@ -2593,6 +2607,7 @@ domain_set:
   - static.iris.informa.com
   - static.itch.io
   - static.iyf.tv
+  - static.izanmei.icu
   - static.j51.net
   - static.javhd.com
   - static.jsbin.com
@@ -2711,6 +2726,7 @@ domain_set:
   - static.webclicks24.com
   - static.whatsapp.net
   - static.workday.com
+  - static.wwto.net
   - static.xgroovy.com
   - static.xns.one
   - static.xxxshake.com
@@ -2783,6 +2799,7 @@ domain_set:
   - sts3.wsj.net
   - stubdownloader.services.mozilla.com
   - styleguide-assets.shannons.com.au
+  - subscriptions.news.com.au
   - support.content.office.net
   - swan.prod.merch.vpsvc.com
   - sync.getpublica.com
@@ -2815,6 +2832,7 @@ domain_set:
   - telemetry.stepsecurity.io
   - telemetry.vercel.com
   - telemetry2.devolutions.net
+  - test.manyse.com
   - texture.laby.net
   - th.bing.com
   - themes.fourthwall.com
@@ -2895,6 +2913,7 @@ domain_set:
   - uploads.sitepoint.com
   - upos-sz-mirroralibstar1.bilivideo.com
   - upos-sz-mirrorcosbstar1.bilivideo.com
+  - us-assets.i.posthog.com
   - us-js.zonka.co
   - us.123rf.com
   - us.hamreus.com
@@ -2984,7 +3003,7 @@ domain_set:
   - webobjects2.cdw.com
   - webp.frostming.com
   - website-cdn.ipinfo.io
-  - website-media
+  - website-media.deel.com
   - website-prod.cache.wpscdn.com
   - webstatic.chargebee.com
   - widget.automizely.com
@@ -3097,6 +3116,7 @@ domain_suffix_set:
   - ant.design
   - anyhentai.com
   - aolcdn.com
+  - apac.orbitor.dev
   - api.instabug.com
   - api.loganalytics.io
   - app-analytics-services.com
@@ -3312,6 +3332,7 @@ domain_suffix_set:
   - descopecdn.com
   - design-system.economist.com
   - devrum.uptime.com
+  - dget.top
   - digikeyassets.com
   - dilcdn.com
   - directupload.net
@@ -3371,6 +3392,7 @@ domain_suffix_set:
   - etsystatic.com
   - eu-browse.startpage.com
   - eu-proxy.startpage.com
+  - eu.orbitor.dev
   - events.backtrace.io
   - exp-tas.com
   - externulls.com
@@ -3569,8 +3591,10 @@ domain_suffix_set:
   - ipfs.cyou
   - ipfs.decoo.io
   - ipfs.denarius.io
+  - ipfs.ecolatam.com
   - ipfs.eternum.io
   - ipfs.eth.aragon.network
+  - ipfs.filebase.io
   - ipfs.fleek.co
   - ipfs.fooock.com
   - ipfs.funnychain.co
@@ -3587,6 +3611,7 @@ domain_suffix_set:
   - ipfs.mrh.io
   - ipfs.mttk.net
   - ipfs.namebase.io
+  - ipfs.orbitor.dev
   - ipfs.overpi.com
   - ipfs.runfission.com
   - ipfs.scalaproject.io
@@ -3646,6 +3671,7 @@ domain_suffix_set:
   - kwcdn.com
   - kym-cdn.com
   - larksuitecdn.com
+  - latam.orbitor.dev
   - lazcdn.com
   - lbpicpic.com
   - lbpictupian.com
@@ -4027,6 +4053,7 @@ domain_suffix_set:
   - telemetry.services.yofi.ai
   - teo-rum.com
   - teraboxcdn.com
+  - thecontentserver.com
   - thesourcemediaassets.com
   - thirdwebcdn.com
   - thisiscdn.com
