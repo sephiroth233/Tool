@@ -6,6 +6,7 @@
 功能特性：
 - 支持跨平台转换（loon -> surge, qx -> loon 等）
 - 支持自身类型转换（loon -> loon, qx -> qx 等），用于复制和标准化文件
+- 智能识别源格式与目标格式一致时，直接下载原始文件，无需转换
 - 自动创建目录结构
 - 批量处理多个模块
 - 支持自定义目标类型配置
@@ -375,24 +376,30 @@ def convert_modules():
                 filename = f"{module_name}.{target_config['ext']}"
                 filepath = os.path.join(MODULE_DIR, target_type, filename)
 
-                # 创建转换URL
-                # 只有 surge 目标类型才使用 sni/pm 参数
-                if target_type == "surge" and (sni_str or pm_str):
-                    conversion_url = create_conversion_url(
-                        source_url, module_name, source_type, target_type, desc,
-                        sni_domains=sni_str, pm_domains=pm_str
-                    )
+                # 判断源类型和目标类型是否一致
+                # 如果一致，直接下载原始文件，无需转换
+                if source_type == target_type:
+                    print(f"  源格式与目标格式一致 ({source_type.upper()}), 直接下载原始文件")
+                    download_url = source_url
                 else:
-                    conversion_url = create_conversion_url(source_url, module_name, source_type, target_type, desc)
+                    # 创建转换URL
+                    # 只有 surge 目标类型才使用 sni/pm 参数
+                    if target_type == "surge" and (sni_str or pm_str):
+                        download_url = create_conversion_url(
+                            source_url, module_name, source_type, target_type, desc,
+                            sni_domains=sni_str, pm_domains=pm_str
+                        )
+                    else:
+                        download_url = create_conversion_url(source_url, module_name, source_type, target_type, desc)
 
-                print(f"  转换为 {target_type.upper()}: {conversion_url}")
+                    print(f"  转换为 {target_type.upper()}: {download_url}")
 
-                # 下载转换后的文件
-                if download_file(conversion_url, filepath):
+                # 下载文件（转换后的或原始的）
+                if download_file(download_url, filepath):
                     successful_conversions += 1
                     print(f"  保存到: {filepath}")
                 else:
-                    print(f"  转换失败: {target_type}")
+                    print(f"  {'下载' if source_type == target_type else '转换'}失败: {target_type}")
     
     print(f"\n转换完成!")
     print(f"总转换数: {total_conversions}")
