@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 90364
+# 规则统计: 90368
 
 no_resolve: true
 domain_set:
@@ -750,6 +750,7 @@ domain_set:
   - proxyhog.prisma-data.net
   - prt-stsdk.vivo.com.cn
   - ps.map.baidu.com
+  - pub.elevate14r.com
   - puma-api.iqiyi.com
   - puma.api.iqiyi.com
   - push.m.youku.com
@@ -17327,6 +17328,7 @@ domain_suffix_set:
   - collector.net-logger.com
   - collector.pi.spectrum.net
   - collector.plarium.com
+  - collector.pmc.com
   - collector.prod.expedia.com
   - collector.quillbot.com
   - collector.reelevant.com
@@ -57318,6 +57320,7 @@ domain_suffix_set:
   - pig.pupuapi.com
   - pigeon.thankyuu.com
   - pigeoncontentmentcotton.com
+  - pigeonkit.com
   - pigeonsetc.com
   - piggeryenguard.cfd
   - pigmentpaper.com
@@ -60014,6 +60017,7 @@ domain_suffix_set:
   - quickpcfixer.click
   - quicksandear.com
   - quickshare.cfd
+  - quicktrick.net
   - quiddity.goguardian.com
   - quietknowledge.com
   - quietleaffield.com
