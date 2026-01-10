@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4295
+# 规则统计: 4297
 
 domain_set:
   - 0x0.st
@@ -211,6 +211,7 @@ domain_set:
   - assets.leetcode.com
   - assets.lemonsqueezy.com
   - assets.mailgun.com
+  - assets.map.brightcove.com
   - assets.mastercard.com
   - assets.matters.news
   - assets.mayoclinic.org
@@ -1360,6 +1361,7 @@ domain_set:
   - geojson.io
   - gfx-data.news-engineering.aws.wapo.pub
   - gitpkg-fork.vercel.sh
+  - global-assets.fitch.group
   - global.divhunt.com
   - glyph.medium.com
   - gmedia.playstation.com
