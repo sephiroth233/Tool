@@ -54,7 +54,7 @@ CONVERSION_CONFIG = {
 }
 
 
-BASE_URL = "https://sc.sephiroth.club"
+BASE_URL = "https://scripthub.vercel.app"
 MODULE_DIR = "module"
 
 
