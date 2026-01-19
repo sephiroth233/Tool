@@ -1,6 +1,10 @@
 {
   "loon": [
     {
+      "name": "DragonRead_remove_ads",
+      "url": "https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx"
+    },
+    {
       "name": "Taobao_remove_ads",
       "url": "https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx"
     },

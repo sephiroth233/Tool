@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4309
+# 规则统计: 4311
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -10,7 +10,6 @@ HOST,a.deviantart.net,CDN
 HOST,a.fireside.fm,CDN
 HOST,a.gawby.com,CDN
 HOST,a.kickstarter.com,CDN
-HOST,a.klaviyo.com,CDN
 HOST,a.pomf.cat,CDN
 HOST,a5.behance.net,CDN
 HOST,a57.foxnews.com,CDN
@@ -111,6 +110,7 @@ HOST,assets-cdn.porn.com,CDN
 HOST,assets-cdn.watchdisneyfe.com,CDN
 HOST,assets-cms.kraken.com,CDN
 HOST,assets-docs.circleci.com,CDN
+HOST,assets-docs.dify.ai,CDN
 HOST,assets-fe.change.org,CDN
 HOST,assets-growth-common.circleci.com,CDN
 HOST,assets-next.matters.news,CDN
@@ -402,6 +402,7 @@ HOST,c6.patreon.com,CDN
 HOST,c7.patreon.com,CDN
 HOST,c8.patreon.com,CDN
 HOST,ca.nfs.pub,CDN
+HOST,ca1.onlyhentaistuff.com,CDN
 HOST,cacerts.digicert.com,CDN
 HOST,cacerts.rapidssl.com,CDN
 HOST,cache-05.filehippo.net,CDN
@@ -536,6 +537,7 @@ HOST,cdn.cbd.int,CDN
 HOST,cdn.cfr.org,CDN
 HOST,cdn.changelog.com,CDN
 HOST,cdn.channel.io,CDN
+HOST,cdn.chord.co,CDN
 HOST,cdn.circle.so,CDN
 HOST,cdn.clever-cloud.com,CDN
 HOST,cdn.cliqz.com,CDN
@@ -547,7 +549,6 @@ HOST,cdn.cnn.com,CDN
 HOST,cdn.cnx-software.com,CDN
 HOST,cdn.codeblackbelt.com,CDN
 HOST,cdn.commandbar.com,CDN
-HOST,cdn.commento.io,CDN
 HOST,cdn.comparitech.com,CDN
 HOST,cdn.concert.io,CDN
 HOST,cdn.configcat.com,CDN
@@ -627,9 +628,6 @@ HOST,cdn.gettr.com,CDN
 HOST,cdn.ghostery.com,CDN
 HOST,cdn.giftcardpro.app,CDN
 HOST,cdn.gigya.com,CDN
-HOST,cdn.glitch.com,CDN
-HOST,cdn.glitch.global,CDN
-HOST,cdn.glitch.me,CDN
 HOST,cdn.gofundme.com,CDN
 HOST,cdn.googlesource.com,CDN
 HOST,cdn.graph.office.net,CDN
@@ -734,7 +732,6 @@ HOST,cdn.one.store,CDN
 HOST,cdn.onesignal.com,CDN
 HOST,cdn.onetime.dog,CDN
 HOST,cdn.onfastspring.com,CDN
-HOST,cdn.onlyhentaistuff.com,CDN
 HOST,cdn.openai.com,CDN
 HOST,cdn.osxdaily.com,CDN
 HOST,cdn.paddle.com,CDN
@@ -910,6 +907,7 @@ HOST,cdn02.jotfor.ms,CDN
 HOST,cdn03.jotfor.ms,CDN
 HOST,cdn1.affirm.com,CDN
 HOST,cdn1.airdroid.com,CDN
+HOST,cdn1.bambulab.com,CDN
 HOST,cdn1.bigcommerce.com,CDN
 HOST,cdn1.dan.com,CDN
 HOST,cdn1.edgedatg.com,CDN
@@ -1053,7 +1051,6 @@ HOST,cloudflare.tv,CDN
 HOST,cloudfront.barilliance.com,CDN
 HOST,cloudfront.codeproject.com,CDN
 HOST,cloudinary-res.cloudinary.com,CDN
-HOST,cm1.aminoapps.com,CDN
 HOST,cmd-cdn.cleanmymac.com,CDN
 HOST,cmp-cdn.p.aws.economist.com,CDN
 HOST,cms-assets.nodecraft.com,CDN
@@ -1110,7 +1107,6 @@ HOST,content.jwplatform.com,CDN
 HOST,content.kaspersky-labs.com,CDN
 HOST,content.overwolf.com,CDN
 HOST,content.powerapps.com,CDN
-HOST,content.product.glitch.com,CDN
 HOST,content.wepik.com,CDN
 HOST,contents-thumbnail2.fc2.com,CDN
 HOST,conversiongorilla.com,CDN
@@ -1169,6 +1165,7 @@ HOST,design.keyoxide.org,CDN
 HOST,design.mayoclinic.org,CDN
 HOST,designsystem.brevo.com,CDN
 HOST,detectportal.firefox.com,CDN
+HOST,devicons.railway.com,CDN
 HOST,devnull.perfops.net,CDN
 HOST,dh-site.b-cdn.net,CDN
 HOST,dims.apnews.com,CDN
@@ -1381,7 +1378,6 @@ HOST,gravatar.tapglb.com,CDN
 HOST,groundnews.b-cdn.net,CDN
 HOST,gstatic.com,CDN
 HOST,gstatic.olympics.com,CDN
-HOST,gt1.onlyhentaistuff.com,CDN
 HOST,gtranslate.io,CDN
 HOST,hawk.tomsguide.com,CDN
 HOST,hawky.pcgamer.com,CDN
@@ -1997,6 +1993,7 @@ HOST,megapx-assets.dcard.tw,CDN
 HOST,melonbooks.akamaized.net,CDN
 HOST,meteorclient.com,CDN
 HOST,metrics.kapa.ai,CDN
+HOST,mgx-backend-cdn.metadl.com,CDN
 HOST,micro.rubiconproject.com,CDN
 HOST,mintlify.b-cdn.net,CDN
 HOST,mir-s3-cdn-cf.behance.net,CDN
@@ -2193,6 +2190,7 @@ HOST,public-assets.postmarkapp.com,CDN
 HOST,public-assets.typeform.com,CDN
 HOST,public-cdn.bblmw.com,CDN
 HOST,public-files.gumroad.com,CDN
+HOST,public-frontend-cos.metadl.com,CDN
 HOST,public-img.mewe.com,CDN
 HOST,public-pages.cbinsights.com,CDN
 HOST,public.flourish.studio,CDN
@@ -2214,6 +2212,7 @@ HOST,r2.1hanime.com,CDN
 HOST,r2.dejavu.moe,CDN
 HOST,r2.gear4music.com,CDN
 HOST,r2.leadsy.ai,CDN
+HOST,r2cdn.c7d.dev,CDN
 HOST,r2cdn.corespeed.io,CDN
 HOST,r2cdn.myshopline.com,CDN
 HOST,r2cdn.perplexity.ai,CDN
@@ -2461,6 +2460,7 @@ HOST,static-2v.gitbook.com,CDN
 HOST,static-3.bitchute.com,CDN
 HOST,static-4.bitchute.com,CDN
 HOST,static-act.imoim.net,CDN
+HOST,static-app.klaviyo.com,CDN
 HOST,static-assets-1.truthsocial.com,CDN
 HOST,static-assets-prod.epicgames.com,CDN
 HOST,static-assets-prod.unrealengine.com,CDN
@@ -3106,6 +3106,7 @@ HOST-SUFFIX,99avcdn.com,CDN
 HOST-SUFFIX,99avcdn.net,CDN
 HOST-SUFFIX,99avcdn.org,CDN
 HOST-SUFFIX,9cache.com,CDN
+HOST-SUFFIX,a.klaviyo.com,CDN
 HOST-SUFFIX,a.storyblok.com,CDN
 HOST-SUFFIX,a1tb.com,CDN
 HOST-SUFFIX,a7s.imgix.com,CDN
@@ -3598,6 +3599,7 @@ HOST-SUFFIX,imhentai.xxx,CDN
 HOST-SUFFIX,imostatic.com,CDN
 HOST-SUFFIX,in.appcenter.ms,CDN
 HOST-SUFFIX,infura-ipfs.io,CDN
+HOST-SUFFIX,ingest.atoms.dev,CDN
 HOST-SUFFIX,ingest.de.sentry.io,CDN
 HOST-SUFFIX,ingest.sentry.io,CDN
 HOST-SUFFIX,ingest.us.sentry.io,CDN
