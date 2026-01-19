@@ -56,7 +56,6 @@ CONVERSION_CONFIG = {
 
 # 转换服务地址配置（支持多个地址，实现故障转移）
 BASE_URLS = [
-    "https://backup.sephiroth.club",
     "https://sc.sephiroth.club",
     # 可以添加更多备用地址，例如：
     # "https://backup.sephiroth.club",
