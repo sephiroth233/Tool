@@ -54,8 +54,48 @@ CONVERSION_CONFIG = {
 }
 
 
-BASE_URL = "https://sc.sephiroth.club"
+# 转换服务地址配置（支持多个地址，实现故障转移）
+BASE_URLS = [
+    "https://backup.sephiroth.club",
+    "https://sc.sephiroth.club",
+    # 可以添加更多备用地址，例如：
+    # "https://backup.sephiroth.club",
+]
 MODULE_DIR = "module"
+
+# 当前选中的转换服务地址（故障转移时更新）
+_current_base_url = None
+
+
+def get_available_base_url() -> Optional[str]:
+    """
+    获取可用的转换服务地址
+
+    遍历 BASE_URLS 列表，返回第一个可访问的地址。
+    如果都不可访问，返回 None。
+    """
+    import urllib.request
+    import urllib.error
+
+    for url in BASE_URLS:
+        try:
+            req = urllib.request.Request(url, method='HEAD')
+            with urllib.request.urlopen(req, timeout=5) as response:
+                print(f"转换服务地址可用: {url} (状态码: {response.status})")
+                return url
+        except Exception as e:
+            print(f"转换服务地址不可用: {url} - {type(e).__name__}: {e.reason if hasattr(e, 'reason') else e}")
+            continue
+
+    return None
+
+
+def get_base_url() -> str:
+    """获取当前使用的转换服务地址（懒加载）"""
+    global _current_base_url
+    if _current_base_url is None:
+        _current_base_url = get_available_base_url()
+    return _current_base_url
 
 
 def load_module_sources() -> Dict[str, List[Dict[str, Any]]]:
@@ -187,7 +227,10 @@ def create_conversion_url(source_url: str, module_name: str, source_type: str, t
     filename = f"{module_name}.{target_config['ext']}"
 
     # 构建基础URL
-    base_conversion_url = f"{BASE_URL}/file/_start_/{source_url}/_end_/{filename}"
+    base_url = get_base_url()
+    if not base_url:
+        raise ValueError("无可用的转换服务地址")
+    base_conversion_url = f"{base_url}/file/_start_/{source_url}/_end_/{filename}"
 
     # 构建查询参数
     params = {
@@ -285,45 +328,22 @@ def clean_module_directories():
         print(f"创建目录: {target_dir}")
 
 def check_base_url_accessible() -> bool:
-    """检查BASE_URL是否可访问"""
-    import urllib.request
-    import urllib.error
-    import socket
-
-    try:
-        # 尝试访问BASE_URL，设置超时
-        req = urllib.request.Request(BASE_URL, method='HEAD')
-        # 设置超时时间为5秒
-        with urllib.request.urlopen(req, timeout=5) as response:
-            # 只要没有异常抛出，就认为可访问
-            status = response.status
-            print(f"BASE_URL ({BASE_URL}) 可访问，状态码: {status}")
-            return True
-    except urllib.error.HTTPError as e:
-        # HTTP错误（如404、500）表示服务器可访问，只是返回了错误状态
-        print(f"BASE_URL ({BASE_URL}) 可访问，但返回错误状态码: {e.code} {e.reason}")
-        return True
-    except urllib.error.URLError as e:
-        # 其他URL错误（连接拒绝、DNS解析失败等）表示不可访问
-        print(f"BASE_URL ({BASE_URL}) 无法访问: {e}")
-        return False
-    except socket.timeout:
-        print(f"BASE_URL ({BASE_URL}) 连接超时")
-        return False
-    except Exception as e:
-        print(f"BASE_URL ({BASE_URL}) 检查时发生未知错误: {e}")
-        return False
+    """检查转换服务地址是否可访问（已废弃，使用 get_available_base_url 代替）"""
+    return get_available_base_url() is not None
 
 
 def convert_modules():
     """执行模块转换"""
     print("开始模块转换...")
 
-    # 检查BASE_URL是否可访问
-    if not check_base_url_accessible():
-        print("错误: BASE_URL无法访问，跳过模块转换以避免数据丢失。")
-        print("请检查网络连接或BASE_URL配置。")
+    # 检查转换服务地址是否可用
+    base_url = get_base_url()
+    if not base_url:
+        print("错误: 所有转换服务地址都无法访问，跳过模块转换以避免数据丢失。")
+        print("请检查网络连接或BASE_URLS配置。")
         return
+
+    print(f"使用转换服务地址: {base_url}")
 
     # 清理并创建目录
     clean_module_directories()
