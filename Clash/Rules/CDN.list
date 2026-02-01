@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4364
+# 规则统计: 4365
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2867,6 +2867,7 @@ DOMAIN,sts.online.visualstudio.com
 DOMAIN,sts3.wsj.net
 DOMAIN,stubdownloader.services.mozilla.com
 DOMAIN,styleguide-assets.shannons.com.au
+DOMAIN,sub.creamycake.org
 DOMAIN,subscriptions.news.com.au
 DOMAIN,support.content.office.net
 DOMAIN,swan.prod.merch.vpsvc.com
