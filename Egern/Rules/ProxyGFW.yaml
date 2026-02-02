@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7420
+# 规则统计: 7421
 
 no_resolve: true
 domain_set:
@@ -5803,6 +5803,7 @@ domain_suffix_set:
   - tagwa.org.au
   - tagwalk.com
   - tahr.org.tw
+  - tails.net
   - taipei.gov.tw
   - taipeisociety.org
   - taipeitimes.com
