@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7421
+# 规则统计: 7423
 
 no_resolve: true
 domain_set:
@@ -5327,6 +5327,7 @@ domain_suffix_set:
   - seesmic.com
   - seevpn.com
   - seezone.net
+  - sef.org.tw
   - sehuatang.net
   - sehuatang.org
   - sejie.com
@@ -6959,6 +6960,7 @@ domain_suffix_set:
   - www.eastturkistan.net
   - www.gmiddle.com
   - www.gmiddle.net
+  - www.hoyolab.com
   - www.hustlercash.com
   - www.idlcoyote.com
   - www.imdb.com
