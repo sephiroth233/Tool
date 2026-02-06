@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7423
+# 规则统计: 7424
 
 no_resolve: true
 domain_set:
@@ -2826,6 +2826,7 @@ domain_suffix_set:
   - greenvpn.org
   - grindr.com
   - grok.com
+  - grokipedia.com
   - grotty-monday.com
   - ground.news
   - grow.google
