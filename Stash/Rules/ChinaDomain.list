@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 856
+# 规则统计: 858
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,acg.tv
@@ -368,6 +368,7 @@ DOMAIN-SUFFIX,gaokao.cn
 DOMAIN-SUFFIX,gdtimg.com
 DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,geilicdn.com
+DOMAIN-SUFFIX,geovisearth.com
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,gitcode.com
 DOMAIN-SUFFIX,gitee.com
@@ -595,6 +596,7 @@ DOMAIN-SUFFIX,oray.net
 DOMAIN-SUFFIX,orayimg.com
 DOMAIN-SUFFIX,org.cn
 DOMAIN-SUFFIX,oschina.net
+DOMAIN-SUFFIX,osgeo.cn
 DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,outlook.cn
 DOMAIN-SUFFIX,pchome.net
