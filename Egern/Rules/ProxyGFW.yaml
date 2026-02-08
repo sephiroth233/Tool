@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7427
+# 规则统计: 7418
 
 no_resolve: true
 domain_set:
@@ -179,7 +179,6 @@ domain_suffix_set:
   - abebooks.co.uk
   - abebooks.com
   - abematv.akamaized.net
-  - abitno.linpie.com
   - ablwang.com
   - aboluowang.com
   - about.gitlab.com
@@ -591,7 +590,6 @@ domain_suffix_set:
   - bbs.junglobal.net
   - bbs.kimy.com.tw
   - bbs.mikocon.com
-  - bbs.morbell.com
   - bbs.mychat.to
   - bbs.naixi.net
   - bbs.nyinfor.com
@@ -741,7 +739,6 @@ domain_suffix_set:
   - blog.jackjia.com
   - blog.jp
   - blog.kangye.org
-  - blog.lester850.info
   - blog.martinoei.com
   - blog.pathtosharepoint.com
   - blog.pentalogic.net
@@ -1066,8 +1063,6 @@ domain_suffix_set:
   - cdn-images.mailchimp.com
   - cdn-telegram.org
   - cdn.arstechnica.net
-  - cdn.assets.lfpcontent.com
-  - cdn.helixstudios.net
   - cdn.jwplayer.com
   - cdn.printfriendly.com
   - cdn.registerdisney.go.com
@@ -2151,7 +2146,6 @@ domain_suffix_set:
   - forms.new
   - forum.baby-kingdom.com
   - forum.cyberctm.com
-  - forum.mymaji.com
   - forum.omy.sg
   - forum.palmislife.com
   - forum.slime.com.tw
@@ -3042,7 +3036,6 @@ domain_suffix_set:
   - hkpeanut.com
   - hkptu.org
   - hkreporter.com
-  - hkreporter.loved.hk
   - hku.hk
   - hkusu.net
   - hkvwet.com
@@ -3483,7 +3476,6 @@ domain_suffix_set:
   - jigglegifs.com
   - jigong1024.com
   - jigsy.com
-  - jihadintel.meforum.org
   - jihadology.net
   - jiji.com
   - jims.net
@@ -4184,7 +4176,6 @@ domain_suffix_set:
   - my-formosa.com
   - my-private-network.co.uk
   - my-proxy.com
-  - my.mail.ru
   - my.opera.com
   - my.pcloud.com
   - my03.com
@@ -4416,7 +4407,6 @@ domain_suffix_set:
   - niusnews.com
   - njactb.org
   - njuice.com
-  - nko.navy.mil
   - nlfreevpn.com
   - nmsl.website
   - nnews.eu
@@ -6861,6 +6851,7 @@ domain_suffix_set:
   - wikipedia.com
   - wikipedia.org
   - wikiquote.org
+  - wikis.tw
   - wikisource.org
   - wikiunblocked.org
   - wikiversity.org
