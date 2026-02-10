@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7418
+# 规则统计: 7389
 
 no_resolve: true
 domain_set:
@@ -148,7 +148,6 @@ domain_suffix_set:
   - 888.com
   - 888poker.com
   - 89-64.org
-  - 89.64.charter.constitutionalism.solutions
   - 8964museum.com
   - 8news.com.tw
   - 8teenxxx.com
@@ -237,7 +236,6 @@ domain_suffix_set:
   - ahcdn.com
   - ai-kan.net
   - ai-wen.net
-  - ai.binwang.me
   - ai.dev
   - ai.google
   - ai.studio
@@ -582,7 +580,6 @@ domain_suffix_set:
   - bbkz.com
   - bbnradio.org
   - bbs-tw.com
-  - bbs.brockbbs.com
   - bbs.cantonese.asia
   - bbs.ecstart.com
   - bbs.hanminzu.org
@@ -752,7 +749,6 @@ domain_suffix_set:
   - blog.taragana.com
   - blog.tiney.com
   - blog.workflow.is
-  - blog.youthwant.com.tw
   - blogblog.com
   - blogcatalog.com
   - blogcity.me
@@ -852,7 +848,6 @@ domain_suffix_set:
   - bongacams.com
   - boobstagram.com
   - book.com.tw
-  - book.zi5.me
   - bookdepository.com
   - bookepub.com
   - books.com.tw
@@ -1193,7 +1188,6 @@ domain_suffix_set:
   - chinese-hermit.net
   - chinese-leaders.org
   - chinese-memorial.org
-  - chinese.donga.com
   - chinese.engadget.com
   - chinese.irib.ir
   - chinese.soifind.com
@@ -1291,7 +1285,6 @@ domain_suffix_set:
   - cmegroup.com
   - cmi.org.tw
   - cmoinc.org
-  - cmp.hku.hk
   - cms.gov
   - cmu.edu
   - cmule.com
@@ -1300,12 +1293,10 @@ domain_suffix_set:
   - cn-proxy.com
   - cn.fmnnow.com
   - cn.freeones.com
-  - cn.nytstyle.com
   - cn.sandscotaicentral.com
   - cn.shafaqna.com
   - cn.streetvoice.com
   - cn.theaustralian.com.au
-  - cn.uncyclopedia.wikia.com
   - cn.uptodown.com
   - cn6.eu
   - cna.com.tw
@@ -1561,7 +1552,6 @@ domain_suffix_set:
   - design.google
   - desipro.de
   - dessci.com
-  - destiny.xfiles.to
   - destroy-china.jp
   - deutsche-welle.de
   - developers.box.net
@@ -1679,7 +1669,6 @@ domain_suffix_set:
   - dowei.org
   - dowjones.com
   - download.aircrack-ng.org
-  - download.cnet.com
   - dphk.org
   - dpool.top
   - dpp.org.tw
@@ -2144,12 +2133,10 @@ domain_suffix_set:
   - foreignpolicy.com
   - form.new
   - forms.new
-  - forum.baby-kingdom.com
   - forum.cyberctm.com
   - forum.omy.sg
   - forum.palmislife.com
   - forum.slime.com.tw
-  - forum.xinbao.de
   - forum4hk.com
   - forums-free.com
   - fotile.me
@@ -2165,7 +2152,6 @@ domain_suffix_set:
   - fpmt.org
   - fpmt.tw
   - fpmtmexico.org
-  - fq.wikia.com
   - fqok.org
   - fqrouter.com
   - frank2019.me
@@ -2393,6 +2379,13 @@ domain_suffix_set:
   - getsync.com
   - gettr.com
   - gettrials.com
+  - gettyimages.ae
+  - gettyimages.ca
+  - gettyimages.de
+  - gettyimages.hk
+  - gettyimages.in
+  - gettyimages.it
+  - gettyimages.us
   - getuploader.com
   - gfbv.de
   - gfgold.com.hk
@@ -3121,6 +3114,7 @@ domain_suffix_set:
   - html5rocks.com
   - https443.net
   - https443.org
+  - htx.com
   - hua-yue.net
   - huaglad.com
   - huanghuagang.org
@@ -3154,6 +3148,7 @@ domain_suffix_set:
   - hungerstrikeforaids.org
   - huobi.co
   - huobi.com
+  - huobi.li
   - huobi.me
   - huobi.pro
   - huobi.sc
@@ -3201,7 +3196,6 @@ domain_suffix_set:
   - ibvpn.com
   - ibytedtos.com
   - icams.com
-  - ice.audionow.com
   - icedrive.net
   - icerocket.com
   - icfcdn.com
@@ -3766,7 +3760,6 @@ domain_suffix_set:
   - listennotes.com
   - listentoyoutube.com
   - listorious.com
-  - lists.w3.org
   - litenews.hk
   - lithium.com
   - liu-xiaobo.org
@@ -3932,7 +3925,6 @@ domain_suffix_set:
   - md-t.org
   - me.me
   - me.ns.ci
-  - me.youthwant.com.tw
   - meansys.com
   - media-amazon.com
   - media.nu.nl
@@ -4326,7 +4318,6 @@ domain_suffix_set:
   - newmitbbs.com
   - newnews.ca
   - newrelic.com
-  - news.cnyes.com
   - news.ebc.net.tw
   - news.msn.com.tw
   - news.mt.co.kr
@@ -5091,7 +5082,6 @@ domain_suffix_set:
   - razyboard.com
   - rcam.target.com
   - rcinet.ca
-  - rconversation.blogs.com
   - rd.com
   - rdtcdn.com
   - reabble.com
@@ -5102,7 +5092,6 @@ domain_suffix_set:
   - readmoo.com
   - readydown.com
   - realcourage.org
-  - realforum.zkiz.com
   - realitykings.com
   - realraptalk.com
   - realsexpass.com
@@ -5154,7 +5143,6 @@ domain_suffix_set:
   - revver.com
   - rfa.org
   - rfachina.com
-  - rfalive1.akacast.akamaistream.net
   - rfamobile.org
   - rfaweb.org
   - rferl.org
@@ -5203,7 +5191,6 @@ domain_suffix_set:
   - rtalabel.org
   - rthk.hk
   - rthk.org.hk
-  - rthklive2-lh.akamaihd.net
   - rti.org.tw
   - rti.tw
   - rtm.tnt-ea.com
@@ -5234,7 +5221,6 @@ domain_suffix_set:
   - s3-ap-southeast-1.amazonaws.com
   - s3-ap-southeast-2.amazonaws.com
   - s3-eu-central-1.amazonaws.com
-  - s3.amazonaws.com
   - s3.ap-northeast-2.amazonaws.com
   - s3.eu-central-1.amazonaws.com
   - s3.us-east-1.amazonaws.com
@@ -5378,7 +5364,6 @@ domain_suffix_set:
   - share-videos.se
   - share.america.gov
   - share.ovi.com
-  - share.youthwant.com.tw
   - sharebee.com
   - sharecool.org
   - sharpdaily.com.hk
@@ -5662,7 +5647,6 @@ domain_suffix_set:
   - static-economist.com
   - static.pocketcasts.com
   - static.shemalez.com
-  - static01.nyt.com
   - statically.io
   - staticflickr.com
   - statueofdemocracy.org
@@ -5812,7 +5796,6 @@ domain_suffix_set:
   - taiwanjustice.com
   - taiwanjustice.net
   - taiwankiss.com
-  - taiwannation.50webs.com
   - taiwannation.com
   - taiwannation.com.tw
   - taiwanncf.org.tw
@@ -6149,7 +6132,6 @@ domain_suffix_set:
   - top10vpn.com
   - top81.ws
   - topbtc.com
-  - topic.youthwant.com.tw
   - topnews.in
   - toppornsites.com
   - topshareware.com
@@ -6572,8 +6554,6 @@ domain_suffix_set:
   - victimsofcommunism.org
   - vid.me
   - vidble.com
-  - video.aol.ca
-  - video.aol.co.uk
   - video.aol.com
   - video.foxbusiness.com
   - videobam.com
@@ -6613,7 +6593,6 @@ domain_suffix_set:
   - vmpsoft.com
   - vn.hao123.com
   - vnet.link
-  - voa-11.akacast.akamaistream.net
   - voa.mobi
   - voacambodia.com
   - voacantonese.com
@@ -6925,7 +6904,6 @@ domain_suffix_set:
   - wqyd.org
   - wrchina.org
   - wretch.cc
-  - writer.zoho.com
   - writesonic.com
   - wsj.com
   - wsj.net
@@ -6948,10 +6926,8 @@ domain_suffix_set:
   - www.antd.org
   - www.aolnews.com
   - www.bing.com
-  - www.businessinsider.com.au
   - www.cmoinc.org
   - www.dmm.com
-  - www.dwheeler.com
   - www.eastturkistan.net
   - www.gmiddle.com
   - www.gmiddle.net
@@ -6968,7 +6944,6 @@ domain_suffix_set:
   - www.monlamit.org
   - www.moztw.org
   - www.msn.com
-  - www.nbc.com
   - www.orchidbbs.com
   - www.owind.com
   - www.oxid.it
@@ -6985,7 +6960,6 @@ domain_suffix_set:
   - www.websnapr.com
   - www.xicons.org
   - www.zensur.freerk.com
-  - www1.american.edu
   - www1.biz
   - www2.ohchr.org
   - www2.rocketbbs.com
@@ -7101,7 +7075,6 @@ domain_suffix_set:
   - xxxy.biz
   - xxxy.info
   - xxxymovies.com
-  - xys.dxiong.com
   - xys.org
   - xysblogs.org
   - xyy69.com
@@ -7246,8 +7219,6 @@ domain_suffix_set:
   - zh-hans.cfsh99.com
   - zh.ecdm.wikia.com
   - zh.pokerstrategy.com
-  - zh.pttpedia.wikia.com
-  - zh.uncyclopedia.wikia.com
   - zh.wikiquote.org
   - zhanbin.net
   - zhangboli.net
