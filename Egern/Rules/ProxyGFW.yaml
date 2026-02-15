@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7304
+# 规则统计: 7305
 
 no_resolve: true
 domain_set:
@@ -6618,6 +6618,7 @@ domain_suffix_set:
   - wallpapercasa.com
   - wallproxy.com
   - wallsttv.com
+  - wallzhihu.com
   - waltermartin.com
   - waltermartin.org
   - wan-press.org
