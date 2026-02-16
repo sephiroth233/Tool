@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7305
+# 规则统计: 7308
 
 no_resolve: true
 domain_set:
@@ -2419,6 +2419,7 @@ domain_suffix_set:
   - glype.com
   - gmail.com
   - gmgard.com
+  - gmgn.ai
   - gmhz.org
   - gmiddle.com
   - gmiddle.net
@@ -5524,6 +5525,7 @@ domain_suffix_set:
   - soylent.com
   - soylentnews.org
   - spaces.hightail.com
+  - spacex.com
   - spankbang.com
   - spankingtube.com
   - spankwire.com
@@ -6613,6 +6615,7 @@ domain_suffix_set:
   - wainao.me
   - waiwaier.com
   - walletconnect.com
+  - walletconnect.org
   - wallmama.com
   - wallornot.org
   - wallpapercasa.com
