@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7274
+# 规则统计: 7275
 
 no_resolve: true
 domain_set:
@@ -4057,6 +4057,7 @@ domain_suffix_set:
   - morningsun.org
   - moroneta.com
   - mos.ru
+  - mosavi.io
   - mosucloud.site
   - motherless.com
   - motiyun.com
