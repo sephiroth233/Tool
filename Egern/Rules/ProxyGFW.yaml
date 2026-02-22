@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7275
+# 规则统计: 7280
 
 no_resolve: true
 domain_set:
@@ -260,6 +260,7 @@ domain_suffix_set:
   - akamaized.net
   - akiba-online.com
   - akiba-web.com
+  - akile.io
   - akinator.com
   - akow.org
   - al-islam.com
@@ -473,6 +474,7 @@ domain_suffix_set:
   - aspistrategist.org.au
   - assembla.com
   - assets.bwbx.io
+  - assets.nxtrace.org
   - assimp.org
   - astrill.com
   - atc.org.au
@@ -3883,6 +3885,7 @@ domain_suffix_set:
   - mediafreakcity.com
   - mediawiki.org
   - medium.com
+  - meee.com.tw
   - meetav.com
   - meetup.com
   - mefeedia.com
@@ -4513,6 +4516,7 @@ domain_suffix_set:
   - openai.com
   - openallweb.com
   - openbase.com
+  - opencritic.com
   - opendemocracy.net
   - opendn.xyz
   - openervpn.in
@@ -6821,6 +6825,7 @@ domain_suffix_set:
   - www.antd.org
   - www.aolnews.com
   - www.bing.com
+  - www.clashverge.dev
   - www.cmoinc.org
   - www.dmm.com
   - www.eastturkistan.net
