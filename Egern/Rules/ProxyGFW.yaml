@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7280
+# 规则统计: 7282
 
 no_resolve: true
 domain_set:
@@ -6050,6 +6050,7 @@ domain_suffix_set:
   - topsy.com
   - toptip.ca
   - toptoon.net
+  - tor.eff.org
   - tora.to
   - torcn.com
   - torguard.net
@@ -6333,6 +6334,7 @@ domain_suffix_set:
   - unification.net
   - unification.org.tw
   - unirule.cloud
+  - uniswap.org
   - unitedsocialpress.com
   - unix100.com
   - unknownspace.org
