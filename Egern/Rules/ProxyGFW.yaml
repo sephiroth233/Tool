@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7282
+# 规则统计: 7283
 
 no_resolve: true
 domain_set:
@@ -2145,6 +2145,7 @@ domain_suffix_set:
   - freeddns.com
   - freeddns.org
   - freedl.org
+  - freedom.gov
   - freedomchina.info
   - freedomcollection.org
   - freedomhongkong.org
