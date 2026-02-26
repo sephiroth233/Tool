@@ -6,7 +6,7 @@
 #!tag=去广告, 依赖
 #!loon_version=3.2.4(787)
 #!homepage=https://hub.kelee.one
-#!date=2026-01-30 00:13:33
+#!date=2026-02-25 18:57:56
 
 [Rule]
 AND,((DOMAIN-KEYWORD,tnc,extended-matching),(OR,((DOMAIN-SUFFIX,capcutapi.com,extended-matching),(DOMAIN-SUFFIX,zijieapi.com,extended-matching),(DOMAIN-SUFFIX,isnssdk.com,extended-matching),(DOMAIN-SUFFIX,toutiaoapi.com,extended-matching),(DOMAIN-SUFFIX,bytedance.com,extended-matching),(DOMAIN-SUFFIX,snssdk.com,extended-matching),(DOMAIN-SUFFIX,sgsnssdk.com,extended-matching)))),DIRECT
@@ -260,7 +260,6 @@ DOMAIN,app-analytics-services.com,REJECT,extended-matching,pre-matching
 DOMAIN,odm.app-ads-services.com,REJECT,extended-matching,pre-matching
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT,extended-matching,pre-matching
 DOMAIN,firebaseinappmessaging.googleapis.com,REJECT,extended-matching,pre-matching
-DOMAIN,firebaseremoteconfig.googleapis.com,REJECT,extended-matching,pre-matching
 DOMAIN,fundingchoicesmessages.google.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,doubleclick.net,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,doubleclick-cn.net,REJECT,extended-matching,pre-matching
