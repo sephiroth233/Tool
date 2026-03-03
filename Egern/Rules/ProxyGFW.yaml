@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7283
+# 规则统计: 7284
 
 no_resolve: true
 domain_set:
@@ -1237,6 +1237,7 @@ domain_suffix_set:
   - clarionproject.org
   - classicalguitarblog.net
   - claude.ai
+  - claude.com
   - clb.org.hk
   - cldr.unicode.org
   - cleansite.biz
@@ -3833,6 +3834,7 @@ domain_suffix_set:
   - mansion.com
   - mansionpoker.com
   - manta.com
+  - manus.im
   - manyvoices.news
   - maplew.com
   - marc.info
@@ -6837,7 +6839,6 @@ domain_suffix_set:
   - www.hoyolab.com
   - www.hustlercash.com
   - www.idlcoyote.com
-  - www.imdb.com
   - www.kindleren.com
   - www.lamenhu.com
   - www.lorenzetti.com.br
