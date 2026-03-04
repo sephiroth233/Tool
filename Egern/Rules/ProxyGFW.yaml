@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7284
+# 规则统计: 7287
 
 no_resolve: true
 domain_set:
@@ -441,6 +441,7 @@ domain_suffix_set:
   - archives.gov
   - arctosia.com
   - areca-backup.org
+  - arena.ai
   - arena.taipei
   - arethusa.su
   - arlingtoncemetery.mil
@@ -453,6 +454,7 @@ domain_suffix_set:
   - artsy.net
   - arunachalforests.gov.in
   - arvanstorage.ir
+  - arweave.org
   - asacp.org
   - asdfg.jp
   - asg.to
@@ -6760,6 +6762,7 @@ domain_suffix_set:
   - wireguard.com
   - wisdompubs.org
   - wisevid.com
+  - wispbyte.com
   - wistia.com
   - withgoogle.com
   - withyoutube.com
