@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7287
+# 规则统计: 7288
 
 no_resolve: true
 domain_set:
@@ -1648,6 +1648,7 @@ domain_suffix_set:
   - dowei.org
   - dowjones.com
   - download.aircrack-ng.org
+  - download.dappcdn.com
   - dphk.org
   - dpool.top
   - dpp.org.tw
