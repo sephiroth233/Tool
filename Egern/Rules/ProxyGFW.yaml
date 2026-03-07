@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7288
+# 规则统计: 7290
 
 no_resolve: true
 domain_set:
@@ -1593,6 +1593,7 @@ domain_suffix_set:
   - dmm.com
   - dns-dns.com
   - dns-stuff.com
+  - dns.cloudflare.com
   - dns.google
   - dns04.com
   - dns05.com
@@ -3286,6 +3287,7 @@ domain_suffix_set:
   - interseclab.org
   - inthenameofconfuciusmovie.com
   - investigating.wordpress.com
+  - investing.com
   - invidio.us
   - inxian.com
   - iownyour.biz
