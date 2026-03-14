@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4485
+# 规则统计: 4487
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -262,6 +262,7 @@ DOMAIN,assets.scaleway.com
 DOMAIN,assets.science.nasa.gov
 DOMAIN,assets.sendinblue.com
 DOMAIN,assets.shazam.com
+DOMAIN,assets.shots.so
 DOMAIN,assets.slater.app
 DOMAIN,assets.sololearn.com
 DOMAIN,assets.speedvitals.com
@@ -3846,6 +3847,7 @@ DOMAIN-SUFFIX,jscloud.net
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,jspm.dev
 DOMAIN-SUFFIX,jspm.io
+DOMAIN-SUFFIX,jspm.org
 DOMAIN-SUFFIX,jstatic.xyz
 DOMAIN-SUFFIX,jw-cdn.org
 DOMAIN-SUFFIX,jwpcdn.com
