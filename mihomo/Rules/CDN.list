@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4487
+# 规则统计: 4489
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1413,6 +1413,7 @@ DOMAIN,geoip-js.com
 DOMAIN,geojson.io
 DOMAIN,geoserveis.icgc.cat
 DOMAIN,gfx-data.news-engineering.aws.wapo.pub
+DOMAIN,gibs-c.earthdata.nasa.gov
 DOMAIN,gitpkg-fork.vercel.sh
 DOMAIN,global-assets.fitch.group
 DOMAIN,global.divhunt.com
@@ -1947,6 +1948,7 @@ DOMAIN,makerworld.bblmw.com
 DOMAIN,mangaz-books.j-comi.jp
 DOMAIN,mangaz-static.j-comi.jp
 DOMAIN,mantisloader.mantis-awx.com
+DOMAIN,map.adsbexchange.com
 DOMAIN,map.vesselfinder.net
 DOMAIN,maps.geoapify.com
 DOMAIN,maps.gstatic.com

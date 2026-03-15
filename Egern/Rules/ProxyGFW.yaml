@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7291
+# 规则统计: 7292
 
 no_resolve: true
 domain_set:
@@ -6890,6 +6890,7 @@ domain_suffix_set:
   - xcancel.com
   - xcity.jp
   - xcritic.com
+  - xdaforums.com
   - xerotica.com
   - xfiles.to
   - xfinity.com
