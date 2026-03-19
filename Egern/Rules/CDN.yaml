@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4491
+# 规则统计: 4494
 
 domain_set:
   - 0x0.st
@@ -43,6 +43,7 @@ domain_set:
   - analytics.welcomesoftware.com
   - anchor.digitalocean.com
   - android-safebrowsing.google.com
+  - antiqua-ux-cdn.monotype.com
   - api-cdn.shutterstock.com
   - api-esp-ap.piano.io
   - api-eu.mixpanel.com
@@ -1213,6 +1214,7 @@ domain_set:
   - design.mayoclinic.org
   - designsystem.brevo.com
   - detectportal.firefox.com
+  - dev.visualwebsiteoptimizer.com
   - devicons.railway.com
   - devnull.perfops.net
   - dh-site.b-cdn.net
@@ -2754,6 +2756,7 @@ domain_set:
   - static.mocortech.com
   - static.moegoat.com
   - static.monei.net
+  - static.monotype.com
   - static.moomoo.com
   - static.moonpay.com
   - static.music.com
