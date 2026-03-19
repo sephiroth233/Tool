@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7292
+# 规则统计: 7293
 
 no_resolve: true
 domain_set:
@@ -169,6 +169,7 @@ domain_suffix_set:
   - a248.e.akamai.net
   - a5.com.ru
   - aamacau.com
+  - aave.com
   - abc.com
   - abc.net.au
   - abc.pp.ru
