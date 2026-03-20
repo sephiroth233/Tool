@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7293
+# 规则统计: 7295
 
 no_resolve: true
 domain_set:
@@ -4470,8 +4470,10 @@ domain_suffix_set:
   - oizoblog.com
   - ok.ru
   - okayfreedom.com
+  - okcoin.com
   - okex.com
   - okk.tw
+  - oklink.com
   - okpool.me
   - okx.com
   - old-cat.net
