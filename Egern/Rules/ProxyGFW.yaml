@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7295
+# 规则统计: 7296
 
 no_resolve: true
 domain_set:
@@ -1211,6 +1211,7 @@ domain_suffix_set:
   - churchinhongkong.org
   - chushigangdrug.ch
   - ci-en.jp
+  - cia.gov
   - cici.com
   - ciciai.com
   - cienen.com
