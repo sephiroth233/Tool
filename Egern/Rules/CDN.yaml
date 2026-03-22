@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4495
+# 规则统计: 4494
 
 domain_set:
   - 0x0.st
@@ -950,7 +950,6 @@ domain_set:
   - cdn03.jotfor.ms
   - cdn1.affirm.com
   - cdn1.airdroid.com
-  - cdn1.bambulab.com
   - cdn1.bigcommerce.com
   - cdn1.dan.com
   - cdn1.edgedatg.com
