@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4501
+# 规则统计: 4502
 
 domain_set:
   - 0x0.st
@@ -562,6 +562,7 @@ domain_set:
   - cdn.cameo.com
   - cdn.camweara.com
   - cdn.candy.ai
+  - cdn.casestudies.svc.ui.com
   - cdn.casetify.com
   - cdn.cbd.int
   - cdn.cfr.org
