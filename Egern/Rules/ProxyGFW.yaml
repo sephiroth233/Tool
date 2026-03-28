@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7299
+# 规则统计: 7298
 
 no_resolve: true
 domain_set:
@@ -5153,7 +5153,6 @@ domain_suffix_set:
   - s-cute.com
   - s-dragon.org
   - s-nbcnews.com
-  - s.rmimg.com
   - s.yimg.com
   - s1heng.com
   - s1s1s1.com
