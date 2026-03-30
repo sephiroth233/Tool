@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4503
+# 规则统计: 4507
 
 domain_set:
   - 0x0.st
@@ -1631,6 +1631,7 @@ domain_set:
   - images.mobilism.org
   - images.moegoat.com
   - images.moovitapp.com
+  - images.nebula.tv
   - images.newrepublic.com
   - images.now-tv.com
   - images.nvidia.com
@@ -2552,6 +2553,7 @@ domain_set:
   - st3.zoom.us
   - st6-20.vk.com
   - staging-pubfeed.linkby.com
+  - starlight.nebula.tv
   - start-page.buffer.com
   - static-00.iconduck.com
   - static-1.bitchute.com
@@ -3680,6 +3682,7 @@ domain_suffix_set:
   - graphql.org
   - gravatar.com
   - gravity.jup.io
+  - grouponcdn.com
   - gsuus.com
   - gszyi.com
   - gtranslate.net
@@ -4422,6 +4425,7 @@ domain_suffix_set:
   - ziglang.org
   - zippyshare.com
   - zkcdn.net
+  - zobj.net
   - zohocdn.com
   - zohostatic.com
   - zohostatic.eu
