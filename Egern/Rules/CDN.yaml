@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4512
+# 规则统计: 4514
 
 domain_set:
   - 0x0.st
@@ -281,6 +281,7 @@ domain_set:
   - assets.swoogo.com
   - assets.tatlerasia.com
   - assets.the-independent.com
+  - assets.tigerdata.com
   - assets.time.com
   - assets.tokopedia.net
   - assets.toot.cafe
@@ -589,6 +590,7 @@ domain_set:
   - cdn.convertbox.com
   - cdn.conveythis.com
   - cdn.corso.com
+  - cdn.cr-proxy.com
   - cdn.cracked.sh
   - cdn.craft.cloud
   - cdn.create.microsoft.com
