@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7299
+# 规则统计: 7303
 
 no_resolve: true
 domain_set:
@@ -429,6 +429,7 @@ domain_suffix_set:
   - appspot.com
   - appsto.re
   - aptoide.com
+  - archive-it.org
   - archive.fo
   - archive.is
   - archive.li
@@ -1597,6 +1598,7 @@ domain_suffix_set:
   - dns-stuff.com
   - dns.cloudflare.com
   - dns.google
+  - dns.sb
   - dns04.com
   - dns05.com
   - dns1.us
@@ -1616,6 +1618,7 @@ domain_suffix_set:
   - doctorvoice.org
   - documentingreality.com
   - dogfartnetwork.com
+  - doh.sb
   - dojin.com
   - dok-forum.net
   - dolc.de
@@ -1635,6 +1638,7 @@ domain_suffix_set:
   - doosho.com
   - doourbest.org
   - dorjeshugden.com
+  - dot.sb
   - dotgov.gov
   - dotplane.com
   - dotsub.com
