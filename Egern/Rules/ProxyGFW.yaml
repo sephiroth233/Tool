@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7305
+# 规则统计: 7306
 
 no_resolve: true
 domain_set:
@@ -5212,6 +5212,7 @@ domain_suffix_set:
   - sb-cd.com
   - sbme.me
   - sbs.com.au
+  - sbti.unun.dev
   - scache.vzw.com
   - scache1.vzw.com
   - scache2.vzw.com
