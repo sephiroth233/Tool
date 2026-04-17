@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4525
+# 规则统计: 4533
 
 domain_set:
   - 0x0.st
@@ -301,6 +301,7 @@ domain_set:
   - assets.vodafone.co.uk
   - assets.vogue.com
   - assets.volvo.com
+  - assets.vrchat.com
   - assets.xboxservices.com
   - assets.xmind.net
   - assets.yande.re
@@ -362,6 +363,7 @@ domain_set:
   - banners.chessbase.com
   - barracuda-assets.zoovu.com
   - barracuda-cdn.zoovu.com
+  - bcdn.alotporn.com
   - bcdn.starapps.studio
   - bcmedia.bitchute.com
   - before.good-apps.co
@@ -1941,6 +1943,7 @@ domain_set:
   - live.fanmingming.com
   - live.visually-io.com
   - livedoor.blogimg.jp
+  - liveimg.sooplive.com
   - livemap-tiles1.waze.com
   - lm.visualon.info
   - load.csell.co
@@ -2336,6 +2339,7 @@ domain_set:
   - res.cloudinary.com
   - res.craft.do
   - res.garmin.com
+  - res.sooplive.com
   - res2.weblium.site
   - resize-image.vocus.cc
   - resize.blogsys.jp
@@ -2841,6 +2845,7 @@ domain_set:
   - static.snyk.io
   - static.socialshopwave.com
   - static.solarwinds.com
+  - static.sooplive.com
   - static.spankbang.com
   - static.spigotmc.org
   - static.srcspot.com
@@ -2930,6 +2935,7 @@ domain_set:
   - steamusercontent-a.akamaihd.net
   - steamuserimages-a.akamaihd.net
   - steamvideo-a.akamaihd.net
+  - stimg.sooplive.com
   - storage-b.picacomic.com
   - storage.courtlistener.com
   - storage.crisp.chat
@@ -3627,6 +3633,7 @@ domain_suffix_set:
   - filecunhua.top
   - files.bbci.co.uk
   - files.gitbook.io
+  - files.sooplive.co.kr
   - files.wordpress.com
   - fimfiction-static.net
   - firebaseapp.com
@@ -3779,6 +3786,7 @@ domain_suffix_set:
   - imagetwist.com
   - img-dpreview.com
   - img.haiwaikan.com
+  - img.sooplive.com
   - img1.acsta.net
   - img2.acsta.net
   - img3.acsta.net
