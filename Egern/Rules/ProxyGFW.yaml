@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7300
+# 规则统计: 7309
 
 no_resolve: true
 domain_set:
@@ -413,6 +413,7 @@ domain_suffix_set:
   - app-measurement.net
   - app.box.com
   - app.cloudcone.com
+  - app.element.io
   - app.heywire.com
   - app.smartmailcloud.com
   - app.tutanota.com
@@ -469,6 +470,7 @@ domain_suffix_set:
   - asianspiss.com
   - asianwomensfilm.de
   - asiaone.com
+  - asiasociety.org
   - asiatgp.com
   - asiatoday.us
   - ask.com
@@ -621,6 +623,7 @@ domain_suffix_set:
   - beijingzx.org
   - belamionline.com
   - bell.wiki
+  - bellingcat.com
   - bemywife.cc
   - beric.me
   - berlinerbericht.de
@@ -3347,6 +3350,7 @@ domain_suffix_set:
   - ismprofessional.net
   - isohunt.com
   - israbox.com
+  - issues.chromium.org
   - issuu.com
   - istars.co.nz
   - istarshine.com
@@ -3627,6 +3631,7 @@ domain_suffix_set:
   - lamnia.co.uk
   - lamrim.com
   - landofhope.tv
+  - lantern.io
   - lanterncn.cn
   - lantosfoundation.org
   - laod.cn
@@ -5027,6 +5032,7 @@ domain_suffix_set:
   - raw.githack.com
   - rawgit.com
   - rawgithub.com
+  - rawstory.com
   - razyboard.com
   - rcam.target.com
   - rcinet.ca
@@ -5046,6 +5052,7 @@ domain_suffix_set:
   - reason.com
   - rebatesrule.net
   - recaptcha.net
+  - recordedfuture.com
   - recordhistory.org
   - recovery.org.tw
   - recoveryversion.com.tw
@@ -5111,6 +5118,7 @@ domain_suffix_set:
   - rmjdw.com
   - rmjdw132.info
   - roadshow.hk
+  - roblox.com
   - roboforex.com
   - robustnessiskey.com
   - rocket-inc.net
@@ -5886,6 +5894,7 @@ domain_suffix_set:
   - thewgo.org
   - thewirechina.com
   - theync.com
+  - thinkchina.sg
   - thinkgeek.com
   - thinkingtaiwan.com
   - thinkwithgoogle.com
