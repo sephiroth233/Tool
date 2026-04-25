@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7309
+# 规则统计: 7310
 
 no_resolve: true
 domain_set:
@@ -5798,6 +5798,7 @@ domain_suffix_set:
   - tdm.com.mo
   - teachparentstech.org
   - teamamericany.com
+  - techbang.com
   - technews.tw
   - techspot.com
   - techviz.net
