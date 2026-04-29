@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7310
+# 规则统计: 7311
 
 no_resolve: true
 domain_set:
@@ -6386,6 +6386,7 @@ domain_suffix_set:
   - upmedia.mg
   - upornia.com
   - uproxy.org
+  - upsangel.com
   - uptodown.com
   - upwill.org
   - ur7s.com
