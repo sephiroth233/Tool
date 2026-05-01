@@ -9,7 +9,7 @@
 #!system_version=15
 #!loon_version=3.3.8(936)
 #!homepage=https://hub.kelee.one
-#!date=2026-03-09 00:25:19
+#!date=2026-04-30 16:24:57
 #!arguments=displayUpList:"show",purifyComment:true,optimizeRequest:true,sponsorBlock:false,logLevel:"off"
 
 [Rule]
@@ -47,7 +47,7 @@ http-response-jq ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? '.data.
 
 ^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ data-type=base64 data="AAAAACEaHeaQnOe0ouinhumikeOAgeeVquWJp+aIlnVw5Li7KAE=" header="Content-Type:text/plain"
 
-^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.(?:view\.v1\.View\/TFInfo|viewunite\.v1\.View\/ViewEndPage)$ data-type=base64 data="AAAAAAA=" header="Content-Type:text/plain"
+^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.(view\.v1\.View\/TFInfo|viewunite\.v1\.View\/(PlayPause|ViewEndPage))$ data-type=base64 data="AAAAAAA=" header="Content-Type:text/plain"
 
 [Script]
 空降助手 = type=http-request, pattern=^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile$, script-path=https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js, requires-body=true, binary-body-mode=true, timeout=10, argument=[{{{logLevel}}}]
