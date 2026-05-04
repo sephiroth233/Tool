@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7311
+# 规则统计: 7307
 
 no_resolve: true
 domain_set:
@@ -5215,9 +5215,6 @@ domain_suffix_set:
   - sbme.me
   - sbs.com.au
   - sbti.unun.dev
-  - scache.vzw.com
-  - scache1.vzw.com
-  - scache2.vzw.com
   - scasino.com
   - schema.org
   - sciencemag.org
@@ -5562,7 +5559,6 @@ domain_suffix_set:
   - srocket.us
   - ss-link.com
   - ss.levyhsu.com
-  - ss7.vzw.com
   - ssglobal.co
   - ssglobal.me
   - ssh91.com
