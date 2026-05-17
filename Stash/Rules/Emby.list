@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 183
+# 规则统计: 184
 
 DOMAIN,2pfdml.mobaiemby.site
 DOMAIN,cc.coemn.com
@@ -168,6 +168,7 @@ DOMAIN-SUFFIX,tanhuatv.site
 DOMAIN-SUFFIX,texon.fans
 DOMAIN-SUFFIX,tkremby.xyz
 DOMAIN-SUFFIX,tv.worldline.space
+DOMAIN-SUFFIX,uhdnow.com
 DOMAIN-SUFFIX,uuuoo.cc
 DOMAIN-SUFFIX,wiri.tk
 DOMAIN-SUFFIX,xiaoyi.one

@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 183
+# 规则统计: 184
 
 no_resolve: true
 domain_set:
@@ -171,6 +171,7 @@ domain_suffix_set:
   - texon.fans
   - tkremby.xyz
   - tv.worldline.space
+  - uhdnow.com
   - uuuoo.cc
   - wiri.tk
   - xiaoyi.one

@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 183
+# 规则统计: 184
 
 HOST,2pfdml.mobaiemby.site,Emby
 HOST,cc.coemn.com,Emby
@@ -168,6 +168,7 @@ HOST-SUFFIX,tanhuatv.site,Emby
 HOST-SUFFIX,texon.fans,Emby
 HOST-SUFFIX,tkremby.xyz,Emby
 HOST-SUFFIX,tv.worldline.space,Emby
+HOST-SUFFIX,uhdnow.com,Emby
 HOST-SUFFIX,uuuoo.cc,Emby
 HOST-SUFFIX,wiri.tk,Emby
 HOST-SUFFIX,xiaoyi.one,Emby
