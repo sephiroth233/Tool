@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4561
+# 规则统计: 4564
 
 domain_set:
   - 0x0.st
@@ -676,6 +676,7 @@ domain_set:
   - cdn.ghostery.com
   - cdn.giftcardpro.app
   - cdn.gigya.com
+  - cdn.gist.ai
   - cdn.gofundme.com
   - cdn.googlesource.com
   - cdn.growthbook.io
@@ -3244,6 +3245,7 @@ domain_set:
   - widget.gotolstoy.com
   - widget.intercom.io
   - widget.kapa.ai
+  - widget.prod.equally.ai
   - widget.reviews.io
   - widget.trustpilot.com
   - widget.usepylon.com
@@ -3638,6 +3640,7 @@ domain_suffix_set:
   - exp-tas.com
   - externulls.com
   - ezocdn.com
+  - f-cdn.com
   - f.hubspotemail.net
   - f.hubspotfree.net
   - f.hubspotstarter.net
