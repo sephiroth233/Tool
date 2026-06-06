@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7354
+# 规则统计: 7356
 
 no_resolve: true
 domain_set:
@@ -5723,6 +5723,7 @@ domain_suffix_set:
   - surrenderat20.net
   - sustainability.google
   - suyangg.com
+  - suyingtv.com
   - svsfx.com
   - swagbucks.com
   - swapspace.co
@@ -6870,6 +6871,7 @@ domain_suffix_set:
   - woyaolian.org
   - wozy.in
   - wp.com
+  - wplace.live
   - wpoforum.com
   - wqyd.org
   - wrchina.org
