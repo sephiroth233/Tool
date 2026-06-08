@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4574
+# 规则统计: 4575
 
 domain_set:
   - 0x0.st
@@ -650,6 +650,7 @@ domain_set:
   - cdn.eu.contentful.com
   - cdn.european-alternatives.eu
   - cdn.evbstatic.com
+  - cdn.evgnet.com
   - cdn.f5.com
   - cdn.faire.com
   - cdn.fastcomments.com
