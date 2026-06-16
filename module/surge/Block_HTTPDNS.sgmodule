@@ -6,7 +6,7 @@
 #!tag=去广告, 依赖
 #!loon_version=3.4.0(962)
 #!homepage=https://hub.kelee.one
-#!date=2026-06-12 14:11:07
+#!date=2026-06-15 21:46:05
 
 [Rule]
 DOMAIN-KEYWORD,httpdns,REJECT,extended-matching,pre-matching
@@ -112,6 +112,8 @@ DOMAIN,dotserver.douyucdn.cn,REJECT,extended-matching,pre-matching
 DOMAIN,hdns.ksyun.com,REJECT,extended-matching,pre-matching
 DOMAIN,httpdns.push.oppomobile.com,REJECT,extended-matching,pre-matching
 DOMAIN,httpdns.ocloud.oppomobile.com,REJECT,extended-matching,pre-matching
+DOMAIN,cdndns.kwd.inkuai.com,REJECT,extended-matching,pre-matching
+DOMAIN,hdns.k-dyn.com,REJECT,extended-matching,pre-matching
 DOMAIN,kuaishou.httpdns.pro,REJECT,extended-matching,pre-matching
 DOMAIN,httpdns.kwd.inkuai.com,REJECT,extended-matching,pre-matching
 DOMAIN,apidns.kwd.inkuai.com,REJECT,extended-matching,pre-matching
