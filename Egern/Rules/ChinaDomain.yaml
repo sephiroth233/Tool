@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 863
+# 规则统计: 865
 
 domain_set:
   - 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
@@ -105,6 +105,7 @@ domain_suffix_set:
   - 9game.cn
   - 9xiu.com
   - abchina.com
+  - ac.cn
   - acfun.cn
   - acgvideo.com
   - addlink.cn
@@ -516,6 +517,7 @@ domain_suffix_set:
   - livechina.com
   - ljcdn.com
   - lkcoffee.com
+  - lltskb.com
   - lofter.com
   - luckincoffeecdn.com
   - ludashi.com
