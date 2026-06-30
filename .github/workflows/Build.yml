@@ -19,12 +19,6 @@ jobs:
           repository: sephiroth233/Tool
           path: Tool-repo
 
-      - name: GeoIP
-        run: |
-          mkdir -p Tool/GeoIP
-          curl -L -o Tool-repo/GeoIP/CN_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb"
-          curl -L -o Tool-repo/GeoIP/Global_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb"
-
       - name: Run Bash Script
         run: |
           #!/bin/bash

@@ -7,7 +7,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 这是一个代理软件规则和模块管理工具集，主要功能包括：
 - 为多种代理软件（Clash、Surge、Loon、Quantumult X、Shadowrocket、Stash、sing-box、mihomo等）提供规则文件
 - 提供模块转换工具，支持不同代理软件模块之间的相互转换
-- 管理GeoIP数据库文件
 - 通过自动化工作流定期更新规则和模块
 
 ## 核心架构
@@ -32,7 +31,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ├── sing-box/                  # sing-box配置
 ├── mihomo/                    # mihomo配置
 ├── Egern/                     # Egern配置（.yaml格式）
-├── GeoIP/                     # GeoIP数据库文件（.mmdb格式）
 ├── module/                    # 代理软件模块
 │   ├── surge/                # Surge模块（.sgmodule）
 │   └── shadowrocket/         # Shadowrocket模块
@@ -119,15 +117,12 @@ done
 2. **自动化提交**: 工作流会自动检测文件变化并提交，无需手动操作
 3. **格式转换**: 不同代理软件使用不同的规则格式，构建脚本会自动转换
 4. **模块转换**: 模块转换依赖于外部服务（sc.sephiroth.club）
-5. **GeoIP数据库**: 定期从上游源更新中国和全球IP数据库
-
 ### 文件格式说明
 
 - **.list文件**: 标准规则文件格式，包含DOMAIN、IP-CIDR等规则
 - **.yaml文件**: Egern代理软件使用的规则格式
 - **.json文件**: sing-box代理软件使用的规则格式
 - **.sgmodule文件**: Surge/Shadowrocket模块文件
-- **.mmdb文件**: GeoIP数据库文件（MaxMind DB格式）
 
 ### 维护要点
 

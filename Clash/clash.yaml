@@ -7,10 +7,6 @@ allow-lan: true
 ipv6: false
 #在某些情况下，Clash 会对请求进行延迟处理以优化性能。
 unified-delay: true
-#Clash 会伪装成 Chrome 浏览器发送请求，以提高兼容性和隐私性。
-global-client-fingerprint: chrome
-#设置 Clash 查找进程的模式。strict：严格模式，只查找明确的进程信息。loose：宽松模式，允许模糊查找
-find-process-mode: strict
 
 geodata-mode: true
 geox-url:
