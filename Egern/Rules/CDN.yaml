@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4617
+# 规则统计: 4621
 
 domain_set:
   - 0x0.st
@@ -258,6 +258,7 @@ domain_set:
   - assets.porndig.com
   - assets.positional-bucket.com
   - assets.prowritingaid.com
+  - assets.pscp.tv
   - assets.queue-it.net
   - assets.quillbot.com
   - assets.raspberrypi.com
@@ -357,6 +358,7 @@ domain_set:
   - b.manufact.com
   - b.peatio.com
   - b.sf-syn.com
+  - b2b-contenthub.com
   - b5x-sentry.1passwordservices.com
   - backinstock.useamp.com
   - badbits.dwebops.pub
@@ -1972,6 +1974,7 @@ domain_set:
   - learn.optimizely.com
   - lecontent.sololearn.com
   - ledger-wp-website-s3-prd.ledger.com
+  - legacy-us-images.foundryco.app
   - lf16-larkversion.larksuitecdn.com
   - lib.arvancloud.ir
   - libraries.hund.io
@@ -2582,6 +2585,7 @@ domain_set:
   - sites.super.so
   - skills-assets.pstmn.io
   - sm.ign.com
+  - sm.pcmag.com
   - sn-s3-cdn.angry.im
   - snippet.growsumo.com
   - snippet.maze.co
