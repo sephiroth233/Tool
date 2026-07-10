@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4626
+# 规则统计: 4627
 
 domain_set:
   - 0x0.st
@@ -1507,6 +1507,7 @@ domain_set:
   - himeko.iwara.tv
   - hips.hearstapps.com
   - hiveplayer-static.bamgrid.com
+  - hls-svod.itunes.apple.com
   - hls.hentaicity.com
   - home.integrate.com
   - hp.foxnews.com
