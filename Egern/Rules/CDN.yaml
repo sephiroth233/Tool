@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4635
+# 规则统计: 4636
 
 domain_set:
   - 0x0.st
@@ -1161,6 +1161,7 @@ domain_set:
   - code.ionicframework.com
   - code.jquery.com
   - code.piano.io
+  - code.trygravity.ai
   - code.upscope.io
   - comm.res.easebar.com
   - common-header.nimg.jp

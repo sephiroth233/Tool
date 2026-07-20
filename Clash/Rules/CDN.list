@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4635
+# 规则统计: 4636
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1160,6 +1160,7 @@ DOMAIN,code.iconify.design
 DOMAIN,code.ionicframework.com
 DOMAIN,code.jquery.com
 DOMAIN,code.piano.io
+DOMAIN,code.trygravity.ai
 DOMAIN,code.upscope.io
 DOMAIN,comm.res.easebar.com
 DOMAIN,common-header.nimg.jp
