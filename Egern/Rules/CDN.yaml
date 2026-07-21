@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4636
+# 规则统计: 4638
 
 domain_set:
   - 0x0.st
@@ -1968,6 +1968,7 @@ domain_set:
   - jssocdn.indiatimes.com
   - kdata1.com
   - keyframe-cdn.abcnews.com
+  - kh.google.com
   - lain.bgm.tv
   - lastfm.freetls.fastly.net
   - latency-test.lab.skk.moe
@@ -3121,6 +3122,7 @@ domain_set:
   - tiles.terria.io
   - tiles.versatiles.org
   - tiles.windy.com
+  - tiles.zoom.earth
   - tiles0.planet.com
   - tiles1.planet.com
   - tiles2.mapiful.com
