@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7469
+# 规则统计: 7471
 
 no_resolve: true
 domain_set:
@@ -1244,6 +1244,7 @@ domain_suffix_set:
   - cienen.com
   - cineastentreff.de
   - cipfg.org
+  - circle19.org
   - circlethebayfortibet.org
   - cirosantilli.com
   - citizencn.com
@@ -3605,6 +3606,7 @@ domain_suffix_set:
   - kanzhongguo.eu
   - kaotic.com
   - karayou.com
+  - kards.com
   - karkhung.com
   - karmapa-teachings.org
   - karmapa.org
