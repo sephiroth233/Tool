@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7471
+# 规则统计: 7472
 
 no_resolve: true
 domain_set:
@@ -6268,6 +6268,7 @@ domain_suffix_set:
   - truthontour.org
   - truthsocial.com
   - truveo.com
+  - tryai.dev
   - tryheart.jp
   - tsctv.net
   - tsdr.uspto.gov
