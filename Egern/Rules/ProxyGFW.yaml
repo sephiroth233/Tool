@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7472
+# 规则统计: 7474
 
 no_resolve: true
 domain_set:
@@ -3751,6 +3751,7 @@ domain_suffix_set:
   - lester850.info
   - letou.com
   - letscorp.net
+  - level-plus.net
   - lexica.art
   - lflink.com
   - lflinkup.com
@@ -6591,6 +6592,7 @@ domain_suffix_set:
   - uygur.fc2web.com
   - uygur.org
   - uymaarip.com
+  - v.recipes
   - v.roucdn
   - v2.help
   - v2.hysteria.network
