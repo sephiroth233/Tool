@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7474
+# 规则统计: 7475
 
 no_resolve: true
 domain_set:
@@ -4514,6 +4514,7 @@ domain_suffix_set:
   - ntdtv.org
   - ntdtv.ru
   - ntdtvla.com
+  - nthlink.com
   - ntrfun.com
   - ntu.edu.tw
   - nu.nl
