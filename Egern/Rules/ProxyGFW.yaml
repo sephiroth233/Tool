@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7475
+# 规则统计: 7474
 
 no_resolve: true
 domain_set:
@@ -1096,6 +1096,7 @@ domain_suffix_set:
   - centerforhumanreprod.com
   - centralnation.com
   - centurys.net
+  - cerebras.ai
   - certificate-transparency.org
   - certificate.revocationcheck.com
   - cex.io
@@ -1231,6 +1232,7 @@ domain_suffix_set:
   - chromercise.com
   - chromestatus.com
   - chromium.org
+  - cht.com.tw
   - chuang-yen.org
   - chubold.com
   - chubun.com
@@ -4185,7 +4187,6 @@ domain_suffix_set:
   - mousebreaker.com
   - movements.org
   - moviefap.com
-  - mozilla.ai
   - mozilla.org
   - moztw.org
   - mp3buscador.com
@@ -5116,7 +5117,6 @@ domain_suffix_set:
   - radio.garden
   - radioaustralia.net.au
   - radiohilight.net
-  - radiojar.com
   - radioline.co
   - radiotime.com
   - radiovaticana.org
@@ -7011,7 +7011,6 @@ domain_suffix_set:
   - www.antd.org
   - www.aolnews.com
   - www.bing.com
-  - www.clashverge.dev
   - www.cmoinc.org
   - www.dmm.com
   - www.eastturkistan.net
