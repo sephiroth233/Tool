@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7474
+# 规则统计: 7472
 
 no_resolve: true
 domain_set:
@@ -506,7 +506,6 @@ domain_suffix_set:
   - auctions.yahoo.co.jp
   - audacy.com
   - audionow.com
-  - auntology.fandom.com
   - authorizeddns.net
   - authorizeddns.org
   - authorizeddns.us
@@ -3105,7 +3104,6 @@ domain_suffix_set:
   - homeperversion.com
   - homeservershow.com
   - honeynet.org
-  - hongkong.fandom.com
   - hongkongfp.com
   - hongmeimei.com
   - hongzhi.li
