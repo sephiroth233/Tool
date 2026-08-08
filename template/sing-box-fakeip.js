@@ -77,22 +77,27 @@ const regions = [
   {
     tag: '香港节点',
     members: matchingTags(proxies, /(^|[-_ ])(HK|HKG)([-_ ]|$)|香港|Hong Kong/i),
+    tolerance: 500,
   },
   {
     tag: '台湾节点',
     members: matchingTags(proxies, /(^|[-_ ])(TW|TWN)([-_ ]|$)|台湾|Taiwan/i),
+    tolerance: 500,
   },
   {
     tag: '日本节点',
     members: matchingTags(proxies, /(^|[-_ ])(JP|JPN)([-_ ]|$)|日本|Japan/i),
+    tolerance: 500,
   },
   {
     tag: '韩国节点',
     members: matchingTags(proxies, /(^|[-_ ])(KR|KOR)([-_ ]|$)|韩国|Korea/i),
+    tolerance: 500,
   },
   {
     tag: '新加坡节点',
     members: matchingTags(proxies, /(^|[-_ ])(SG|SGP)([-_ ]|$)|新加坡|狮城|Singapore/i),
+    tolerance: 500,
   },
 ].filter(region => region.members.length > 0)
 
@@ -133,7 +138,7 @@ const groups = [
   ...regions.map(region => urltestGroup(
     region.tag,
     region.members,
-    region.tolerance || 50,
+    region.tolerance,
   )),
 ]
 

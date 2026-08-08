@@ -47,7 +47,7 @@ SUBSCRIPTION_URL='新的订阅链接' ../update-fakeip.sh
 - 检测重复 tag 和与策略组重名的 tag；发现冲突时中止生成，不静默删除节点。
 - 根据节点 tag 动态建立美国、香港、台湾、日本、韩国、新加坡地区组；没有对应节点的地区组不会生成。
 - `全部节点` 和各地区组中的具体节点严格保持订阅转换结果的原始顺序，只进行地区筛选，不做重新排序。
-- 美国组使用 `tolerance: 500`，其他地区组使用 `tolerance: 50`。
+- 所有地区组均使用 `tolerance: 500`。
 - 地区 `urltest` 不设置 `interrupt_exist_connections`，使用默认值 `false`。
 - `全部节点`、`Final`、`Apple`、`Github`、`Telegram`、`YouTube`、`AI`、`Linuxdo`、`Emby` 使用 `selector`，并设置 `interrupt_exist_connections: true`。
 - 服务器地址是域名且订阅未指定解析器时，补充 `domain_resolver: dns-cn`；订阅已有的解析器不会被覆盖。路由的全局后备解析器 `default_domain_resolver` 也使用 `dns-cn`，避免解析代理节点地址时依赖尚未建立的 `Final`。
