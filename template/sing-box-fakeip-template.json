@@ -1,0 +1,300 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "type": "https",
+        "tag": "dns-cn",
+        "server": "223.5.5.5",
+        "tls": {
+          "enabled": true,
+          "server_name": "dns.alidns.com"
+        }
+      },
+      {
+        "type": "https",
+        "tag": "dns-global",
+        "server": "1.1.1.1",
+        "tls": {
+          "enabled": true,
+          "server_name": "cloudflare-dns.com"
+        },
+        "detour": "Final"
+      },
+      {
+        "type": "fakeip",
+        "tag": "dns-fakeip",
+        "inet4_range": "198.18.0.0/15",
+        "inet6_range": "fc00::/18"
+      }
+    ],
+    "rules": [
+      {
+        "domain_suffix": [
+          "sephiroth.club"
+        ],
+        "action": "route",
+        "server": "dns-cn"
+      },
+      {
+        "domain_suffix": [
+          "linux.do"
+        ],
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "action": "route",
+        "server": "dns-fakeip"
+      },
+      {
+        "rule_set": [
+          "YouTube",
+          "Apple",
+          "Github",
+          "AI",
+          "Telegram",
+          "Emby"
+        ],
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "action": "route",
+        "server": "dns-fakeip"
+      },
+      {
+        "rule_set": [
+          "ChinaDomain"
+        ],
+        "action": "route",
+        "server": "dns-cn"
+      },
+      {
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "action": "route",
+        "server": "dns-fakeip"
+      }
+    ],
+    "final": "dns-global",
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "route_exclude_address": [
+        "10.0.0.0/8",
+        "172.16.0.0/12",
+        "192.168.0.0/24",
+        "127.0.0.0/8",
+        "::1/128"
+      ],
+      "stack": "system"
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 7890
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "DIRECT",
+      "domain_resolver": "dns-cn"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "action": "sniff"
+      },
+      {
+        "port": 53,
+        "action": "hijack-dns"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "action": "reject",
+        "method": "drop"
+      },
+      {
+        "domain_suffix": [
+          "sephiroth.club"
+        ],
+        "action": "route",
+        "outbound": "DIRECT"
+      },
+      {
+        "domain_suffix": [
+          "linux.do"
+        ],
+        "action": "route",
+        "outbound": "Linuxdo"
+      },
+      {
+        "rule_set": [
+          "YouTube"
+        ],
+        "action": "route",
+        "outbound": "YouTube"
+      },
+      {
+        "rule_set": [
+          "Apple"
+        ],
+        "action": "route",
+        "outbound": "Apple"
+      },
+      {
+        "rule_set": [
+          "Github"
+        ],
+        "action": "route",
+        "outbound": "Github"
+      },
+      {
+        "rule_set": [
+          "AI"
+        ],
+        "action": "route",
+        "outbound": "AI"
+      },
+      {
+        "rule_set": [
+          "Telegram"
+        ],
+        "action": "route",
+        "outbound": "Telegram"
+      },
+      {
+        "rule_set": [
+          "Emby"
+        ],
+        "action": "route",
+        "outbound": "Emby"
+      },
+      {
+        "rule_set": [
+          "Lan"
+        ],
+        "action": "route",
+        "outbound": "DIRECT"
+      },
+      {
+        "ip_is_private": true,
+        "action": "route",
+        "outbound": "DIRECT"
+      },
+      {
+        "rule_set": [
+          "ChinaIP"
+        ],
+        "action": "route",
+        "outbound": "DIRECT"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "YouTube",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/YouTube.srs",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "Apple",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Apple.srs",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "Github",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Github.srs",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "AI",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/AI.srs",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "Telegram",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Telegram.srs",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "Emby",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Emby.srs",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "Lan",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Lan.srs",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "ChinaDomain",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/ChinaDomain.srs",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "ChinaIP",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/ChinaIP.srs",
+        "update_interval": "1d"
+      }
+    ],
+    "final": "Final",
+    "auto_detect_interface": true,
+    "default_domain_resolver": "dns-global",
+    "default_http_client": "rule-set-download"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "./cach.db",
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090"
+    }
+  },
+  "endpoints": [],
+  "http_clients": [
+    {
+      "tag": "rule-set-download",
+      "detour": "Final"
+    }
+  ]
+}
