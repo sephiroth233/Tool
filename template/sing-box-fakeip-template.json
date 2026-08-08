@@ -303,7 +303,7 @@
     ],
     "final": "Final",
     "auto_detect_interface": true,
-    "default_domain_resolver": "dns-global",
+    "default_domain_resolver": "dns-cn",
     "default_http_client": "rule-set-download"
   },
   "experimental": {

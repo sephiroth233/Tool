@@ -50,7 +50,7 @@ SUBSCRIPTION_URL='新的订阅链接' ../update-fakeip.sh
 - 美国组使用 `tolerance: 500`，其他地区组使用 `tolerance: 50`。
 - 地区 `urltest` 不设置 `interrupt_exist_connections`，使用默认值 `false`。
 - `全部节点`、`Final`、`Apple`、`Github`、`Telegram`、`YouTube`、`AI`、`Linuxdo`、`Emby` 使用 `selector`，并设置 `interrupt_exist_connections: true`。
-- 服务器地址是域名且订阅未指定解析器时，补充 `domain_resolver: dns-cn`；订阅已有的解析器不会被覆盖。
+- 服务器地址是域名且订阅未指定解析器时，补充 `domain_resolver: dns-cn`；订阅已有的解析器不会被覆盖。路由的全局后备解析器 `default_domain_resolver` 也使用 `dns-cn`，避免解析代理节点地址时依赖尚未建立的 `Final`。
 - 已知国内域名直接使用 `dns-cn`，并按 `ChinaDomain` 规则直连；其余 A/AAAA 查询先通过 `evaluate` 检查 `dns-cn` 响应，命中 `ChinaIP` 时返回真实 IP，并按 `ChinaIP` 规则直连，否则返回 Fake-IP。DNS 判断与路由保持一致，避免国内 CDN 因 IP 规则更新滞后而落入 `Final`。
 
 ## 安全性
