@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7472
+# 规则统计: 7476
 
 no_resolve: true
 domain_set:
@@ -244,6 +244,7 @@ domain_suffix_set:
   - ai.dev
   - ai.google
   - ai.studio
+  - aihub.top
   - aiosearch.com
   - aiph.net
   - airasia.com
@@ -581,6 +582,7 @@ domain_suffix_set:
   - bartender.dowjones.com
   - barton.de
   - bartvpn.com
+  - basemaps.arcgis.com
   - bastillepost.com
   - bayvoice.net
   - baywords.com
@@ -1891,6 +1893,7 @@ domain_suffix_set:
   - eroprofile.com
   - eroticsaloon.net
   - esg.t91y.com
+  - esim.redteago.com
   - eslite.com
   - esmtp.biz
   - esurance.com
@@ -1929,6 +1932,7 @@ domain_suffix_set:
   - expatshield.com
   - expecthim.com
   - expekt.com
+  - experience.arcgis.com
   - experts-univers.com
   - exploader.net
   - expofutures.com
