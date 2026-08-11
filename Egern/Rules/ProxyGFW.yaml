@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7476
+# 规则统计: 7477
 
 no_resolve: true
 domain_set:
@@ -1611,6 +1611,7 @@ domain_suffix_set:
   - disp.cc
   - disqus.com
   - dit-inc.us
+  - divdyn.com
   - diyin.org
   - dizhidizhi.com
   - dizhuzhishang.com
