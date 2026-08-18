@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7477
+# 规则统计: 7478
 
 no_resolve: true
 domain_set:
@@ -3835,6 +3835,7 @@ domain_suffix_set:
   - livestation.com
   - livestream.com
   - livevideo.com
+  - livingatlas.arcgis.com
   - livingonline.us
   - livingstream.com
   - liwangyang.com
