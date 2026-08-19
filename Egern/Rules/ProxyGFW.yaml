@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7478
+# 规则统计: 7480
 
 no_resolve: true
 domain_set:
@@ -5299,6 +5299,7 @@ domain_suffix_set:
   - s1heng.com
   - s1s1s1.com
   - s3-ap-northeast-1.amazonaws.com
+  - s3.dualstack.us-west-2.amazonaws.com
   - s4miniarchive.com
   - s8forum.com
   - saboom.com
@@ -6932,6 +6933,7 @@ domain_suffix_set:
   - wilsoncenter.org
   - windowsphoneme.com
   - windscribe.com
+  - windy.com
   - wingamestore.com
   - wingy.site
   - winning11.com
