@@ -6,7 +6,7 @@
 #!tag=去广告, 依赖
 #!loon_version=3.4.0(962)
 #!homepage=https://hub.kelee.one
-#!date=2026-09-21 00:12:18
+#!date=2026-09-23 11:35:33
 
 [Rule]
 DOMAIN-KEYWORD,adstrategy,REJECT,extended-matching,pre-matching
@@ -199,7 +199,6 @@ DOMAIN,adash.man.aliyuncs.com,REJECT,extended-matching,pre-matching
 DOMAIN,applog.uc.cn,REJECT,extended-matching,pre-matching
 DOMAIN,atoken.m.taobao.com,REJECT,extended-matching,pre-matching
 AND,((DOMAIN-KEYWORD,adash,extended-matching),(DOMAIN-SUFFIX,ut.taobao.com,extended-matching)),REJECT,pre-matching
-URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch",REJECT,extended-matching
 DOMAIN,baichuan-sdk.alicdn.com,REJECT,extended-matching,pre-matching
 DOMAIN,acs4baichuan.m.taobao.com,REJECT,extended-matching,pre-matching
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT,extended-matching,pre-matching
