@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 代理软件模块转换脚本
-支持 Loon、QX、Surge 模块之间的相互转换
+支持 Loon、QX、Surge、Stash 模块之间的相互转换
 
 功能特性：
-- 支持跨平台转换（loon -> surge, qx -> loon 等）
+- 支持跨平台转换（loon -> surge, qx -> loon, surge -> stash 等）
 - 支持自身类型转换（loon -> loon, qx -> qx 等），用于复制和标准化文件
 - 智能识别源格式与目标格式一致时，直接下载原始文件，无需转换
 - 自动创建目录结构
@@ -34,21 +34,24 @@ CONVERSION_CONFIG = {
         "type": "loon-plugin",
         "targets": {
             "surge": {"target": "surge-module", "ext": "sgmodule"},
-            "shadowrocket": {"target": "shadowrocket-module", "ext": "sgmodule"}
+            "shadowrocket": {"target": "shadowrocket-module", "ext": "sgmodule"},
+            "stash": {"target": "stash-stoverride", "ext": "stoverride"}
         }
     },
     "qx": {
         "type": "qx-rewrite",
         "targets": {
             "surge": {"target": "surge-module", "ext": "sgmodule"},
-            "shadowrocket": {"target": "shadowrocket-module", "ext": "sgmodule"}
+            "shadowrocket": {"target": "shadowrocket-module", "ext": "sgmodule"},
+            "stash": {"target": "stash-stoverride", "ext": "stoverride"}
         }
     },
     "surge": {
         "type": "surge-module",
         "targets": {
             "surge": {"target": "surge-module", "ext": "sgmodule"},
-            "shadowrocket": {"target": "shadowrocket-module", "ext": "sgmodule"}
+            "shadowrocket": {"target": "shadowrocket-module", "ext": "sgmodule"},
+            "stash": {"target": "stash-stoverride", "ext": "stoverride"}
         }
     }
 }
@@ -162,7 +165,7 @@ def extract_rules_for_matching(content: str) -> tuple[Set[str], Set[str]]:
             sni_values.add(value)
 
         # AND/OR 复合规则 - 提取嵌套值
-        elif rule_type in ('AND', 'OR','NOT'):
+        elif rule_type in ('AND', 'OR', 'NOT'):
             _extract_composite_values(line, sni_values, pm_values, is_reject)
 
     return sni_values, pm_values
@@ -214,7 +217,7 @@ def create_conversion_url(source_url: str, module_name: str, source_type: str, t
         source_url: 源模块URL
         module_name: 模块名称
         source_type: 源类型 (loon/qx/surge)
-        target_type: 目标类型 (surge/shadowrocket)
+        target_type: 目标类型 (surge/shadowrocket/stash)
         desc: 模块描述
         sni_domains: SNI域名列表，用+连接
         pm_domains: pre-matching域名列表，用+连接
@@ -320,8 +323,7 @@ def clean_module_directories():
         shutil.rmtree(module_path)
     
     # 创建新的目录结构
-    #for target_type in ["surge", "loon", "qx", "stash", "shadowrocket"]:
-    for target_type in ["surge","shadowrocket"]:
+    for target_type in ["surge", "shadowrocket", "stash"]:
         target_dir = module_path / target_type
         target_dir.mkdir(parents=True, exist_ok=True)
         print(f"创建目录: {target_dir}")
@@ -373,7 +375,7 @@ def convert_modules():
             print(f"\n转换模块: {module_name}")
             print(f"源地址: {source_url}")
 
-            # 检查目标是否包含 surge，如果包含则需要获取高级匹配特性的值
+            # 检查目标是否包含 surge，如果包含则需要获取高级匹配特性的���
             sni_str = None
             pm_str = None
             needs_surge = "surge" in targets and "surge" in CONVERSION_CONFIG[source_type]["targets"]
