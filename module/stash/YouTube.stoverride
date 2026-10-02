@@ -1,0 +1,51 @@
+name: |-
+  YouTube去广告
+desc: |-
+  YouTube去广告
+icon: |-
+  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1059.png
+category: |-
+  Lang
+arguments-desc: |-
+  - 屏蔽参数：[true, false] \n- 翻译参数：[语言代码, off] \n\n1. 语言代码遵循 Google Translate Languages Codes, 当填入 off 时关闭翻译\n2. 开启调试模式用于输出更多日志
+
+http:
+
+  mitm:
+    - "*.googlevideo.com"
+    - "youtubei.googleapis.com"
+
+  script:
+    - match: ^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch|log_event|config))(\?(.*))?$
+      name: "youtube.response_5"
+      type: response
+      require-body: true
+      max-size: -1
+      binary-mode: true
+      argument: |-
+        {"captionLang":"off","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}
+
+    - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&ack.*
+      name: "youtube.request.init_6"
+      type: request
+      require-body: true
+      max-size: -1
+      binary-mode: true
+      argument: |-
+        {"captionLang":"off"}
+
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/log_event
+      name: "youtube.request.init_6"
+      type: request
+      require-body: true
+      max-size: -1
+      binary-mode: true
+
+script-providers:
+  "youtube.response_5":
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.response.js
+    interval: 86400
+  "youtube.request.init_6":
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.request.js
+    interval: 86400
+

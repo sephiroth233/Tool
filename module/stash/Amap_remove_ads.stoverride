@@ -1,0 +1,31 @@
+name: |-
+  高德地图去广告
+desc: |-
+  过滤高德地图开屏广告、各页面推广，精简我的页面。
+author: |-
+  RuCu6[https://github.com/RuCu6], kelv1n1n[https://github.com/kelv1n1n], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+icon: |-
+  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Amap.png
+category: |-
+  Lang
+openUrl: |-
+  https://apps.apple.com/app/id461703208
+tag: |-
+  去广告
+loon_version: |-
+  3.5.1(998)
+homepage: |-
+  https://hub.kelee.one
+date: |-
+  2026-10-02 13:57:49
+
+rules:
+  - DOMAIN,amap-aos-info-nogw.amap.com,REJECT
+  - DOMAIN,free-aos-cdn-image.amap.com,REJECT
+  - DOMAIN-SUFFIX,v.smtcdns.com,REJECT
+
+http:
+
+  mitm:
+    - "*.amap.com"
+

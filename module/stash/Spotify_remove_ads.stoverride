@@ -1,0 +1,30 @@
+name: |-
+  Spotify去广告
+desc: |-
+  移除播放广告，恢复歌手和专辑列表的正常展示。修改插件自定义配置项需要重新登陆方可生效。
+author: |-
+  001ProMax[https://github.com/001ProMax]
+icon: |-
+  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Spotify.png
+category: |-
+  Lang
+openUrl: |-
+  https://apps.apple.com/app/id324684580
+tag: |-
+  去广告
+loon_version: |-
+  3.5.1(998)
+homepage: |-
+  https://hub.kelee.one
+date: |-
+  2026-10-02 13:57:49
+
+rules:
+  - AND,((DOMAIN-SUFFIX,spotify.com),(PROTOCOL,QUIC)),REJECT
+
+http:
+
+  mitm:
+    - "*-spclient.spotify.com"
+    - "spclient.wg.spotify.com"
+

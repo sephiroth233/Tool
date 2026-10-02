@@ -1,0 +1,29 @@
+name: |-
+  阅友去广告
+desc: |-
+  移除开屏广告、弹窗广告和阅读页面广告，移除底栏福利按钮。
+author: |-
+  可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+icon: |-
+  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Yueyou.png
+category: |-
+  Lang
+openUrl: |-
+  https://apps.apple.com/app/id1066723192
+tag: |-
+  去广告
+loon_version: |-
+  3.5.1(998)
+homepage: |-
+  https://hub.kelee.one
+date: |-
+  2026-10-02 13:57:49
+
+rules:
+  - DOMAIN,ads.reader.yueyouxs.com,REJECT
+
+http:
+
+  mitm:
+    - "goway.reader.yueyouxs.com"
+
