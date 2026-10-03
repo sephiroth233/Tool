@@ -1,18 +1,24 @@
 # Tool
 
-## 模块转换已迁移
+## 模块下载
 
-模块转换功能已于 2026-10-03 独立到 [sephiroth233/ProxyModules](https://github.com/sephiroth233/ProxyModules)。后续源配置、转换脚本和模块更新均在新仓库维护。本仓库继续维护各客户端的规则文件。
+本仓库公开发布各客户端的模块、参数适配脚本和附加规则。源配置与转换器由独立的私有仓库维护，计划每天北京时间 10:00 下载上游源文件、转换并同步到本仓库。规则文件继续在本仓库维护。
 
-旧的 `Tool/master/module/` 下载地址保留迁移前最后一份结果，不再自动更新。请将客户端中的模块地址改为：
+模块下载地址：
 
 ```text
-https://raw.githubusercontent.com/sephiroth233/ProxyModules/main/module/surge/<模块名>.sgmodule
-https://raw.githubusercontent.com/sephiroth233/ProxyModules/main/module/shadowrocket/<模块名>.sgmodule
-https://raw.githubusercontent.com/sephiroth233/ProxyModules/main/module/stash/<模块名>.stoverride
+https://raw.githubusercontent.com/sephiroth233/Tool/master/module/surge/<模块名>.sgmodule
+https://raw.githubusercontent.com/sephiroth233/Tool/master/module/shadowrocket/<模块名>.sgmodule
+https://raw.githubusercontent.com/sephiroth233/Tool/master/module/stash/<模块名>.stoverride
 ```
 
-迁移只涉及模块地址，规则文件地址继续使用本仓库。
+此前使用独立转换仓库下载地址的用户，请切换到以上地址。`module/` 是自动生成目录，其中的模块、`scripts/` 和 `rules/` 会一起更新；请勿直接修改生成文件。
+
+Stash 参数目前使用生成时确定的值；Surge 和小火箭模块保留参数声明。哔哩哔哩 Surge 模块的附加代理规则需在主配置中引用，并将末尾策略改成实际使用的代理组：
+
+```text
+RULE-SET,https://raw.githubusercontent.com/sephiroth233/Tool/master/module/rules/Bilibili_remove_ads-proxy.list,你的代理组
+```
 
 > [!Caution]
 > 禁止任何形式的转载或发布至国内平台
@@ -40,5 +46,4 @@ https://raw.githubusercontent.com/sephiroth233/ProxyModules/main/module/stash/<�
 - 对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
 
 - 您必须在下载后的24小时内从计算机或手机中完全删除以上内容.
-
 
