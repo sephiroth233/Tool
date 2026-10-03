@@ -1,5 +1,19 @@
 # Tool
 
+## 模块转换已迁移
+
+模块转换功能已于 2026-10-03 独立到 [sephiroth233/ProxyModules](https://github.com/sephiroth233/ProxyModules)。后续源配置、转换脚本和模块更新均在新仓库维护。本仓库继续维护各客户端的规则文件。
+
+旧的 `Tool/master/module/` 下载地址保留迁移前最后一份结果，不再自动更新。请将客户端中的模块地址改为：
+
+```text
+https://raw.githubusercontent.com/sephiroth233/ProxyModules/main/module/surge/<模块名>.sgmodule
+https://raw.githubusercontent.com/sephiroth233/ProxyModules/main/module/shadowrocket/<模块名>.sgmodule
+https://raw.githubusercontent.com/sephiroth233/ProxyModules/main/module/stash/<模块名>.stoverride
+```
+
+迁移只涉及模块地址，规则文件地址继续使用本仓库。
+
 > [!Caution]
 > 禁止任何形式的转载或发布至国内平台
 
