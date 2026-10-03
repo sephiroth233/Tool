@@ -1,12 +1,10 @@
 #!name=番茄小说去广告
 #!desc=移除番茄小说开屏广告、移除文章底部和章末广告、移除听书页面广告、移除悬浮部件和底栏多余的福利标签。
-#!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/DragonRead.png
-#!category=Lang
 #!openUrl=https://apps.apple.com/app/id1468454200
+#!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!tag=去广告
-#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/DragonRead.png
 #!date=2026-10-02 13:57:49
 
 [Rule]
@@ -44,4 +42,3 @@ DOMAIN,minigame5-normal.zijieapi.com,REJECT
 DOMAIN,mssdk.zijieapi.com,REJECT
 DOMAIN,timon.zijieapi.com,REJECT
 DOMAIN,vcs.zijieapi.com,REJECT
-

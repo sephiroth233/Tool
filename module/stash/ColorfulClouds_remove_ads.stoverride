@@ -1,34 +1,38 @@
-name: |-
-  彩云天气去广告
-desc: |-
-  移除首页推广、弹窗、悬浮窗、底栏天气助手和工具箱入口，移除我的页面广告横幅。
-author: |-
-  RuCu6[https://github.com/RuCu6]
-icon: |-
-  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/ColorfulClouds.png
-category: |-
-  Lang
-openUrl: |-
-  https://apps.apple.com/app/id847764912
-tag: |-
-  去广告
-loon_version: |-
-  3.5.1(998)
-homepage: |-
-  https://hub.kelee.one
-date: |-
-  2026-10-02 13:57:49
-
+# Generated locally from Loon. Parameters are fixed at build time for Stash.
+name: "彩云天气去广告"
+desc: "移除首页推广、弹窗、悬浮窗、底栏天气助手和工具箱入口，移除我的页面广告横幅。"
+icon: "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/ColorfulClouds.png"
 rules:
-  - DOMAIN,abyss.cyapi.cn,REJECT
-  - DOMAIN,ad.cyapi.cn,REJECT
-  - DOMAIN,gather.colorfulclouds.net,REJECT
-
+  - "DOMAIN,abyss.cyapi.cn,REJECT"
+  - "DOMAIN,ad.cyapi.cn,REJECT"
+  - "DOMAIN,gather.colorfulclouds.net,REJECT"
 http:
-
+  mock:
+    -
+      match: "(?i)^https://biz\\.cyapi\\.cn/(p/v1/entries|p/v1/trial_card/info|v2/product)"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://starplucker\\.cyapi\\.cn/v3/(config/cypage/\\w+/conditions|notification/message_center|operation/homefeatures)"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+  script:
+    -
+      match: "(?i)^https://(wrapper\\.cyapi\\.cn|api\\.caiyunapp\\.com|cdn-w\\.caiyunapp\\.com)/v1/activity\\?"
+      name: "pm_b42c74e37c3c"
+      type: "response"
+      timeout: 20
+      require-body: true
   mitm:
     - "biz.cyapi.cn"
     - "starplucker.cyapi.cn"
     - "api.caiyunapp.com"
     - "cdn-w.caiyunapp.com"
-
+script-providers:
+  pm_b42c74e37c3c:
+    url: "https://kelee.one/Resource/JavaScript/ColorfulClouds/ColorfulClouds_remove_ads.js"
+    interval: 86400

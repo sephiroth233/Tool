@@ -1,27 +1,30 @@
-name: |-
-  皮皮虾去广告
-desc: |-
-  移除开屏广告、评论区广告、视频流广告，精简我的页面。
-author: |-
-  可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-icon: |-
-  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/PiPiXia.png
-category: |-
-  Lang
-openUrl: |-
-  https://apps.apple.com/app/id1393912676
-tag: |-
-  去广告
-loon_version: |-
-  3.5.1(998)
-homepage: |-
-  https://hub.kelee.one
-date: |-
-  2026-10-02 13:57:49
-
+# Generated locally from Loon. Parameters are fixed at build time for Stash.
+name: "皮皮虾去广告"
+desc: "移除开屏广告、评论区广告、视频流广告，精简我的页面。"
+icon: "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/PiPiXia.png"
 http:
-
+  mock:
+    -
+      match: "(?i)^https://api(5-lq)?\\.pipix\\.com/api/ad/"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://api(5-lq)?\\.pipix\\.com/bds/banner/"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://api(5-lq)?\\.pipix\\.com/bds/feed/follow_feed/"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+  body-rewrite:
+    - "(?i)^https://api(5-lq)?\\.pipix\\.com/bds/feed/stream/v2/ response-jq .data.data |= map(select(has(\"ad_info\") | not))"
+    - "(?i)^https://api(5-lq)?\\.pipix\\.com/bds/user/check_in/ response-jq .data.profile_entrances |= map(select(.title != \"放心借\" and .title != \"洋钱罐借款\")) | del(.data.pet_interface_message)"
   mitm:
     - "api.pipix.com"
     - "api5-lq.pipix.com"
-

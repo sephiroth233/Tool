@@ -1,27 +1,92 @@
-name: |-
-  起点读书去广告
-desc: |-
-  移除起点读书开屏广告、每日导读、各类弹窗、文末广告、搜索填充词，精简我的页面。
-author: |-
-  可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-icon: |-
-  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/QiDian.png
-category: |-
-  Lang
-openUrl: |-
-  https://apps.apple.com/app/id534174796
-tag: |-
-  去广告
-loon_version: |-
-  3.5.1(998)
-homepage: |-
-  https://hub.kelee.one
-date: |-
-  2026-10-02 13:57:49
-
+# Generated locally from Loon. Parameters are fixed at build time for Stash.
+name: "起点读书去广告"
+desc: "移除起点读书开屏广告、每日导读、各类弹窗、文末广告、搜索填充词，精简我的页面。"
+icon: "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/QiDian.png"
 http:
-
+  body-rewrite:
+    - "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/client/getconf$ response-jq if ((getpath([\"Data\"]) // {}) | has(\"WolfEye\")) then setpath([\"Data\", \"WolfEye\"];0) else . end | if ((getpath([\"Data\", \"CloudSetting\"]) // {}) | has(\"TeenShowFreq\")) then setpath([\"Data\", \"CloudSetting\", \"TeenShowFreq\"];0) else . end"
+    - "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/client/getconf$ response-jq delpaths([[\"Data\", \"ActivityPageBackPushNoticeFrequency\"],[\"Data\", \"ActivityIcon\"],[\"Data\", \"ActivityPopup\"],[\"Data\", \"LuckBag\"]])"
+    - "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v2/dailyrecommend/getdailyrecommend\\? response-jq if ((getpath([\"Data\"]) // {}) | has(\"Items\")) then setpath([\"Data\", \"Items\"];\"[]\") else . end"
+    - "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v3/user/getaccountpage\\? response-jq delpaths([[\"Data\", \"BenefitButtonList\"]])"
+  mock:
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v4/client/getsplashscreen\\?"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/adv/"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://ywab\\.reader\\.qq\\.com/user/experiments/v2\\?"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/checkin/simpleinfo\\?"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/push/getdialog\\?"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/message/getpushedmessagelist$"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/maintain/playstrip$"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/dailyrecommend/recommendBook\\?"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/freshman/bookshelfbtn$"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/bookshelf/getTopOperation$"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/booksearch/hotWords\\?"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/followsubscribe/showChapterEndModule\\?"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://magev6\\.if\\.qidian\\.com/argus/api/v1/young/getconf$"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
   mitm:
     - "magev6.if.qidian.com"
     - "ywab.reader.qq.com"
-

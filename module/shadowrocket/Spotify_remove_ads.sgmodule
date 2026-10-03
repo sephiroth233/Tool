@@ -1,18 +1,25 @@
 #!name=Spotify去广告
 #!desc=移除播放广告，恢复歌手和专辑列表的正常展示。修改插件自定义配置项需要重新登陆方可生效。
-#!author=001ProMax[https://github.com/001ProMax]
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Spotify.png
-#!category=Lang
 #!openUrl=https://apps.apple.com/app/id324684580
+#!author=001ProMax[https://github.com/001ProMax]
 #!tag=去广告
-#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Spotify.png
 #!date=2026-10-02 13:57:49
 #!arguments=tab:false,useractivity:true
+#!arguments-desc=tab: 移除底栏创建按钮; 此开关控制是否移除底栏创建按钮 (true/false)\nuseractivity: 启用Apple设备接力; 此开关控制是否使用Apple设备接力 (true/false)
 
 [Rule]
-AND,((DOMAIN-SUFFIX,spotify.com),(PROTOCOL,QUIC)),REJECT
+AND,((DOMAIN-SUFFIX, spotify.com), (PROTOCOL, QUIC)),REJECT
+
+[Map Local]
+(?i)^https://(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?/pendragon/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[URL Rewrite]
+(?i)^https://(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?/artistview/v1/artist/(.*)&platform=iphone https://spclient.wg.spotify.com/artistview/v1/artist/$1&platform=ipad header
+
+[Script]
+Spotify_remove_ads_1 = type=http-response,pattern=(?i)^https://(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?/(?:bootstrap|user-customization-service),script-path=https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/Spotify_remove_ads-022b148d1544.js,timeout=5,requires-body=true,binary-body-mode=true,argument="{\"enabled\":true,\"value\":{\"tab\":{{{tab}}},\"useractivity\":{{{useractivity}}}}}"
 
 [MITM]
 hostname = %APPEND% *-spclient.spotify.com, spclient.wg.spotify.com
-

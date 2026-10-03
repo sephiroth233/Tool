@@ -1,0 +1,124 @@
+# Generated locally from Loon. Parameters are fixed at build time for Stash.
+# MY = false ; [隐藏底栏]漫游标签
+# DT = false ; [隐藏底部]笔记标签
+# FX = false ; [隐藏底部]发现标签
+# PRGG = false ; [隐藏首页]问候语
+# PRRK = false ; [隐藏首页]排行榜
+# PRDRD = false ; [隐藏首页]每日推荐
+# PRSCVPT = false ; [隐藏首页]推荐歌单
+# PRST = false ; [隐藏首页]最近常听
+# PRRR = false ; [隐藏首页]雷达歌单
+# HMPR = false ; [隐藏首页]音乐合伙人
+# PRMST = false ; [隐藏首页]推荐专属歌单
+# PRCN = false ; [隐藏首页]你的专属歌单
+name: "网易云音乐去广告"
+desc: "过滤网易云音乐广告，并允许自定义界面。"
+icon: "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/NeteaseCloudMusic.png"
+rules:
+  - "DOMAIN,iadmat.nosdn.127.net,REJECT"
+  - "DOMAIN,iadmatapk.nosdn.127.net,REJECT"
+  - "DOMAIN,iadmusicmat.music.126.net,REJECT"
+  - "DOMAIN,iadmusicmatvideo.music.126.net,REJECT"
+  - "DOMAIN,ipv4.music.163.com,REJECT"
+  - "DOMAIN,ipv6.music.163.com,REJECT"
+http:
+  mock:
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/e?api/(ocpc/)?ad/"
+      text: ""
+      status-code: 200
+      headers:
+        Content-Type: "text/plain"
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/(?:delivery/(batch-)?deliver|moment/tab/info/|side-bar/mini-program/music-service/account|yunbei/account/entrance/)"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/(?:community/friends/fans-group/artist/group/|mine/applet/redpoint|music/songshare/text/recommend/|resniche/position/play/new/|resniche/tspopup/show|resource/comments?/musiciansaid/|user/sub/artist)"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/(?:ios/version|mlivestream/entrance/playpage/|link/position/show/strategy|link/scene/show/resource|v1/content/exposure/comment/banner/)"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163.com/w?e?api/search/default"
+      text: ""
+      status-code: 200
+      headers:
+        Content-Type: "text/plain"
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/w?eapi/(?:activity/bonus/playpage/time/query|resource-exposure/|search/(?:chart/|rcmd/keyword/|specialkeyword/))"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+    -
+      match: "(?i)^https://interface\\d\\.music\\.163\\.com/eapi/my/podcast/tab/recommend"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+  script:
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/(?:batch|v2/resource/comment/floor/get)"
+      name: "pm_ca76a0fcc7d8"
+      type: "response"
+      timeout: 20
+      require-body: true
+      binary-mode: true
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/(?:homepage/block/page|link/page/rcmd/(?:block/resource/multi/refresh|resource/show))"
+      name: "pm_ddcaad9ec5ae"
+      type: "response"
+      timeout: 20
+      require-body: true
+      binary-mode: true
+      argument: "{\"enabled\":true,\"value\":{\"PRGG\":false,\"PRRK\":false,\"PRDRD\":false,\"PRSCVPT\":false,\"PRST\":false,\"PRRR\":false,\"HMPR\":false,\"PRMST\":false,\"PRCN\":false}}"
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/link/home/framework/tab"
+      name: "pm_1c2f41447366"
+      type: "response"
+      timeout: 20
+      require-body: true
+      binary-mode: true
+      argument: "{\"enabled\":true,\"value\":{\"MY\":false,\"DT\":false,\"FX\":false}}"
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/link/page/discovery/resource/show"
+      name: "pm_ca76a0fcc7d8"
+      type: "response"
+      timeout: 20
+      require-body: true
+      binary-mode: true
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/link/position/show/resource"
+      name: "pm_ca76a0fcc7d8"
+      type: "response"
+      timeout: 20
+      require-body: true
+      binary-mode: true
+    -
+      match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/user/follow/users/mixed/get"
+      name: "pm_ca76a0fcc7d8"
+      type: "response"
+      timeout: 20
+      require-body: true
+      binary-mode: true
+  mitm:
+    - "interface*.music.163.com"
+script-providers:
+  pm_ca76a0fcc7d8:
+    url: "https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js"
+    interval: 86400
+  pm_ddcaad9ec5ae:
+    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/NeteaseCloudMusic_remove_ads-35cb151df260.js"
+    interval: 86400
+  pm_1c2f41447366:
+    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/NeteaseCloudMusic_remove_ads-a65f8f0d2fe1.js"
+    interval: 86400

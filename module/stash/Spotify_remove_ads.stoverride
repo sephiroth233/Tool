@@ -1,30 +1,34 @@
-name: |-
-  Spotify去广告
-desc: |-
-  移除播放广告，恢复歌手和专辑列表的正常展示。修改插件自定义配置项需要重新登陆方可生效。
-author: |-
-  001ProMax[https://github.com/001ProMax]
-icon: |-
-  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Spotify.png
-category: |-
-  Lang
-openUrl: |-
-  https://apps.apple.com/app/id324684580
-tag: |-
-  去广告
-loon_version: |-
-  3.5.1(998)
-homepage: |-
-  https://hub.kelee.one
-date: |-
-  2026-10-02 13:57:49
-
+# Generated locally from Loon. Parameters are fixed at build time for Stash.
+# tab = false ; 移除底栏创建按钮
+# useractivity = true ; 启用Apple设备接力
+name: "Spotify去广告"
+desc: "移除播放广告，恢复歌手和专辑列表的正常展示。修改插件自定义配置项需要重新登陆方可生效。"
+icon: "https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Spotify.png"
 rules:
-  - AND,((DOMAIN-SUFFIX,spotify.com),(PROTOCOL,QUIC)),REJECT
-
+  - "AND,((DOMAIN-SUFFIX, spotify.com), (PROTOCOL, QUIC)),REJECT"
 http:
-
+  mock:
+    -
+      match: "(?i)^https://(?:\\w+-spclient|spclient\\.wg)\\.spotify\\.com(?::443)?/pendragon/"
+      text: "{}"
+      status-code: 200
+      headers:
+        Content-Type: "application/json"
+  url-rewrite:
+    - "(?i)^https://(?:\\w+-spclient|spclient\\.wg)\\.spotify\\.com(?::443)?/artistview/v1/artist/(.*)&platform=iphone https://spclient.wg.spotify.com/artistview/v1/artist/$1&platform=ipad transparent"
+  script:
+    -
+      match: "(?i)^https://(?:\\w+-spclient|spclient\\.wg)\\.spotify\\.com(?::443)?/(?:bootstrap|user-customization-service)"
+      name: "pm_b53ad817d05f"
+      type: "response"
+      timeout: 5
+      require-body: true
+      binary-mode: true
+      argument: "{\"enabled\":true,\"value\":{\"tab\":false,\"useractivity\":true}}"
   mitm:
     - "*-spclient.spotify.com"
     - "spclient.wg.spotify.com"
-
+script-providers:
+  pm_b53ad817d05f:
+    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/Spotify_remove_ads-022b148d1544.js"
+    interval: 86400
