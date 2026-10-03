@@ -6,8 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 这是一个代理软件规则和模块管理工具集，主要功能包括：
 - 为多种代理软件（Clash、Surge、Loon、Quantumult X、Shadowrocket、Stash、sing-box、mihomo等）提供规则文件
-- 提供模块转换工具，支持不同代理软件模块之间的相互转换
-- 通过自动化工作流定期更新规则和模块
+- 模块转换工具已迁移到 https://github.com/sephiroth233/ProxyModules
+- 通过自动化工作流定期更新规则；旧模块目录作为兼容快照保留
 
 ## 核心架构
 
@@ -16,7 +16,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 /
 ├── .github/workflows/          # GitHub Actions工作流
 │   ├── Build.yml              # 主构建工作流（每天0:05和12:05执行）
-│   ├── convert-modules.yml    # 模块转换工作流（每天凌晨2点执行）
 │   └── ClearCommits.yml       # 清理提交历史
 ├── Clash/                     # Clash配置
 │   ├── Rules/                # 规则文件（.list格式）
@@ -31,11 +30,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ├── sing-box/                  # sing-box配置
 ├── mihomo/                    # mihomo配置
 ├── Egern/                     # Egern配置（.yaml格式）
-├── module/                    # 代理软件模块
+├── module/                    # 模块迁移前快照，不再自动更新
 │   ├── surge/                # Surge模块（.sgmodule）
-│   └── shadowrocket/         # Shadowrocket模块
-├── convert_modules.py         # 模块转换主脚本
-├── module_sources.json        # 模块源配置
+│   ├── shadowrocket/         # Shadowrocket模块
+│   └── stash/                # Stash模块
 └── README.md                  # 项目说明（含免责声明）
 ```
 
@@ -50,31 +48,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - 为不同代理软件生成适配的规则格式
   - 自动提交更新
 
-#### 2. 模块转换工作流（convert-modules.yml）
-- **触发时机**: 每天凌晨2点（UTC时间）
-- **主要功能**:
-  - 运行 `convert_modules.py` 脚本
-  - 将Loon、QX、Surge模块相互转换
-  - 支持Surge高级特性（pre-matching和extended-matching）
-  - 自动提交转换后的模块
+### 模块功能迁移
 
-### 核心脚本
+模块转换脚本、源配置与更新工作流已独立到 [ProxyModules](https://github.com/sephiroth233/ProxyModules)。本仓库不再运行转换或管理模块源。
 
-#### `convert_modules.py`
-- **功能**: 代理软件模块转换脚本
-- **支持转换**: Loon ↔ Surge ↔ Quantumult X ↔ Shadowrocket
-- **高级特性**: 支持Surge的pre-matching和extended-matching
-- **配置**: 使用 `module_sources.json` 定义模块源
-
-#### `module_sources.json`
-- **格式**: JSON配置文件
-- **结构**: 按源类型（loon/qx/surge）分组定义模块
-- **字段**:
-  - `name`: 模块名称
-  - `url`: 源URL
-  - `desc`: 模块描述（可选）
-  - `targets`: 目标类型数组（可选）
-  - `advanced_matching`: 是否启用高级匹配（可选）
+- `module/` 保留旧下载地址的最后一份快照，不应在此添加或更新模块。
+- 添加模块、修改转换逻辑或修复转换工作流，应在新仓库中进行。
+- 新模块地址使用 `ProxyModules/main/module/`；规则文件地址仍使用本仓库。
 
 ### 规则分类系统
 
@@ -93,15 +73,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ./.github/workflows/Build.yml中的bash脚本部分
 ```
 
-#### 运行模块转换
-```bash
-# 安装Python依赖（如果需要）
-python3 -m pip install --upgrade pip
-
-# 运行模块转换脚本
-python3 convert_modules.py
-```
-
 #### 检查规则格式
 ```bash
 # 检查规则文件格式
@@ -116,7 +87,7 @@ done
 1. **免责声明**: 项目包含详细的免责声明，所有代码仅用于资源共享和学习研究
 2. **自动化提交**: 工作流会自动检测文件变化并提交，无需手动操作
 3. **格式转换**: 不同代理软件使用不同的规则格式，构建脚本会自动转换
-4. **模块转换**: 模块转换依赖于外部服务（sc.sephiroth.club）
+4. **模块迁移**: 模块转换在 ProxyModules 仓库维护，旧模块文件保留为兼容快照
 ### 文件格式说明
 
 - **.list文件**: 标准规则文件格式，包含DOMAIN、IP-CIDR等规则
@@ -127,6 +98,6 @@ done
 ### 维护要点
 
 1. **规则更新**: 修改 `Build.yml` 中的URL列表来更新规则源
-2. **模块源管理**: 编辑 `module_sources.json` 来添加/删除模块
+2. **模块源管理**: 在 ProxyModules 仓库的 `module_sources.json` 中添加/删除模块
 3. **格式适配**: 不同代理软件的规则处理逻辑在构建脚本的不同部分
 4. **错误处理**: 构建脚本包含错误检查和重试机制
