@@ -11,7 +11,7 @@ http:
   script:
     -
       match: "(?i)^https://youtubei\\.googleapis\\.com/(youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch|log_event|config))(\\?(.*))?$"
-      name: "pm_894d2cb8c270"
+      name: "pm_ec126cbc37a1"
       type: "response"
       timeout: 20
       require-body: true
@@ -19,7 +19,7 @@ http:
       argument: "{\"enabled\":true,\"value\":{\"blockUpload\":false,\"blockShorts\":false,\"blockImmersive\":false,\"captionLang\":\"zh-Hans\",\"debug\":false}}"
     -
       match: "(?i)^https?://[\\w-]+\\.googlevideo\\.com/initplayback.+&ack.*"
-      name: "pm_949897e9e0cb"
+      name: "pm_6d271f2e4abe"
       type: "request"
       timeout: 20
       require-body: true
@@ -27,7 +27,7 @@ http:
       argument: "{\"enabled\":true,\"value\":{\"captionLang\":\"zh-Hans\"}}"
     -
       match: "(?i)^https://youtubei\\.googleapis\\.com/youtubei/v1/log_event"
-      name: "pm_97b3e6014a60"
+      name: "pm_9c801e9c7459"
       type: "request"
       timeout: 20
       require-body: true
@@ -37,12 +37,12 @@ http:
     - "*.googlevideo.com"
     - "youtubei.googleapis.com"
 script-providers:
-  pm_894d2cb8c270:
+  pm_ec126cbc37a1:
     url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/YouTube_remove_ads-56c1eff77ee2.js"
     interval: 86400
-  pm_949897e9e0cb:
+  pm_6d271f2e4abe:
     url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/YouTube_remove_ads-3284220b843a.js"
     interval: 86400
-  pm_97b3e6014a60:
+  pm_9c801e9c7459:
     url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/YouTube_remove_ads-1f69f0924714.js"
     interval: 86400

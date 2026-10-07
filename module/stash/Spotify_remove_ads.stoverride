@@ -19,7 +19,7 @@ http:
   script:
     -
       match: "(?i)^https://(?:\\w+-spclient|spclient\\.wg)\\.spotify\\.com(?::443)?/(?:bootstrap|user-customization-service)"
-      name: "pm_b53ad817d05f"
+      name: "pm_6f6e726fb116"
       type: "response"
       timeout: 5
       require-body: true
@@ -29,6 +29,6 @@ http:
     - "*-spclient.spotify.com"
     - "spclient.wg.spotify.com"
 script-providers:
-  pm_b53ad817d05f:
+  pm_6f6e726fb116:
     url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/Spotify_remove_ads-022b148d1544.js"
     interval: 86400

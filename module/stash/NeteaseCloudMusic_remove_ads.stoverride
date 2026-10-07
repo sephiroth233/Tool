@@ -75,7 +75,7 @@ http:
       binary-mode: true
     -
       match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/(?:homepage/block/page|link/page/rcmd/(?:block/resource/multi/refresh|resource/show))"
-      name: "pm_ddcaad9ec5ae"
+      name: "pm_cca541bcc745"
       type: "response"
       timeout: 20
       require-body: true
@@ -83,7 +83,7 @@ http:
       argument: "{\"enabled\":true,\"value\":{\"PRGG\":false,\"PRRK\":false,\"PRDRD\":false,\"PRSCVPT\":false,\"PRST\":false,\"PRRR\":false,\"HMPR\":false,\"PRMST\":false,\"PRCN\":false}}"
     -
       match: "(?i)^https?://interface\\d?\\.music\\.163\\.com/eapi/link/home/framework/tab"
-      name: "pm_1c2f41447366"
+      name: "pm_208446b329e2"
       type: "response"
       timeout: 20
       require-body: true
@@ -116,9 +116,9 @@ script-providers:
   pm_ca76a0fcc7d8:
     url: "https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js"
     interval: 86400
-  pm_ddcaad9ec5ae:
+  pm_cca541bcc745:
     url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/NeteaseCloudMusic_remove_ads-35cb151df260.js"
     interval: 86400
-  pm_1c2f41447366:
+  pm_208446b329e2:
     url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/NeteaseCloudMusic_remove_ads-a65f8f0d2fe1.js"
     interval: 86400

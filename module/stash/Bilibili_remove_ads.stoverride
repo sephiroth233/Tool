@@ -81,7 +81,7 @@ http:
   script:
     -
       match: "(?i)^https://(?:grpc\\.biliapi\\.net|app\\.bilibili\\.com)/bilibili\\.(?:app\\.viewunite\\.v1\\.View/View|main\\.community\\.reply\\.v1\\.Reply/MainList)$"
-      name: "pm_f2e682c5d16f"
+      name: "pm_1d7ace1354a4"
       type: "request"
       timeout: 10
       require-body: true
@@ -89,7 +89,7 @@ http:
       argument: "{\"enabled\":true,\"value\":{\"purifyComment\":true,\"logLevel\":\"off\"}}"
     -
       match: "(?i)^https://(grpc\\.biliapi\\.net|app\\.bilibili\\.com)/bilibili\\.(app\\.(show\\.v1\\.Popular/Index|dynamic\\.v2\\.Dynamic/DynAll|view(unite)?\\.v1\\.View/(View|ViewProgress|RelatesFeed|AIRelateAsync)|playurl\\.v1\\.PlayURL/PlayView|playerunite\\.v1\\.Player/PlayViewUnite)|polymer\\.app\\.search\\.v1\\.Search/SearchAll|community\\.service\\.dm\\.v1\\.DM/DmView|main\\.community\\.reply\\.v1\\.Reply/MainList|pgc\\.gateway\\.player\\.v2\\.PlayURL/PlayView)$"
-      name: "pm_78c8a2153cda"
+      name: "pm_3460904163ca"
       type: "response"
       timeout: 20
       require-body: true
@@ -108,10 +108,10 @@ http:
     - "api.live.bilibili.com"
     - "line3-h5-mobile-api.biligame.com"
 script-providers:
-  pm_f2e682c5d16f:
+  pm_1d7ace1354a4:
     url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/Bilibili_remove_ads-702a9701617f.js"
     interval: 86400
-  pm_78c8a2153cda:
+  pm_3460904163ca:
     url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/Bilibili_remove_ads-215215f7e66f.js"
     interval: 86400
   pm_7ec08bb6fd7c:
