@@ -38,11 +38,11 @@ http:
     - "youtubei.googleapis.com"
 script-providers:
   pm_894d2cb8c270:
-    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/YouTube_remove_ads-56c1eff77ee2.js"
+    url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/YouTube_remove_ads-56c1eff77ee2.js"
     interval: 86400
   pm_949897e9e0cb:
-    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/YouTube_remove_ads-3284220b843a.js"
+    url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/YouTube_remove_ads-3284220b843a.js"
     interval: 86400
   pm_97b3e6014a60:
-    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/YouTube_remove_ads-1f69f0924714.js"
+    url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/YouTube_remove_ads-1f69f0924714.js"
     interval: 86400

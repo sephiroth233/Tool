@@ -7,9 +7,9 @@
 模块下载地址：
 
 ```text
-https://raw.githubusercontent.com/sephiroth233/Tool/master/module/surge/<模块名>.sgmodule
-https://raw.githubusercontent.com/sephiroth233/Tool/master/module/shadowrocket/<模块名>.sgmodule
-https://raw.githubusercontent.com/sephiroth233/Tool/master/module/stash/<模块名>.stoverride
+https://raw.githubusercontent.com/mlang233/Tool/master/module/surge/<模块名>.sgmodule
+https://raw.githubusercontent.com/mlang233/Tool/master/module/shadowrocket/<模块名>.sgmodule
+https://raw.githubusercontent.com/mlang233/Tool/master/module/stash/<模块名>.stoverride
 ```
 
 此前使用独立转换仓库下载地址的用户，请切换到以上地址。`module/` 是自动生成目录，其中的模块、`scripts/` 和 `rules/` 会一起更新；请勿直接修改生成文件。
@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/sephiroth233/Tool/master/module/stash/<模块�
 Stash 参数目前使用生成时确定的值；Surge 和小火箭模块保留参数声明。哔哩哔哩 Surge 模块的附加代理规则需在主配置中引用，并将末尾策略改成实际使用的代理组：
 
 ```text
-RULE-SET,https://raw.githubusercontent.com/sephiroth233/Tool/master/module/rules/Bilibili_remove_ads-proxy.list,你的代理组
+RULE-SET,https://raw.githubusercontent.com/mlang233/Tool/master/module/rules/Bilibili_remove_ads-proxy.list,你的代理组
 ```
 
 > [!Caution]

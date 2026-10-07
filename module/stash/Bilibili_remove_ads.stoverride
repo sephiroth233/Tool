@@ -109,10 +109,10 @@ http:
     - "line3-h5-mobile-api.biligame.com"
 script-providers:
   pm_f2e682c5d16f:
-    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/Bilibili_remove_ads-702a9701617f.js"
+    url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/Bilibili_remove_ads-702a9701617f.js"
     interval: 86400
   pm_78c8a2153cda:
-    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/Bilibili_remove_ads-215215f7e66f.js"
+    url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/Bilibili_remove_ads-215215f7e66f.js"
     interval: 86400
   pm_7ec08bb6fd7c:
     url: "https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_json_kokoryh.js"

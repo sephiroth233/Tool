@@ -11,7 +11,7 @@
 
 ## Sub-Store 参数
 
-脚本使用与 `sephiroth233/Tool/template/sing-box.js` 相同的参数形式：
+脚本使用与 `mlang233/Tool/template/sing-box.js` 相同的参数形式：
 
 - `name`：Sub-Store 中订阅或集合的名称，必填。
 - `type`：传入 `1` 或包含 `col` 的值时将 `name` 作为集合处理；否则作为单个订阅处理。

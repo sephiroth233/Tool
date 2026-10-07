@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 这是一个代理软件规则和模块管理工具集，主要功能包括：
 - 为多种代理软件（Clash、Surge、Loon、Quantumult X、Shadowrocket、Stash、sing-box、mihomo等）提供规则文件
-- 模块转换工具已迁移到 https://github.com/sephiroth233/ProxyModules
+- 模块转换工具已迁移到 https://github.com/mlang233/ProxyModules
 - 通过自动化工作流定期更新规则；旧模块目录作为兼容快照保留
 
 ## 核心架构
@@ -50,7 +50,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### 模块功能迁移
 
-模块转换脚本、源配置与更新工作流已独立到 [ProxyModules](https://github.com/sephiroth233/ProxyModules)。本仓库不再运行转换或管理模块源。
+模块转换脚本、源配置与更新工作流已独立到 [ProxyModules](https://github.com/mlang233/ProxyModules)。本仓库不再运行转换或管理模块源。
 
 - `module/` 保留旧下载地址的最后一份快照，不应在此添加或更新模块。
 - 添加模块、修改转换逻辑或修复转换工作流，应在新仓库中进行。

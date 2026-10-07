@@ -30,5 +30,5 @@ http:
     - "spclient.wg.spotify.com"
 script-providers:
   pm_b53ad817d05f:
-    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/Spotify_remove_ads-022b148d1544.js"
+    url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/Spotify_remove_ads-022b148d1544.js"
     interval: 86400

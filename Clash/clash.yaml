@@ -89,8 +89,8 @@ proxy-groups:
   - { name: 新加坡节点, hidden: false,<<: *url-test, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)" ,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
 
 rule-providers:
-  ai:   { <<: *bc , url: https://raw.githubusercontent.com/sephiroth233/Tool/master/Clash/Rules/AI.list,   path: ./ruleset/ai.yaml }
-  emby: { <<: *bc , url: https://raw.githubusercontent.com/sephiroth233/Tool/master/Clash/Rules/Emby.list, path: ./ruleset/emby.yaml }
+  ai:   { <<: *bc , url: https://raw.githubusercontent.com/mlang233/Tool/master/Clash/Rules/AI.list,   path: ./ruleset/ai.yaml }
+  emby: { <<: *bc , url: https://raw.githubusercontent.com/mlang233/Tool/master/Clash/Rules/Emby.list, path: ./ruleset/emby.yaml }
 
 rules:
   - RULE-SET,emby,Emby

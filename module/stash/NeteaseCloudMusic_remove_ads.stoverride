@@ -117,8 +117,8 @@ script-providers:
     url: "https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js"
     interval: 86400
   pm_ddcaad9ec5ae:
-    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/NeteaseCloudMusic_remove_ads-35cb151df260.js"
+    url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/NeteaseCloudMusic_remove_ads-35cb151df260.js"
     interval: 86400
   pm_1c2f41447366:
-    url: "https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/NeteaseCloudMusic_remove_ads-a65f8f0d2fe1.js"
+    url: "https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/NeteaseCloudMusic_remove_ads-a65f8f0d2fe1.js"
     interval: 86400

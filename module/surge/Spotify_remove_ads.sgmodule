@@ -19,7 +19,7 @@ AND,((DOMAIN-SUFFIX, spotify.com), (PROTOCOL, QUIC)),REJECT
 (?i)^https://(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?/artistview/v1/artist/(.*)&platform=iphone https://spclient.wg.spotify.com/artistview/v1/artist/$1&platform=ipad header
 
 [Script]
-Spotify_remove_ads_1 = type=http-response,pattern=(?i)^https://(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?/(?:bootstrap|user-customization-service),script-path=https://raw.githubusercontent.com/sephiroth233/Tool/master/module/scripts/Spotify_remove_ads-022b148d1544.js,timeout=5,requires-body=true,binary-body-mode=true,argument="{\"enabled\":true,\"value\":{\"tab\":{{{tab}}},\"useractivity\":{{{useractivity}}}}}"
+Spotify_remove_ads_1 = type=http-response,pattern=(?i)^https://(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?/(?:bootstrap|user-customization-service),script-path=https://raw.githubusercontent.com/mlang233/Tool/master/module/scripts/Spotify_remove_ads-022b148d1544.js,timeout=5,requires-body=true,binary-body-mode=true,argument="{\"enabled\":true,\"value\":{\"tab\":{{{tab}}},\"useractivity\":{{{useractivity}}}}}"
 
 [MITM]
 hostname = %APPEND% *-spclient.spotify.com, spclient.wg.spotify.com

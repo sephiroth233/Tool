@@ -241,63 +241,63 @@
         "type": "remote",
         "tag": "YouTube",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/YouTube.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/YouTube.srs",
         "update_interval": "1d"
       },
       {
         "type": "remote",
         "tag": "Apple",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Apple.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/Apple.srs",
         "update_interval": "1d"
       },
       {
         "type": "remote",
         "tag": "Github",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Github.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/Github.srs",
         "update_interval": "1d"
       },
       {
         "type": "remote",
         "tag": "AI",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/AI.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/AI.srs",
         "update_interval": "1d"
       },
       {
         "type": "remote",
         "tag": "Telegram",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Telegram.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/Telegram.srs",
         "update_interval": "1d"
       },
       {
         "type": "remote",
         "tag": "Emby",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Emby.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/Emby.srs",
         "update_interval": "1d"
       },
       {
         "type": "remote",
         "tag": "Lan",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/Lan.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/Lan.srs",
         "update_interval": "1d"
       },
       {
         "type": "remote",
         "tag": "ChinaDomain",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/ChinaDomain.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/ChinaDomain.srs",
         "update_interval": "1d"
       },
       {
         "type": "remote",
         "tag": "ChinaIP",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/sephiroth233/Tool/master/sing-box/Rules/ChinaIP.srs",
+        "url": "https://raw.githubusercontent.com/mlang233/Tool/master/sing-box/Rules/ChinaIP.srs",
         "update_interval": "1d"
       }
     ],
